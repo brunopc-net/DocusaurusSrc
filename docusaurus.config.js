@@ -6,8 +6,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const author = require('./src/data/resume.json').basics;
 
-const github_logo = require('./static/img/github_icon.svg');
-
 function getSocialLink(socialNetwork){
   const profileItem = author.profiles.find(
     profile => profile.network === socialNetwork
