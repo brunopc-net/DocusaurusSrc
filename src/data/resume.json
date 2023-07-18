@@ -471,6 +471,9 @@
                 "Cycling",
                 "Speed Skating"
             ]
+        },
+		{
+            "name": "Coaching"
         }
     ],
     "references": [
