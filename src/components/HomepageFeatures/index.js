@@ -9,7 +9,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        I like to work when people are nice
+        I like to work for nice people
       </>
     ),
   },
@@ -19,7 +19,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        I like to write sometimes, especially when my coffee is too strong 💀
+        I write sometimes, especially when my coffee is too strong 💀
       </>
     ),
   },

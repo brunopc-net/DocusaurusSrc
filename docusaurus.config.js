@@ -67,7 +67,7 @@ const config = {
         title: author.shortname,
         logo: {
           alt: 'My avatar',
-          src: 'img/avatar.png'
+          src: 'img/avatar-43x58.webp'
         },
         items: [
           {
@@ -148,12 +148,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Disclaimer',
-                to: '/disclaimer',
+                label: 'Contact me',
+                href: '/contact',
               },
               {
-                label: 'Send me an encrypted message',
-                href: '/message',
+                label: 'Disclaimer',
+                to: '/disclaimer',
               }
             ],
           },
@@ -164,7 +164,18 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    })
+    }),
+
+  scripts: [
+    {
+      'data-host': "https://app.microanalytics.io",
+      'data-dnt': "false",
+      src: "https://app.microanalytics.io/js/script.js",
+      id: "ZwSg9rf6GA",
+      async: true,
+      defer: true
+    }
+  ]
 };
 
 module.exports = config

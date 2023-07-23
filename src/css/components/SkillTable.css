@@ -21,7 +21,7 @@
 
 .skillList li > a {
     border: 1px solid var(--docusaurus-tag-list-border);
-    color: white;
+    color: var(--ifm-table-cell-color);
     transition: border var(--ifm-transition-fast);
     border-radius: var(--ifm-global-radius);
     padding: 0.2rem 0.5rem 0.3rem;
