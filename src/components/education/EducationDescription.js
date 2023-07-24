@@ -10,9 +10,6 @@ function EducationDescription({ education_item, Logo }) {
             <b>Graduation year: </b>{new Date(education_item.endDate).getFullYear()}
         </p>
         <p>
-            {education_item.summary}
-        </p>
-        <p>
             <a href={education_item.url} target="_blank">
                 <Logo width={600} />
             </a>
