@@ -259,7 +259,6 @@
         {
             "institution": "École de technologie supérieure",
             "url": "https://www.etsmtl.ca/",
-            "summary": "ÉTS is one of the most prestigious Engineering School in Canada. It is considered a very good institution as the training is very pratical and based on market needs. Multiple internships are also part of the mandatory curriculum.",
             "area": "Entrepreneurship",
             "studyType": "Minor",
             "startDate": "2014-01",
@@ -274,7 +273,6 @@
         {
             "institution": "École de technologie supérieure",
             "url": "https://www.etsmtl.ca/",
-            "summary": "ÉTS is one of the most prestigious Engineering School in Canada. It is considered a very good institution as the training is very pratical and based on market needs. Multiple internships are also part of the mandatory curriculum.",
             "area": "Software Engineering",
             "studyType": "Bachelor",
             "startDate": "2010-09",
@@ -316,8 +314,7 @@
         {
             "institution": "Cégep André-Laurendeau",
             "url": "https://claurendeau.qc.ca/",
-			"summary": "This is my first IT degree I attended after high school. The program was a solid base of OOP. It also had a particular emphasis on web programming and technologies",
-            "endDate": "2010-05",
+			"endDate": "2010-05",
             "startDate": "2007-08",
             "area": "Computer Science",
             "studyType": "DEC",

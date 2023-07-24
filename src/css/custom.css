@@ -29,9 +29,17 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+.navbar__items {
+  height: 100%;
+}
+
+.navbar__logo {
+  height: 100%;
+  margin-top:2px;
+}
+
 .navbar__logo img {
-  height: 180%;
-  margin-top: -14px;
+  margin-top: 6px;
 }
 
 .navbar__link {
@@ -43,11 +51,16 @@
   float: left;
   width: 50%;
   padding: 5px;
+  margin-bottom: 15px;
 }
 
 .footer__copyright {
   margin-top:40px;
   opacity: 0.7;
+}
+
+.footer__copyright a {
+  color: #74a9b9;
 }
 
 .button--lg {
