@@ -1,10 +1,42 @@
 import React, { useState } from 'react';
 import Layout from '@theme/Layout';
 
-import { pgp_key } from '@site/src/data/pgp.key';
 import './contact.css'
 
 const openpgp = require('openpgp');
+const pgp_key = `-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: OpenPGP.js v4.10.8
+Comment: https://openpgpjs.org
+
+xsBNBFmFQK8BCADgTjJD1HcCypSN3xbsEzARz82MVJdjAErsC1XcLJZflMiy
+Cfcau1BNPkIPs6cAfPXwAT1xP5IWUm14GfuzGGy23BTTmxSmJi8od1IzRGQB
+2Q2bxwWqgXJBy+9Q8MgaI33UpB7XgQzNKqn6CN1cbQJQ5BC3bgTYehrAVQom
+HyKHwF8M/Uz1gkd1f0wPQT/luqIobdZDBMQ6XP/CWtYzJw8oUbQ8bvmp0x4D
+uX6QVckdGR3tcDAi5W+fRHhEfKEHXT1TL/hL2r+nKCMiM4mP+f90RgILtwWT
+0dw3h0RrAP4r9rhdz4m6lVtnkWcvV+g+c0VAGtefw9MUGztv5/KJQ6wvABEB
+AAHNI3dvcmtAYnJ1bm9wYy5uZXQgPHdvcmtAYnJ1bm9wYy5uZXQ+wsB/BBAB
+CAApBQJZhUCwBgsJBwgDAgkQvpkN2zg8uV0EFQgKAgMWAgECGQECGwMCHgEA
+CgkQvpkN2zg8uV0wcAf9HX4AAYqbZYr8ooOmyZ3oNk/Alkt3wEgscPlz2bGx
+hNA6a2hO9G6OduCrjY4EiLVnGhx6fd3axwPrnXjS3KwZxhbUY0/AHEqX4CIj
+fmHj410DHsrl7iQyyvidjJKQpuddwez+VurouMDHMXLzfdEmQgXhr4xeJoe5
+PJq3DKVsIJvFeM0wN02H9jOruC2dtVs5hc2/eY6r2VwzaNF56jeBP13uRYer
+yU9mUFieoEg0j1K+AsbXymnlakcSLOiJhNfv/i+zG9G4HST4mG7L7n4ALaD9
+4mStT+/QlJDrbyLJUbAbwN0HrJ3wToBggRc2NeNlrKPWZqNddwA7Qxopgn2F
+387ATQRZhUCvAQgAuTI/NIlDHKUQ+kNt/oUvBqcTGg0PKII+inCr2F0rhove
+j/dsEEWq/miBcM+Npt36VLvftH5XsB9DSavfZS3eaKW0ZIOnFY6XfL2SNlbW
+68l0b4rdUpDRFyLD3IKtk8QLEgY90whxwjl4O+LvDZvpYKkcyFNWKRUvCnal
+IBkteskMK+UD/dXSRdcuulJiUnURS4P6db5QWm94rYgc904vnXFXkPLMrRjt
+aupqHTdCPrez6FlNzmUK/SEA47c53OYLCs1wjknnJQCfB9BIJwIOTEVMpF2G
+3t8oiTas6w9r9tS3PnT3bsRbI9pUydEQRvFHRs3e6kxLYRYUfqi/el434wAR
+AQABwsBpBBgBCAATBQJZhUCwCRC+mQ3bODy5XQIbDAAKCRC+mQ3bODy5XUnp
+CACUZDZXwElsQT+QqJOcnTvPJFjxyTd7SxtVoNj0ZULtJC8AWXwjdWXRSfJm
+cWCc/gycwi9XBrOMpcKl4dwg1M1GAlcR1m61yn4PvuTWsb9S5CLMUf7+HfRR
+rfIwDW1V2jonC+W65MtsKFKG1E3DyP7JA5M+bc4jvjEXhZarAIV9z1k0/856
+mzojpzW0QNBoL2v9ZdkIozcXtYdH6u7m7D8ZaeV4xUvJAPpQtNPjbGGq21sf
+KNQw9lXKRqO/xrKk0b/rPLAirm19yUlbWFUXJiR6hXRlTxIce6qPaK6txV6H
+o7Cdtii3o608dwPrDGnTtchulbvMXD8Y5QFe0Dj4abN7
+=mKCF
+-----END PGP PUBLIC KEY BLOCK-----`;
 
 function browserPermitsEncryption (){
   if (window.crypto.getRandomValues) {

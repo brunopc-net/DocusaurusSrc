@@ -10,10 +10,3 @@ export const getExperienceAmount = (sd, ed) => {
 
     return months <= 0 ? 0 : months;
 }
-
-export const formatDate = (date) => {
-    return new Date(date)
-        .toISOString()
-        .split('T')[0]
-        .substring(0, 7);
-}

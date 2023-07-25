@@ -4,6 +4,7 @@ import { getExperienceAmount } from  './dates.functions';
 
 const resume = require('@site/src/data/resume.json');
 
+
 function ExperienceTotal() {
     const totalMonths = resume.work.reduce((totalXp, workItem) => 
         totalXp += getExperienceAmount(workItem.startDate, workItem.endDate), 0
