@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome, folks","permalink":"/blog/welcome"}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[7237],{3224:e=>{e.exports=JSON.parse('{"label":"react","permalink":"/docs/tags/react","allTagsPath":"/docs/tags","count":1,"items":[{"id":"projects/wilson","title":"Wilson","description":"Web App to send PGP encrypted messages - serverless Backend.","permalink":"/docs/projects/wilson"}]}')}}]);
