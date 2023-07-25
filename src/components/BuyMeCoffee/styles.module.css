@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Cookie";
-  src: url('Cookie-Regular.ttf');
+  src: local("Cookie") url('Cookie-Regular.ttf');
+  font-display: swap;
 }
 
 .bmcBtn {
