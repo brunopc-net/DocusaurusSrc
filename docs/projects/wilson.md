@@ -5,9 +5,9 @@ tags: [python, javascript, react, serverless]
 
 import MarkdownLinkButton from '@site/src/components/common/MarkdownLinkButton';
 
-# Wilson
+# Cher-Ami
 
-Web App to send PGP encrypted messages - serverless Backend.
+A node.js email sender that runs as a digital ocean serverless function
 
 <MarkdownLinkButton
   to='https://github.com/brunopc-net/QuestradeBot'
