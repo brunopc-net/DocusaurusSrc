@@ -5,7 +5,7 @@ tags: [python]
 
 import MarkdownLinkButton from '@site/src/components/common/MarkdownLinkButton';
 
-# Questrade Bot
+# QuestradeBot
 
 Bot stock buyer for Questrade. Deprecated.
 
