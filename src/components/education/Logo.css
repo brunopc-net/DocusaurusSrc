@@ -1,0 +1,19 @@
+.logo_svg, .ets_logo_svg .u, .ets_logo_svg .k{
+    cursor: pointer;
+    transition-duration: var(--ifm-button-transition-duration);
+    transition-timing-function: var(--ifm-transition-timing-default);
+}
+
+[data-theme='dark'] .logo_svg {
+    fill: white;
+}
+
+.ets_logo_svg .j{fill:#fff;}
+.ets_logo_svg .k{fill:#f0262d;}
+.ets_logo_svg:hover .k {
+    fill:#ef3e45;
+}
+
+.al_logo_svg:hover, .ets_logo_svg:hover .u{
+    fill:#7a7a7a;
+}

@@ -4,6 +4,6 @@ title: "Web Developer for Les 2 Photographes"
 tags: ["PHP", "PAYPAL API", "HTML", "CSS", "LINUX"]
 ---
 
-import Mandate from '@site/src/components/experience/Experience';
+import Experience from '@site/src/components/experience';
 
-<Mandate title={frontMatter.title} />
+<Experience title={frontMatter.title} />

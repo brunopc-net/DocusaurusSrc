@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { getExperienceAmount } from  '../../js/dates.functions';
+import { getExperienceAmount } from  './dates.functions';
 
-const resume = require('../../data/resume.json');
+const resume = require('@site/src/data/resume.json');
 
 function ExperienceTotal() {
     const totalMonths = resume.work.reduce((totalXp, workItem) => 

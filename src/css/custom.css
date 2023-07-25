@@ -54,35 +54,20 @@
   margin-bottom: 15px;
 }
 
+.footer__item {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 .footer__copyright {
   margin-top:40px;
   opacity: 0.7;
 }
 
 .footer__copyright a {
-  color: #74a9b9;
+  color: #8ab7c4;
 }
 
 .button--lg {
   margin-right:10px;
-}
-
-.logo_svg, .ets_logo_svg .u, .ets_logo_svg .k{
-  cursor: pointer;
-  transition-duration: var(--ifm-button-transition-duration);
-  transition-timing-function: var(--ifm-transition-timing-default);
-}
-
-[data-theme='dark'] .logo_svg {
-  fill: white;
-}
-
-.ets_logo_svg .j{fill:#fff;}
-.ets_logo_svg .k{fill:#f0262d;}
-.ets_logo_svg:hover .k {
-  fill:#ef3e45;
-}
-
-.al_logo_svg:hover, .ets_logo_svg:hover .u{
-  fill:#7a7a7a;
 }

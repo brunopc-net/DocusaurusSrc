@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { getExperienceAmount, formatDate } from  '../../js/dates.functions';
+import { getExperienceAmount, formatDate } from  './dates.functions';
 
 function hasClient(experience){
     return 'mandate|freelance'.includes(experience.type);

@@ -1,7 +1,7 @@
 ---
-sidebar_position: 11
-title: "Junior Developer for Equisoft"
-tags: ["C#", "VISUAL STUDIO", "GIT"]
+sidebar_position: 9
+title: "Web Developer for Solutions Technologies"
+tags: ["PHP", "MAGENTO API", "HTML"]
 ---
 
 import Experience from '@site/src/components/experience';

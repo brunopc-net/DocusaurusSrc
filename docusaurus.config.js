@@ -72,7 +72,9 @@ const config = {
         title: author.shortname,
         logo: {
           alt: 'My avatar',
-          src: 'img/avatar-43x58.webp'
+          src: 'img/avatar-43x58.webp',
+          width: 43,
+          height: 58
         },
         items: [
           {
@@ -163,22 +165,21 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ${author.name}. Built with React-based <a href="https://docusaurus.io/">Docusaurus</a>`,
+        copyright: `Copyright © ${new Date().getFullYear()} ${author.name}. Built with React-based <a href="https://docusaurus.io">Docusaurus</a>`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
-
+    
   scripts: [
     {
       'data-host': "https://app.microanalytics.io",
       'data-dnt': "false",
       src: "https://app.microanalytics.io/js/script.js",
       id: "ZwSg9rf6GA",
-      async: true,
-      defer: true
+      async: true
     }
   ]
 };
