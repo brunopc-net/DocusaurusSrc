@@ -3,13 +3,13 @@ sidebar_position: 2
 tags: [python, docker]
 ---
 
-import MarkdownLinkButton from '@site/src/components/common/MarkdownLinkButton';
+import MarkdownLink from '@site/src/components/MarkdownLink';
 
 # Nikita
 
 Alerts via SMS when choosen items are on sale
 
-<MarkdownLinkButton
+<MarkdownLink
   to='https://github.com/brunopc-net/Nikita'
   text='Repository'
 />

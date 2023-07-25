@@ -3,13 +3,13 @@ sidebar_position: 3
 tags: [python, docker]
 ---
 
-import MarkdownLinkButton from '@site/src/components/common/MarkdownLinkButton';
+import MarkdownLink from '@site/src/components/MarkdownLink';
 
 # Cerberus
 
 Documents backup script
 
-<MarkdownLinkButton
+<MarkdownLink
   to='https://github.com/brunopc-net/Cerberus'
   text='Repository'
 /><br/><br/>

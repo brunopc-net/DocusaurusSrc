@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Cookie";
+  src: url('Cookie-Regular.ttf');
+}
+
+.bmcBtn {
+  font-family: 'Cookie', cursive !important;
+  font-size: 28px;
+  font-weight: Normal;
+  color: #000000;
+  text-decoration: none !important;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+
+  background-color: #FFDD00 !important;
+  min-width: 210px;
+  height: 60px;
+  border-radius: 12px;
+  padding: 0px 24px;
+  margin-top:16px;
+  
+  display: inline-flex !important;
+  
+  white-space: nowrap;
+  cursor: pointer;
+
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+
+  -webkit-user-select: none;
+  user-select: none;
+
+  transition-property: color, background, border-color;
+  transition-duration: var(--ifm-button-transition-duration);
+  transition-timing-function: var(--ifm-transition-timing-default);
+}
+
+.bmcBtn:hover, .bmcBtn:active, .bmcBtn:focus {
+  background-color: #ddc000 !important;
+  color: #000000;
+}

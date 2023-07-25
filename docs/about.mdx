@@ -2,8 +2,8 @@
 sidebar_position: 1
 ---
 
-import MarkdownLinkButton from '@site/src/components/common/MarkdownLinkButton';
-import SkillTable from '@site/src/components/about/SkillTable';
+import MarkdownLink from '@site/src/components/MarkdownLink';
+import SkillTable from '@site/src/components/SkillTable';
 import ExperienceTotal from '@site/src/components/experience/ExperienceTotal';
 
 # About me
@@ -14,22 +14,22 @@ My <a href="/docs/category/experiences/" target="_blank"><ExperienceTotal/> year
 
 ## Résumé
 
-<MarkdownLinkButton
+<MarkdownLink
   to='https://registry.jsonresume.org/brunopc-net'
   text='Online 📃'
 />
 
-<MarkdownLinkButton
+<MarkdownLink
   to='https://registry.jsonresume.org/brunopc-net.json'
   text='JSON 📃'
 />
 
-<MarkdownLinkButton
+<MarkdownLink
   to='https://registry.jsonresume.org/brunopc-net.yaml'
   text='Yaml 📃'
 />
 
-<MarkdownLinkButton
+<MarkdownLink
   to='files/resume.pdf'
   text='PDF 📃'
 />
@@ -58,6 +58,8 @@ As for now, my current hobbies include kart and bike racing.
       <img
         src={require('../static/img/Bruno-PC-karting.webp').default}
         alt="Bruno Pettersen-Coulombe karting"
+        width="485"
+        height="333"
       />
     </a>
   </div>
@@ -66,6 +68,8 @@ As for now, my current hobbies include kart and bike racing.
       <img
         src={require('../static/img/Bruno-PC-cycling.webp').default}
         alt="Bruno Pettersen-Coulombe biking"
+        width="485"
+        height="333"
       />
     </a>
   </div>
