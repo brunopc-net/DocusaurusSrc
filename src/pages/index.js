@@ -7,8 +7,6 @@ import BuyMeCoffee from '@site/src/components/BuyMeCoffee';
 
 import styles from './index.module.css';
 
-const author = require('@site/src/data/resume.json').basics;
-
 const FeatureList = [
   {
     title: 'Discover my work experience',
@@ -40,8 +38,9 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{author.name}</h1>
-        <p className="hero__subtitle">{author.label}</p>
+        <h1 className="hero__title">Bruno Pettersen-Coulombe</h1>
+        <h2 className="hero__subtitle">Full stack Developer 👨‍💻 B. Eng. ⚙️</h2>
+        <h2 className="hero__subtitle">Racing geek 🚴🏎️</h2>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -76,8 +75,8 @@ function Feature({Svg, title, link, description}) {
 export default function Home() {
   return (
     <Layout
-      title={`Hello from ${author.shortname}`}
-      description={author.label}>
+      title={'Welcome to my cyber-home'}
+      description="Read my blog, comment, see my resume and contact me here">
       <HomepageHeader />
       <main>
         <section className={styles.features}>
