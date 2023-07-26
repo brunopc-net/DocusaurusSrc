@@ -2,6 +2,7 @@
 title: Do you really need the complete stack?
 authors: brunopc
 tags: [Wordpress, PHP, Jekyll, Javascript, React, SSG, Docusaurus]
+image: useful-or-useless.webp
 enableComments: true
 ---
 
@@ -25,6 +26,6 @@ Having gained some experience in the industry now, I can say that many people te
 
 I want to point out the fact that Software Engineering is still very immature. According to the [Standish Group Chaos Report 2020](https://vitalitychicago.com/blog/agile-projects-are-more-successful-traditional-projects/), only 42% of Agile projects and 13% of Waterfall projects were successful. In summary, the chances of a software project success (based on time, budget, target, goal, value, and user satisfaction) are still less than half, even when using agile methodologies And the more you simplify your solution, the lower the chances of complications.
 
-What is your real goal? Do you want an illusion of progress or resolving the problem?
+What is your real goal? Do you want an illusion of control, or resolving the problem?
 
 Personally, I choose the latter.
