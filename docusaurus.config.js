@@ -23,7 +23,7 @@ const links = {
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Bruno Pettersen-Coulombe',
-  tagline: 'Full stack developer, B. Eng. Racing geek 🚴🏎️',
+  tagline: 'Full stack Developer, B. Eng. Racing geek',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
