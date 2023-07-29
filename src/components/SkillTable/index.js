@@ -4,6 +4,15 @@ import styles from './styles.module.css';
 
 const skillGroups = require('@site/src/data/resume.json').skills;
 
+function TagLink(){
+    return (
+        <a 
+            href={"/docs/tags/"+tag.replace(' ', '-')}>
+            {tag}
+        </a>
+    )
+}
+
 function TagList({ title, tags}) {
     return (<>
         {title && (<b>{title}</b>)}
@@ -11,7 +20,7 @@ function TagList({ title, tags}) {
             {tags.map((tag) => (
                 <li key={tag}>
                     <a 
-                        href={"/docs/tags/"+tag}>
+                        href={"/docs/tags/"+tag.replace(' ', '-')}>
                         {tag}
                     </a>
                 </li>
