@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[1183],{1655:e=>{e.exports=JSON.parse('{"label":"Blue\u2013Green","permalink":"/fr/blog/tags/blue-green","allTagsPath":"/fr/blog/tags","count":1}')}}]);

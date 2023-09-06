@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Do you really need the complete stack?","permalink":"/blog/2023/07/25/Do-you-really-need-the-complete-stack"},{"title":"Welcome, folks","permalink":"/blog/welcome"}]}')}}]);
