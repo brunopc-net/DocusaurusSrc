@@ -9,7 +9,7 @@ I was listening [a podcast featuring my friend Olivier Jean](https://livingrichl
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6bttHdNJIcs?si=CZabeQbghfAZKnJz&amp;clip=Ugkxo1jeBGjZBnxyWnjQKgo4UeIaaMhApENi&amp;clipt=ENzObxi8o3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br/><br/>
 
-Having a similar path then Olivier - although I didn't go to the Olympics - I can relate to that feeling of being lost after a big journey that was ended. Especially between the years 2014 to 2020, it was a very challenging time where I tried to find answers. Looking back now, I definitely had a depression or some sort of existential crisis at that point.
+Having a similar path then Olivier - although I didn't go to the Olympics - I can relate to that feeling of being lost after a big journey that was ended. Especially between the years 2014 to 2020, it was a very challenging time where I tried to find answers. Looking back now, I definitely had a depression or some sort of existential crisis at one point.
 
 Since I read a lot about that topic, I'd like to write what I understand on the topic, and what worked for myself.
 
