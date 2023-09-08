@@ -5,7 +5,7 @@ enableComments: true
 tags: ["Self-Development", "Motivation"]
 ---
 
-I was listening [a podcast featuring my friend Olivier Jean](https://livingrichly.me/the-champion-mindset/), gold medalist during the 2010 Olympics in Vancouver. Towards the end, the host asked him a question that gets asked a lot: How do I find my passion? How do I maintain it enough so I can keep going on?
+I was listening [to a podcast featuring my friend Olivier Jean](https://livingrichly.me/the-champion-mindset/), gold medalist during the 2010 Olympics in Vancouver. Towards the end, the host asked him a question that gets asked a lot: How do I find my passion? How do I maintain it enough so I can keep going on?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6bttHdNJIcs?si=CZabeQbghfAZKnJz&amp;clip=Ugkxo1jeBGjZBnxyWnjQKgo4UeIaaMhApENi&amp;clipt=ENzObxi8o3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br/><br/>
 
@@ -24,7 +24,7 @@ Obsessive passion is linked to outside stimuli. If you're motivated about money,
 Here's some talk associated with obsessive passion:
 - No pain, no gain
 - This is serious
-- Heard once when I was coaching in a speed skating competition: "if we wanted to have fun, we would have go skiing" 
+- Heard once when I was coaching in a speed skating competition: "if we wanted to have fun, we would have gone skiing" 
 
 ### Harmonious passion
 
@@ -32,7 +32,7 @@ Harmonious passion is an internal one: you're motivated about practicing an acti
 
 It is based on a paying mindset. We pursue it just because we feel better doing it, and we are more mentally energized after it than before.
 
-People that are more into harmonious passion tend to identify themself as participants of a bigger thing. They will say: "I'm a cyclist". "I'm a hockey player."
+People that are more into harmonious passion tend to identify themself as participants of a bigger thing. They will say: "I'm a cyclist." "I'm a hockey player."
 
 Harmonious passion is often viewed as childist or superficial, and I'll never be able to say enough how wrong this is. Harmonious passion is the one that will keep you going when you keep improving but you can't get results. It's the most sustainable passion because you can't always win. As your focus will be to play, people will be happy to practice with you, so it's the passion that will keep you engaged with your teammates, coaches, mentors, colleagues or coworkers.
 
@@ -70,10 +70,10 @@ People high in openness will be well fulfilled in activities with high creativit
 
 If you're very high in extraversion, you should choose something where you'll encounter a lot of people (like event organization or sales). If you're more of an introvert, you might find individual activities more enjoyable.
 
-For example, I have
+Personally, I have
 - A very high openness (I like to find new solutions, discuss complex problems). That's why I love engineering, science and philosophy.
 - Over then average conscientiousness (When I have an idea, I'm very prone to work on it until I realize my goal)
-- Over then average extraversion - I need to see people to refill my energy
+- Over then average extraversion - I need to see people to refill my energy levels
 - Lower than average agreeableness (I love competition) and neuroticism (I think that's why I like dangerous sports). This is a perfect match for my sports that are racing sports - Speed skating, cycling and karting.
 
 ## 3. Have a good strategy for improvement
@@ -110,7 +110,7 @@ To build the circle, it's absolutely critical that the actions you take are good
 
 The nuance between positive and toxic perseverance? The profitability of your efforts. If you progress, it's positive. If you put in a lot and you're stagnating, it's becoming toxic.
 
-The same way people are sometimes in toxic relationships because it give them short bursts of intense euphoria, you can also have toxic passions (overly obsessive ones). Passion can burn you, whether it is for someone or for an activity.
+The same way people are sometimes in toxic relationships because it gives them short bursts of intense euphoria, you can also have toxic passions (overly obsessive ones). Passion can burn you, whether it is for someone or for an activity.
 
 ## Build your passions, plural
 
@@ -118,7 +118,7 @@ The same way people are sometimes in toxic relationships because it give them sh
 
 Finally, I want to emphasize that after you become good at building these virtuous cycles, you can build multiple passions at the same time. Passion doesn't mean you can't have two, or three, or four! It's up to you how many you want.
 
-When you understand the process, you have laid out the foundation of happiness in every aspects of your life: in love, for your family, at work, for your hobbies, and more.
+When you understand the process, you have laid out the foundation of happiness in every aspect of your life: in love, for your family, at work, for your hobbies, and more.
 
 ### Good reads  on the topic:
 
