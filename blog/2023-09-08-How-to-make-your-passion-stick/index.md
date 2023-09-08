@@ -9,22 +9,13 @@ I was listening [to a podcast featuring my friend Olivier Jean](https://livingri
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6bttHdNJIcs?si=CZabeQbghfAZKnJz&amp;clip=Ugkxo1jeBGjZBnxyWnjQKgo4UeIaaMhApENi&amp;clipt=ENzObxi8o3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br/><br/>
 
-Having dedicated my life to speed skating for 15 years - I can relate to that feeling of being lost after a big journey that was ended. Especially between the years 2014 to 2020, it was a very challenging time where I tried to find answers. Looking back now, I definitely had a depression or some sort of existential crisis at one point.
+Having dedicated my life to speed skating for 15 years - I can relate to that feeling of being lost after a big journey that was ended. Especially between the years 2014 to 2020, it was a very challenging time for me. Looking back now, I definitely had a depression or some sort of existential crisis at one point.
 
-Since I read a lot about that topic, I'd like to write what I understand on the topic, and what worked for myself.
+In that time I tried a lot to find answers. Since I read a lot about that topic, I'd like to write what I understand on the topic, and what worked for myself.
 
 First, a bit of theory. [Based on psychology papers, there are two types of passion](https://www.sciencedirect.com/science/article/abs/pii/S1469029217300705?via%3Dihub):
-- Obsessive passion
 - Harmonious passion
-
-### Obsessive passion
-
-Obsessive passion is linked to outside stimuli. If you're motivated about money, medals, winning, success, get famous, etc. - You're in that category. It is based on what you have to gain from society to you - it is based on a "work" mindset. It is linked to perseverance, tenacity. People with obsessive passion will tend to continue even if the practice of the activity has negative consequences in their lives. People into obsessive passion will view their own value as their results - they will tend to present themselves as champions "Hello, I'm John Doe, World champion" or losers if they lose.
-
-Here's some talk associated with obsessive passion:
-- No pain, no gain
-- This is serious
-- Heard once when I was coaching in a speed skating competition: "if we wanted to have fun, we would have gone skiing" 
+- Obsessive passion
 
 ### Harmonious passion
 
@@ -39,6 +30,19 @@ Harmonious passion is often viewed as childist or superficial, and I'll never be
 Fires Zahabi, G.S.P.'s coach, said at the Jo Rogan podcast that it's a joy to spare with him because he's having a lot of fun during his training. He's not trying to crush everyone to show that he's the best! That is for the fight night only. That relaxed attitude is an important factor on why he's been able to train with a lot of talented athletes all over the world, but also a factor on why he's still so healthy today, physically and mentally.
 
 <iframe width="500" height="280" src="https://www.youtube.com/embed/_fbCcWyYthQ?si=vmo1zTw64wH638Jo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br/>
+
+Without harmonious passion, you'll never be able to be in the flow - a mental state where you're so immersed into the task that everything else disapear. The flow will make you experience your greatest level of performance at that specific moment.
+
+### Obsessive passion
+
+Obsessive passion is linked to outside stimuli. If you're motivated about money, medals, winning, success, get famous, etc. - You're in that category. It is based on what you have to gain from society to you - it is based on a "work" mindset. It is linked to perseverance, tenacity. People with obsessive passion will tend to continue even if the practice of the activity has negative consequences in their lives. People into obsessive passion will view their own value as their results - they will tend to present themselves as champions "Hello, I'm John Doe, World champion" or losers if they lose.
+
+Here's some talk associated with obsessive passion:
+- No pain, no gain
+- This is serious
+- Heard once when I was coaching in a speed skating competition: "if we wanted to have fun, we would have gone skiing" 
+
+Obsessive passion is detrimental for the well-being, so you have to make sure that your harmonious passion - which is positive for your well-being - is strong enough on the long run to support your mental health while you're temporarily trading more of your mental health for performance. 
 
 ### Building yourself a passion model.
 
@@ -94,9 +98,7 @@ Not about the crash, but about my weekend. I was able to extract more speed than
 
 I didn't care about the end result - I was happy about my improvement. It motivated even more for the upcoming races. That is the sign of a solid harmonious passion.
 
-Right now, I think I'm about at 80% harmonious and 20% obsessive passion. I could obtain more results if I was increasing obsessive passion in my current activities, but it would be at the cost of fun, which I'm not ready to sacrifice at this point. However, If I found myself in a position of having a big opportunity (let's say I'd have a shot at winning a Canadian Championship) for sure I would give my everything for a short period. I might be 70% on obsessive passion then - not sustainable, but it would extract more performance temporarily.
-
-Since obsessive passion is detrimental for the well-being, you have to make sure that your harmonious passion - which is positive for your well-being - is strong enough on the long run to support your mental health while you're temporarily trading more of your mental health for performance. 
+Right now, I think I'm about at 80% harmonious and 20% obsessive passion. I could obtain more results if I was increasing obsessive passion in my current activities, but it would be at the cost of fun, which I'm not ready to sacrifice at this point. However, If I found myself in a position of having a big opportunity (let's say I'd have a shot at winning a Canadian Championship) for sure I would give my everything for a short period. Obessive passion might be up to 30 or 40% then - less sustainable, but it would alloy me to extract more performance temporarily.
 
 ### Have a pragmatic (and efficient) plan
 
@@ -129,4 +131,3 @@ When you understand the process, you have laid out the foundation of happiness i
 - [The Motivation Myth: How High Achievers Really Set Themselves Up to Win](https://www.amazon.ca/Motivation-Myth-Achievers-Really-Themselves/dp/0399563768)
 
 - [So Good They Can't Ignore You](https://www.amazon.ca/Good-They-Cant-Ignore-You/)
-
