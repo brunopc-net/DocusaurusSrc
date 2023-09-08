@@ -120,7 +120,7 @@ Finally, I want to emphasize that after you become good at building these virtuo
 
 When you understand the process, you have laid out the foundation of happiness in every aspect of your life: in love, for your family, at work, for your hobbies, and more.
 
-### Good reads  on the topic:
+## Good reads  on the topic:
 
 - [Je suis un chercheur d'or: Les mécanismes de la communication et des relations humaines](https://www.amazon.ca/-/fr/Guillaume-Dulude/dp/2761950054) - French
 
