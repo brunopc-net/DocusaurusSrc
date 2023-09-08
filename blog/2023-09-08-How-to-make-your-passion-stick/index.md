@@ -9,7 +9,7 @@ I was listening [a podcast featuring my friend Olivier Jean](https://livingrichl
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6bttHdNJIcs?si=CZabeQbghfAZKnJz&amp;clip=Ugkxo1jeBGjZBnxyWnjQKgo4UeIaaMhApENi&amp;clipt=ENzObxi8o3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br/><br/>
 
-Having a similar path then Olivier - although I didn't go to the Olympics - I can relate to that feeling of being lost after a big journey that was ended. Especially between the years 2014 to 2020, it was a very challenging time where I tried to find answers. Looking back now, I definitely had a depression or some sort of existential crisis at one point.
+Having dedicated my life to speed skating for 15 years - I can relate to that feeling of being lost after a big journey that was ended. Especially between the years 2014 to 2020, it was a very challenging time where I tried to find answers. Looking back now, I definitely had a depression or some sort of existential crisis at one point.
 
 Since I read a lot about that topic, I'd like to write what I understand on the topic, and what worked for myself.
 
@@ -108,8 +108,17 @@ You need to figure out a way to build yourself a virtuous cycle. Where practice 
 
 To build the circle, it's absolutely critical that the actions you take are good one and not lost energy. This is where quotes like "No pain, no gain" can be toxic. The mentality is great if it's balanced and if you already have a working strategy, but otherwise, you will burn yourself.
 
-The nuance between positive and toxic perseverance? The profitability of your efforts. If you progress, it's positive. If you put in a lot and you're stagnating, it's becoming toxic. Adjust yourself ASAP.
+The nuance between positive and toxic perseverance? The profitability of your efforts. If you progress, it's positive. If you put in a lot and you're stagnating, it's becoming toxic.
 
+The same way people are sometimes in toxic relationships because it give them short bursts of intense euphoria, you can also have toxic passions (overly obsessive ones). Passion can burn you, whether it is for someone or for an activity.
+
+## Build your passions, plural
+
+"Finding your passion" is a bit misleading, because it's a process you mainly need to build, opposed as discovered, the same way that you build love over time in a healthy relationship.
+
+Finally, I want to emphasize that after you become good at building these virtuous cycles, you can build multiple passions at the same time. Passion doesn't mean you can't have two, or three, or four! It's up to you how many you want.
+
+When you understand the process, you have laid out the foundation of happiness in every aspects of your life: in love, for your family, at work, for your hobbies, and more.
 
 ### Good reads  on the topic:
 
