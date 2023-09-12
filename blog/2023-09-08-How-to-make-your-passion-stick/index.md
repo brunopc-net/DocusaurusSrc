@@ -28,7 +28,7 @@ It is based on a paying mindset. We pursue it just because we feel better doing 
 
 People that are more into harmonious passion tend to identify themself as participants of a bigger thing. They will say: "I'm a cyclist." "I'm a hockey player."
 
-Harmonious passion is often viewed as childist or superficial, and I'll never be able to say enough how wrong this is. Harmonious passion is the one that will keep you going when you keep improving but you can't get results. Let's say you're running with the intention in beating Kipchoge in the next Marathon World Championship. Sound ridiculous, isn't it?
+Harmonious passion is often viewed as childist or superficial, and I'll never be able to say enough how wrong this is. Harmonious passion is the one that will keep you going when you keep improving but you can't get results. Let's say you're running with the intention in beating [Eliud Kipchoge](https://fr.wikipedia.org/wiki/Eliud_Kipchoge) in the next Marathon World Championships. Sound ridiculous, isn't it?
 
 You can enjoy yourself the activity for itself, for your own progress. You'll be very happy about your results in you retract 10 minutes on your marathon time, for example. That's harmonious passion. 
 
@@ -90,7 +90,7 @@ Personally, I have
 - A very high openness (I like to find new solutions, discuss complex problems). That's why I love engineering, science and philosophy.
 - Over then average conscientiousness (When I have an idea, I'm very prone to work on it until I realize my goal)
 - Over then average extraversion - I need to see people to refill my energy levels
-- Lower than average agreeableness (I love competition) and neuroticism (I stay calm even in stressful situations). This is a perfect match for my sports that are racing sports - Speed skating, cycling and karting.
+- Lower than average agreeableness (I love competition) and neuroticism (I stay calm even in stressful situations). This is a perfect match for my sports that are dangerous racing sports - Sshort track speed skating, cycling and karting.
 
 ## 3. Have a good strategy for improvement
 
