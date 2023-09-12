@@ -36,7 +36,7 @@ It's the most sustainable passion because you can't always win. In fact, even el
 
 With hamonious passion, as your focus is to play, people will be happy to practice with you, so it's the passion that will keep you engaged with your teammates, coaches, mentors, colleagues or coworkers.
 
-Fires Zahabi, G.S.P.'s coach, said at the Jo Rogan podcast that it's a joy to spare with him because he's having a lot of fun during his training. He's not trying to crush everyone to show that he's the best: that is for the fight night only. That relaxed attitude is an important factor on why he's been able to train with a lot of talented athletes all over the world, but also a factor on why he's still so healthy today, physically and mentally.
+[Firas Zahabi](https://en.wikipedia.org/wiki/Firas_Zahabi), head coach of [Georges St-Pierre](https://en.wikipedia.org/wiki/Georges_St-Pierre), said at the Jo Rogan podcast that it's a joy to spare with him because he's having a lot of fun during his training. He's not trying to crush everyone to show that he's the best: that is for the fight night only. That relaxed attitude is an important factor on why he's been able to train with a lot of talented athletes all over the world, but also a factor on why he's still so healthy today, physically and mentally.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_fbCcWyYthQ?si=vmo1zTw64wH638Jo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br/>
 
