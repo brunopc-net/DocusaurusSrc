@@ -90,7 +90,7 @@ Personally, I have
 - A very high openness (I like to find new solutions, discuss complex problems). That's why I love engineering, science and philosophy.
 - Over then average conscientiousness (When I have an idea, I'm very prone to work on it until I realize my goal)
 - Over then average extraversion - I need to see people to refill my energy levels
-- Lower than average agreeableness (I love competition) and neuroticism (I stay calm even in stressful situations). This is a perfect match for my sports that are dangerous racing sports - Sshort track speed skating, cycling and karting.
+- Lower than average agreeableness (I love competition) and neuroticism (I stay calm even in stressful situations). This is a perfect match for my sports that are dangerous racing sports - Short track speed skating, Cycling and Karting.
 
 ## 3. Have a good strategy for improvement
 
