@@ -40,7 +40,9 @@ export default function BlogPostItemWrapper(props) {
     <>
       <BlogPostItem {...props} />
       {(enableComments && isBrowser) && (
-        <GiscusComments />
+        <div style={{marginBottom: "100px"}}>
+          <GiscusComments />
+        </div>
       )}
     </>
   );
