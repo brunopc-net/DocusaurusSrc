@@ -2,6 +2,7 @@
 title: "How to make your passion stick"
 authors: brunopc
 enableComments: true
+image: fuel-your-passion.webp
 tags: ["Self-Development", "Motivation"]
 ---
 
