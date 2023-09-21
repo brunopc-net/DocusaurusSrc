@@ -14,7 +14,7 @@ Peter Attia questions the relevance of healing someone in the late stages of lif
 
 [![Outlive - The-Science & Art of Longevity](./Outlive-The-Science&Art-of-Longevity.webp)](https://peterattiamd.com/outlive/)
 
-Traditional medicine has embraced a proactive approach in some of its practices. For instance, it advises people not to smoke at all rather than suggesting they quit smoking only after reaching 50 years of age, which would be rather absurd. However, there is still ample room for improvementby extending this philosophy to other diseases such as diabetes. Dr. Attia, who refers to this as *Medicine 3.0*, advocates for a significantly more proactive approach. In essence, it strives to prevent encountering icebergs altogether before there's a need for a catastrophic course correction.
+Traditional medicine has embraced a proactive approach in some of its practices. For instance, it advises people not to smoke at all rather than suggesting they quit smoking only after reaching 50 years of age, which would be rather absurd. However, there is still ample room for improvement by extending this philosophy to other diseases such as diabetes. Dr. Attia, who refers to this as *Medicine 3.0*, advocates for a significantly more proactive approach. In essence, it strives to prevent encountering icebergs altogether before there's a need for a catastrophic course correction.
 
 A lot can be done to help you live longer and, more importantly, live better for as long as possible. Exercise, nutrition, medications, and supplements are all covered in this cutting-edge book, which presents the latest medical evidence on how to stay as youthful and capable as you can. In other words, it explores how we can be the best version of ourselves for as long as possible.
 
@@ -43,7 +43,7 @@ Software engineering is an optimization problem. You need to balance multiple so
 
 Every use case is different, and it's impossible to have all the best qualities in a product at once. A [Ford GT](https://hips.hearstapps.com/hmg-prod/images/2022-ford-gt-lm-edition-front-in-blue-1664914314.jpg) is not built to be convenient, a Dodge Caravan is not built to be fast. You could have a sports car more comfortable than the others, or have a minivan model faster than other minivans - but you'll never have a car faster than a sports car and more convenient than a minivan at the same time. 
 
-You have to choose. Choosing not to decide will result in reality imposing a mediocre standard all accross the board. Therefore, the focus from the development team must align with the business requirements of the product built.
+You have to choose. Choosing not to decide will result in reality imposing a mediocre standard all across the board. Therefore, the focus from the development team must align with the business requirements of the product built.
 
 Are we building a payment app? Availability will be the #1 factor, as being out-of-service would have tremendous consequences.
 
@@ -60,7 +60,7 @@ A good health strategy should be personalized. Like Dr. Attia wrote in his book:
 
 Yes, there are good coding practices and conventions, but everything has downsides. "Good practices" are not absolute, they make sense only for a particular context. For example:
 - Adding security for a threat that doesn't exist is throwing money out of the window. This could in itself prevent you from adding security for a threat that is very likely to occur.
-- Emphasis on "perfect code" for a temporary MVP will delay time to market, for a codebase that will most likely exit for a couple of weeks at worst. If you put too much time into the best practices at this stage, you may delay the time to market and sink the ship.
+- Emphasis on "perfect code" for a temporary MVP will delay time to market, for a codebase that will most likely exist for a couple of weeks at worst. If you put too much time into the best practices at this stage, you may delay the time to market and sink the ship.
 
 Does your team has a clear strategy?
 
@@ -72,7 +72,7 @@ Let's say you change spark plugs or replace oil on your car. You are improving i
 
 Software engineering is unique in the sense that code doesn't wear out. Computers are digital: therefore, results are either exact or wrong. Code never lies: it will execute exactly how you wrote it. If the code stays the same, the result and the execution cost will be the same from the 1st to the 1,000,000th execution. No need to clean or to replace parts. Contrary to other fields, time will not change the quality of the result.
 
-Every time you edit the code, you have to change the already existent codebase that is, by definition, describing a exact behavior. So every time you're touching it, you pose the risk of completely ruin the end result of the algorithm. That's why developers are often afraid to edit the code. If they have to implement a new feature, they will often do it outside of the existing codebase. The problem with that? Duplicated logic, exponential code growth: the code will complexify more and more as time pass. This is our second iceberg: [technical dept](https://en.wikipedia.org/wiki/Technical_debt).
+Every time you edit the code, you have to change the already existent codebase that is, by definition, describing an exact behavior. So every time you're touching it, you pose the risk of completely ruin the end result of the algorithm. That's why developers are often afraid to edit the code. If they have to implement a new feature, they will often do it outside of the existing codebase. The problem with that? Duplicated logic, exponential code growth: the code will complexify more and more as time pass. This is our second iceberg: [technical dept](https://en.wikipedia.org/wiki/Technical_debt).
 
 > Shipping first time code is like going into debt. A little debt speed development so long as it is paid back promptly with a rewrite... The danger occurs when the debt is not repaid. Every minute spent on not-quite-right code counts as interest on that debt. Entire engineering organizations can be brought to a standstill under the debt load of an unconsolidated implementation.
 >
