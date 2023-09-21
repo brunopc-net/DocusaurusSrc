@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[1895],{9644:e=>{e.exports=JSON.parse('{"permalink":"/fr/blog/tags/technical-debt","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
