@@ -33,13 +33,13 @@ There's a lot of "icebergs" in the software engineering world. Today, I will tal
 > -- [**Sun Tzu**](https://en.wikipedia.org/wiki/Sun_Tzu), author of [The Art of War](https://en.wikipedia.org/wiki/The_Art_of_War)
 
 Software engineering is an optimization problem. You need to balance multiple software variables. Here's a list of the most important software qualities that need to be considered:
-- Maintainability - Defined by the easiness of code editing over time
-- Performance or execution efficiency - Defined as resource usage or execution time
-- Reliability - Defined as the availability (uptime) of the application
-- Accuracy: Defined as returning the best result/answer to a request
-- Usability: Defined as how simple it is for a new user to use the software without any guidance
-- Security - Defined as its difficulty to hack
-- Compatibility - Defined as how easy it is to connect it to another software/system
+- **Maintainability** - Defined by the easiness of code editing over time
+- **Performance** or execution efficiency - Defined as resource usage or execution time
+- **Reliability** - Defined as the availability (uptime) of the application
+- **Accuracy** - Defined as returning the best result/answer to a request
+- **Usability** - Defined as how simple it is for a new user to use the software without any guidance
+- **Security** - Defined as its difficulty to hack
+- **Compatibility** - Defined as how easy it is to connect it to another software/system
 
 Every use case is different, and it's impossible to have all the best qualities in a product at once. A [Ford GT](https://hips.hearstapps.com/hmg-prod/images/2022-ford-gt-lm-edition-front-in-blue-1664914314.jpg) is not built to be convenient, a Dodge Caravan is not built to be fast. You could have a sports car more comfortable than the others, or have a minivan model faster than other minivans - but you'll never have a car faster than a sports car and more convenient than a minivan at the same time. 
 
