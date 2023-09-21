@@ -14,7 +14,7 @@ Peter Attia questions the relevance of healing someone in the late stages of lif
 
 [![Outlive - The-Science & Art of Longevity](./Outlive-The-Science&Art-of-Longevity.webp)](https://peterattiamd.com/outlive/)
 
-Traditional medicine has embraced a proactive approach in some of its practices. For instance, it advises people not to smoke at all rather than suggesting they quit smoking only after reaching 50 years of age, which would be rather absurd. However, there is still ample room for improvementby extending this philosophy to other diseases such as diabetes. Dr. Attia, who refers to this as *Medicine 3.0*, advocates for a significantly more proactive approach. In essence, it strives to prevent encountering icebergs altogether before there's a need for a catastrophic course correction.
+Traditional medicine has embraced a proactive approach in some of its practices. For instance, it advises people not to smoke at all rather than suggesting they quit smoking only after reaching 50 years of age, which would be rather absurd. However, there is still ample room for improvement by extending this philosophy to other diseases such as diabetes. Dr. Attia, who refers to this as *Medicine 3.0*, advocates for a significantly more proactive approach. In essence, it strives to prevent encountering icebergs altogether before there's a need for a catastrophic course correction.
 
 A lot can be done to help you live longer and, more importantly, live better for as long as possible. Exercise, nutrition, medications, and supplements are all covered in this cutting-edge book, which presents the latest medical evidence on how to stay as youthful and capable as you can. In other words, it explores how we can be the best version of ourselves for as long as possible.
 
@@ -43,7 +43,7 @@ Software engineering is an optimization problem. You need to balance multiple so
 
 Every use case is different, and it's impossible to have all the best qualities in a product at once. A [Ford GT](https://hips.hearstapps.com/hmg-prod/images/2022-ford-gt-lm-edition-front-in-blue-1664914314.jpg) is not built to be convenient, a Dodge Caravan is not built to be fast. You could have a sports car more comfortable than the others, or have a minivan model faster than other minivans - but you'll never have a car faster than a sports car and more convenient than a minivan at the same time. 
 
-You have to choose. Choosing not to decide will result in reality imposing a mediocre standard all accross the board. Therefore, the focus from the development team must align with the business requirements of the product built.
+You have to choose. Choosing not to decide will result in reality imposing a mediocre standard all across the board. Therefore, the focus from the development team must align with the business requirements of the product built.
 
 Are we building a payment app? Availability will be the #1 factor, as being out-of-service would have tremendous consequences.
 
