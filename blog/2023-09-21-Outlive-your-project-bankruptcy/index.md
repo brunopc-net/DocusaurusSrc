@@ -58,7 +58,9 @@ It's like health. What does "healthy" means? It depends very much so much on the
 A good health strategy should be personalized. Like Dr. Attia wrote in his book:
 > This is where most people make a wrong turn. They want to take a shortcut, right to the tactics: *this* is what to eat (and not eat), *that* is how you should exercise, *these* are the supplements or medications you need, and so on. [...] Instead, I believe this is exactly where we need to hit pause and take a step back, lest we skip the most important step in the process: the strategy.
 
-Yes, there are good coding practices and conventions. But everything has downsides. "Good practices" are not absolute, they make sense only for a particular context. Adding security for a threat that doesn't exist is throwing money out of the window. Emphasis on "perfect code" for a temporary MVP will delay time to market, and that may sink the ship.
+Yes, there are good coding practices and conventions, but everything has downsides. "Good practices" are not absolute, they make sense only for a particular context. For example:
+- Adding security for a threat that doesn't exist is throwing money out of the window. This could in itself prevent you from adding security for a threat that is very likely to occur
+- Emphasis on "perfect code" for a temporary MVP will delay time to market, for a codebase that will most likely exit for a couple of weeks at worst. If you put too much time into best pratices at this stage, you may delay the time to market and sink the ship.
 
 Does your team has a clear strategy?
 
@@ -70,7 +72,7 @@ Let's say you change spark plugs or replace oil on your car. You are improving i
 
 Software engineering is unique in the sense that code doesn't wear out. Computers are digital: therefore, results are either exact or wrong. Code never lies: it will execute exactly how you wrote it. If the code stays the same, the result and the execution cost will be the same from the 1st to the 1,000,000th execution. No need to clean or to replace parts. Contrary to other fields, time will not change the quality of the result.
 
-Every time you edit the code, you have to change the already existent codebase that is, by definition, describing a exact behavior. So every time you're touching it, you pose the risk of completely ruin the end result of the algorithm. That's why, in the field of software engineering, people are often afraid to edit the code. If they have to implement a new feature, they will often do it outside of the existing codebase. The problem with that? Duplicated logic, exponential code growth: the code will complexify more and more as time pass. This is our second iceberg: [technical dept](https://en.wikipedia.org/wiki/Technical_debt).
+Every time you edit the code, you have to change the already existent codebase that is, by definition, describing a exact behavior. So every time you're touching it, you pose the risk of completely ruin the end result of the algorithm. That's why developpers are often afraid to edit the code. If they have to implement a new feature, they will often do it outside of the existing codebase. The problem with that? Duplicated logic, exponential code growth: the code will complexify more and more as time pass. This is our second iceberg: [technical dept](https://en.wikipedia.org/wiki/Technical_debt).
 
 > Shipping first time code is like going into debt. A little debt speed development so long as it is paid back promptly with a rewrite... The danger occurs when the debt is not repaid. Every minute spent on not-quite-right code counts as interest on that debt. Entire engineering organizations can be brought to a standstill under the debt load of an unconsolidated implementation.
 >
