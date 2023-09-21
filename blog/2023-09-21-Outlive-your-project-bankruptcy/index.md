@@ -3,7 +3,7 @@ title: "Outlive your project bankrupcy"
 authors: brunopc
 enableComments: true
 image: Outlive-The-Science&Art-of-Longevity.webp
-tags: ["Software quality", "Technical debt"]
+tags: ["health", "Software quality", "Technical debt"]
 ---
 
 I'm currently reading a fantastic book from [Peter Attia](https://twitter.com/PeterAttiaMD): [*Outlive - The Science & Art of Longevity*](https://peterattiamd.com/outlive/). The book emphasizes the fact that traditional medicine - Medicine 2.0 as he calls it - is shaped around the notion of healing at the very end of a disease lifespan, like the crew of the Titanic tried to save the ship at the last minute, even after being warned hours before the incident.
