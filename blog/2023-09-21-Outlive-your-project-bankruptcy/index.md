@@ -65,7 +65,7 @@ Software engineering is unique in the sense that code doesn't wear out. Computer
 
 Code never lies: it will execute exactly how you wrote it. Every time you edit the code, you have to change the already existent codebase that is, by definition, describing a exact behavior. So every time you're touching it, you pose the risk of completely ruin the end result of the algorithm.
 
-That's why, in the field of software engineering, people are often afraid to maintain the code. If they have to implement a new feature, they will often do it outside of the existing codebase. The problem with that? Duplicated logic, exponential code growth: the code will complexify more and more as time pass. This is called [technical dept](https://en.wikipedia.org/wiki/Technical_debt).
+That's why, in the field of software engineering, people are often afraid to edit the code. If they have to implement a new feature, they will often do it outside of the existing codebase. The problem with that? Duplicated logic, exponential code growth: the code will complexify more and more as time pass. This is called [technical dept](https://en.wikipedia.org/wiki/Technical_debt).
 
 > Shipping first time code is like going into debt. A little debt speed development so long as it is paid back promptly with a rewrite... The danger occurs when the debt is not repaid. Every minute spent on not-quite-right code counts as interest on that debt. Entire engineering organizations can be brought to a standstill under the debt load of an unconsolidated implementation.
 >
@@ -80,15 +80,15 @@ In summary, we can conclude that:
 Multiple solutions can avoid this problem:
 - Automated tests that act like an insurance. If something breaks, it will be caught and it will be shown where it's breaking. That way, the team will be far more comfortable editing legacy code. The more they are comfortable working with it, the deeper their expertise will be. That means faster development time and fewer errors.
 - The software team need to understand the importance of "cleaning the house" every time a feature has been done, even if it's not sexy. Shipping the feature in production, more often than not, doesn't mean the work is done. The code also requires a cleanup after that.
-- The business department needs to be conscious that putting pressure on the software team multiple times in a row to deliver faster will increase the technical dept. It can be done, but it will be at the expense of future productivity.
+- The business department needs to be conscious that putting pressure on the software team multiple times in a row to deliver faster will increase the technical debt. It can be done, but it will be at the expense of future productivity.
 
 Be aware of people that want a promotion as quick as possible. Like a government that borrow a lot of money to reduce taxes, they may favor the short-term productivity of the project by sacrificing the future vitality of the project.
 
 ## Have a double T-shape developper
 
-These icebergs (strategy absence and technical dept) can easily ruin your project solvency, even to the point it can threaten your organization profitability. They have one thing in common: a lack or understanding between the software team and the business team. I've seen so many organizations with business and software departments not understanding and putting the blame on each other, and frankly, both were right in their recriminations. 
+These icebergs (strategy absence and technical debt) can easily ruin your project solvency, even to the point it can threaten your organization profitability. They have one thing in common: a lack or understanding between the software team and the business team. I've seen so many organizations with business and software departments not understanding and putting the blame on each other, and frankly, both were right in their recriminations. 
 
-This is where a project manager that knows the inside-and-out of software development AND that has a business expertise is so precious. That person will alloy the business team to communicate in business terms (marketing strategy, upcoming finance delays, etc.) without worrying about managing a software team. After that, this interpret will be able to translate these needs into a complete software strategy, while teaching the business teams on the inevitable software hurdles that will occur along the way (like technical dept).
+This is where a project manager that knows the inside-and-out of software development AND that has a business expertise is so precious. That person will alloy the business team to communicate in business terms (marketing strategy, upcoming finance delays, etc.) without worrying about managing a software team. After that, this interpret will be able to translate these needs into a complete software strategy, while teaching the business teams on the inevitable software hurdles that will occur along the way (like technical debt).
 
 I emphasize that it has to be one individual. Otherwise, what's the point? Having two people for this role doesn't solve the problem: it would be like hiring a duo of a French teacher that doesn't speak English and English professor that doesn't speak French to translate an English book into French. Good luck with that.
 
