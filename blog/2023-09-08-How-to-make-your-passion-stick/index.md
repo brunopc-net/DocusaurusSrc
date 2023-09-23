@@ -2,7 +2,7 @@
 title: "How to make your passion stick"
 authors: brunopc
 enableComments: true
-image: fuel-your-passion.webp
+image: ./fuel-your-passion.webp
 tags: ["Self-Development", "Motivation"]
 ---
 
@@ -63,11 +63,13 @@ Too much obsessive passion can be detrimental for the well-being, so you have to
 
 
 In summary, to build yourself a model, you need to:
-1. Know yourself first. How does your brain - your personality and your emotions - work?
+1. Know yourself first
 1. Find an activity that matches your personality
-1. Have a good strategy for improvement.
+1. Implement a good strategy for improvement
 
 ## 1. Know yourself first
+
+How does your brain - your personality and your emotions - work?
 
 The most advanced scientific model for personality is the [Big 5 Personality model](https://www.verywellmind.com/the-big-five-personality-dimensions-2795422). Basically, there are five dimensions to someone's personality:
 1. Extraversion, the degree of how much someone gains energy from social interactions
@@ -78,7 +80,7 @@ The most advanced scientific model for personality is the [Big 5 Personality mod
 
 Knowing yourself is critical,  because it will predict how's a particular activity is correlated to improved mood on yourself.
 
-## 2. Find activities that match your personality
+## 2. Find an activity that matches your personality
 
 For example, lower than average agreeableness people should seek competitions. It's an activity that will reward only the best ones. As less agreeable people tend to think in a selfish "What's in it for me" way, a competition is a great carrot for them.
 
