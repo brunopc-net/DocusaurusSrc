@@ -32,14 +32,14 @@ function getCompletion(cert){
 
 function getCertificate(cert){
     const certImgLink = require('@site/static/img/education/'+cert.certificate+'.webp').default;
-    const imgAlt = "Certificate for "+cert.name;
+    const imgAlt = cert.name+" certificate";
     if(cert.issuer === "Udemy")
         return (<p><a href={"https://www.udemy.com/certificate/"+cert.certificate}>
             <img src={certImgLink} alt={imgAlt}/>
         </a></p>)
 }
 
-function Certificates(completion) {
+function Certificates() {
     return (<>
         {certificates.map((cert, i) => (<div key={i}>
             <h2>{getName(cert)}</h2>
