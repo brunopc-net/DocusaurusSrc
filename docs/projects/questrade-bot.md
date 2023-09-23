@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-tags: [python]
+tags: ["Automate your life", "finance", python]
 ---
 
 import MarkdownLink from '@site/src/components/MarkdownLink';
