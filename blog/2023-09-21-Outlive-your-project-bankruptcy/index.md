@@ -1,5 +1,5 @@
 ---
-title: "Outlive your project bankrupcy"
+title: "Outlive your project bankruptcy"
 authors: brunopc
 enableComments: true
 image: "./Outlive-The-Science&Art-of-Longevity.webp"
