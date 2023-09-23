@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-tags: ["Automate your life", python, docker, Jenkins]
+tags: [python, docker]
 ---
 
 import MarkdownLink from '@site/src/components/MarkdownLink';
