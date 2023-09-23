@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 tags: [python, docker]
 ---
 
@@ -9,7 +9,7 @@ import MarkdownLink from '@site/src/components/MarkdownLink';
 
 Documents backup script
 
-<MarkdownLink
+<MarkdownLink button
   to='https://github.com/brunopc-net/Cerberus'
   text='Repository'
 /><br/><br/>
