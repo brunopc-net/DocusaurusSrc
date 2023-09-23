@@ -1,5 +1,5 @@
 import React from 'react';
-import { EcoleTechnologieSuperieure, CegepAndreLaurendeau } from './Institution'
+import { EcoleTechnologieSuperieure, CegepAndreLaurendeau, Institution } from './Institution'
 
 import './Logo.css';
 
@@ -20,7 +20,7 @@ function getDiplomaImgLink(education_item){
 }
 
 function getDiplomaImgAlt(education_item){
-    return "Diploma for "+education_item.area+" "+education_item.studyType;
+    return education_item.area+" "+education_item.studyType+" diploma";
 }
 
 function Diploma({education_item}){
@@ -55,12 +55,13 @@ function CourseTable({ courses }) {
     </>);
 }
 
-function Institution({education_item}){
+function Institute({education_item}){
     if(education_item.institution.includes("Laurendeau"))
         return <CegepAndreLaurendeau />
     if(education_item.institution.includes("technologie supérieure"))
         return <EcoleTechnologieSuperieure />
-    return "";
+    //Other
+        return <Institution  name={education_item.institution} url={education_item.url} />;
 }
 
 function Education({ area, studyType, Logo }) {
@@ -70,7 +71,7 @@ function Education({ area, studyType, Logo }) {
     return (<>
         <p><b>Graduation year: </b>{new Date(education_item.endDate).getFullYear()}</p>
         <Diploma education_item={education_item} />
-        <Institution  education_item={education_item} />
+        <Institute  education_item={education_item} />
         <CourseTable courses={education_item.courses} />
     </>);
 }

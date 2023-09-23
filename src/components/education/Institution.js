@@ -1,19 +1,5 @@
 import React from 'react';
 
-function Institution({name, url, Logo}){
-    return (<>
-        <p>
-            <b>Institution: </b>
-            <a href={url}>{name}</a>
-        </p>
-        <p>
-            <a href={url} target="_blank">
-                <Logo width={600} />
-            </a>
-        </p>
-    </>);
-}
-
 function EcoleTechnologieSuperieure(){
     return (
         <Institution
@@ -34,4 +20,21 @@ function CegepAndreLaurendeau(){
     );
 }
 
-export { EcoleTechnologieSuperieure, CegepAndreLaurendeau };
+function Institution({name, url, Logo}){
+    return (<>
+        <p>
+            <b>Institution: </b><a href={url}>{name}</a>
+        </p>
+        {Logo && (
+            <p>
+                <a href={url} target="_blank">
+                    <Logo width={600} />
+                </a>
+            </p>
+        )}
+    </>);
+}
+
+
+
+export { EcoleTechnologieSuperieure, CegepAndreLaurendeau, Institution };
