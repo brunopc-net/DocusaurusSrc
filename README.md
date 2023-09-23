@@ -1,1 +1,1 @@
-My blog, live at [http://brunopc.net/](http://brunopc.net/)
+My blog, live at [https://brunopc.net/](https://brunopc.net/)
