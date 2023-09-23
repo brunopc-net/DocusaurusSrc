@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-tags: ["Javascript", "Node.js", "React", "GitHub Actions"]
+tags: ["Automate your life", "Javascript", "Node.js", "React", "GitHub Actions"]
 ---
 
 import MarkdownLink from '@site/src/components/MarkdownLink';
