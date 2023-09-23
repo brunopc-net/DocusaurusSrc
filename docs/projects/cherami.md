@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 tags: [javascript, node.js, react, serverless]
 ---
 
@@ -9,7 +9,7 @@ import MarkdownLink from '@site/src/components/MarkdownLink';
 
 A node.js email sender that runs as a digital ocean serverless function
 
-<MarkdownLink
+<MarkdownLink button
   to='https://github.com/brunopc-net/QuestradeBot'
   text='Repository'
 />

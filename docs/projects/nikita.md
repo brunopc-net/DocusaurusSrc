@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 tags: [python, docker]
 ---
 
@@ -9,7 +9,7 @@ import MarkdownLink from '@site/src/components/MarkdownLink';
 
 Alerts via SMS when choosen items are on sale
 
-<MarkdownLink
+<MarkdownLink button
   to='https://github.com/brunopc-net/Nikita'
   text='Repository'
 />

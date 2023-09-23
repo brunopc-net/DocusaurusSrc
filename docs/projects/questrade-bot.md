@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 tags: [python]
 ---
 
@@ -9,7 +9,7 @@ import MarkdownLink from '@site/src/components/MarkdownLink';
 
 Bot stock buyer for Questrade. Deprecated.
 
-<MarkdownLink
+<MarkdownLink button
   to='https://github.com/brunopc-net/QuestradeBot'
   text='Repository'
 /><br/><br/>
