@@ -112,7 +112,6 @@ function Experience({ title, cover }) {
             <h2>{getWorkType(workItem.type)}</h2>
             <ExperienceTable experience={workItem}/>
             <ExperienceDescription experience={workItem}/>
-            {cover && <img src={cover} alt={title+' cover'}/>}
         </div>
     );
 }

@@ -30,12 +30,25 @@ function getCompletion(cert){
         return (<><span className="completion started">{cert.completion}% 🚧</span></>);
 }
 
+function getImgName(cert){
+    return '@site/static/img/education/'.concat(cert.certificate);
+}
+
 function getCertificate(cert){
-    const certImgLink = require('@site/static/img/education/'+cert.certificate+'.webp').default;
+    const imgName = getImgName(cert);
+    const img = require('@site/static/img/education/'+cert.certificate+'.webp').default;
+    const imgSmall = require('@site/static/img/education/'+cert.certificate+'-480.webp').default;
     const imgAlt = cert.name+" certificate";
+
     if(cert.issuer === "Udemy")
         return (<p><a href={"https://www.udemy.com/certificate/"+cert.certificate}>
-            <img src={certImgLink} loading="lazy" alt={imgAlt}/>
+            <img
+                src={img}
+                alt={imgAlt}
+                srcset={imgSmall+" 480w, "+img+" 958w"}
+                loading="lazy"
+                sizes="(max-width: 510px) 480px"
+            />
         </a></p>)
 }
 

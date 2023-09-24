@@ -13,9 +13,13 @@ function getCourseName(course){
     return course.split(" - ")[1];
 }
 
-function getDiplomaImgLink(education_item){
-    const imgName = (education_item.area+"-"+education_item.studyType)
-        .replace(" ","-").toLowerCase()+".webp";
+function getDiplomaImgName(education_item){
+    return (education_item.area+"-"+education_item.studyType)
+        .replace(" ","-")
+        .toLowerCase();
+}
+
+function getDiplomaImgLink(imgName){
     return require('@site/static/img/education/'+imgName).default;
 }
 
@@ -25,8 +29,16 @@ function getDiplomaImgAlt(education_item){
 
 function Diploma({education_item}){
     try{
+        const imgName = getDiplomaImgName(education_item);
+        const img = getDiplomaImgLink(imgName+".webp");
+        const imgSmall = getDiplomaImgLink(imgName+"-480.webp");
         return (<p>
-            <img src={getDiplomaImgLink(education_item)} alt={getDiplomaImgAlt(education_item)} width={958} height={739} />
+            <img
+                src={img}
+                alt={getDiplomaImgAlt(education_item)}
+                srcset={imgSmall+" 480w, "+img+" 958w"}
+                sizes="(max-width: 510px) 480px"
+            />
         </p>);
     }catch(err){
         return "";
