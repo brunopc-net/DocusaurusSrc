@@ -33,12 +33,10 @@ function Diploma({education_item}){
         const img = getDiplomaImgLink(imgName+".webp");
         const imgSmall = getDiplomaImgLink(imgName+"-480.webp");
         return (<p>
-            <img
-                src={img}
-                alt={getDiplomaImgAlt(education_item)}
-                srcset={imgSmall+" 480w, "+img+" 958w"}
-                sizes="(max-width: 510px) 480px"
-            />
+            <picture>
+                <source media="(max-width: 510px)" srcset={imgSmall} />
+                <img src={img} alt={getDiplomaImgAlt(education_item)} width="958" height="auto"/>
+            </picture>
         </p>);
     }catch(err){
         return "";

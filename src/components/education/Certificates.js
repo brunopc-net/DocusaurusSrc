@@ -30,17 +30,13 @@ function getCompletion(cert){
         return (<><span className="completion started">{cert.completion}% 🚧</span></>);
 }
 
-function getImgName(cert){
-    return '@site/static/img/education/'.concat(cert.certificate);
-}
-
 function getCertificate(cert){
     const img = require('@site/static/img/education/'+cert.certificate+'.webp').default;
     const imgSmall = require('@site/static/img/education/'+cert.certificate+'-480.webp').default;
     const imgAlt = cert.name+" certificate";
 
     if(cert.issuer === "Udemy")
-        return (<p style={{}}><a href={"https://www.udemy.com/certificate/"+cert.certificate}>
+        return (<p><a href={"https://www.udemy.com/certificate/"+cert.certificate}>
             <picture>
                 <source media="(max-width: 510px)" srcset={imgSmall} />
                 <img src={img} alt={imgAlt} width="958" height="auto"/>
