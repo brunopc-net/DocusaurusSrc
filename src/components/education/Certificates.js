@@ -35,7 +35,7 @@ function getCertificate(cert){
     const imgAlt = cert.name+" certificate";
     if(cert.issuer === "Udemy")
         return (<p><a href={"https://www.udemy.com/certificate/"+cert.certificate}>
-            <img src={certImgLink} alt={imgAlt}/>
+            <img src={certImgLink} loading="lazy" alt={imgAlt}/>
         </a></p>)
 }
 

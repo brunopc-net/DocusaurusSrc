@@ -64,7 +64,7 @@ function Institute({education_item}){
         return <Institution  name={education_item.institution} url={education_item.url} />;
 }
 
-function Education({ area, studyType, Logo }) {
+function Education({ area, studyType}) {
     const education_item = educationList.filter((ei) => {
         return ei.area === area && ei.studyType === studyType
     })[0];
