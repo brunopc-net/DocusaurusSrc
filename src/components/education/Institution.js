@@ -28,7 +28,7 @@ function Institution({name, url, Logo}){
         {Logo && (
             <p>
                 <a href={url} target="_blank">
-                    <Logo width={600} />
+                    <Logo width={400} />
                 </a>
             </p>
         )}
