@@ -26,7 +26,7 @@ function getDiplomaImgAlt(education_item){
 function Diploma({education_item}){
     try{
         return (<p>
-            <img src={getDiplomaImgLink(education_item)} alt={getDiplomaImgAlt(education_item)}/>
+            <img src={getDiplomaImgLink(education_item)} alt={getDiplomaImgAlt(education_item)} width={958} height={739} />
         </p>);
     }catch(err){
         return "";
