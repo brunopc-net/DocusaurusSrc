@@ -26,7 +26,7 @@ function getDiplomaImgAlt(education_item){
 function Diploma({education_item}){
     try{
         return (<p>
-            <img src={getDiplomaImgLink(education_item)} alt={getDiplomaImgAlt(education_item)}/>
+            <img src={getDiplomaImgLink(education_item)} alt={getDiplomaImgAlt(education_item)} width={958} height={739} />
         </p>);
     }catch(err){
         return "";
@@ -64,7 +64,7 @@ function Institute({education_item}){
         return <Institution  name={education_item.institution} url={education_item.url} />;
 }
 
-function Education({ area, studyType, Logo }) {
+function Education({ area, studyType}) {
     const education_item = educationList.filter((ei) => {
         return ei.area === area && ei.studyType === studyType
     })[0];
