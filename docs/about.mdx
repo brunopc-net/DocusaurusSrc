@@ -60,24 +60,18 @@ As for now, my current hobbies include kart and bike racing.
 <div className="row">
   <div className="sideBySide">
     <a href="https://www.facebook.com/bruno.dorais.9">
-      <img
-        src={ImgKarting}
-        loading="lazy"
-        alt="Bruno Pettersen-Coulombe karting"
-        srcset={ImgKartingSmall+" 245w, "+ImgKarting+" 485w"}
-        sizes="(max-width: 510px) 245px"
-      />
+      <picture>
+        <source media="(max-width: 510px)" srcset={ImgKartingSmall} />
+        <img src={ImgKarting} alt="Bruno Pettersen-Coulombe karting" width="485" height="333"/>
+      </picture>
     </a>
   </div>
   <div className="sideBySide">
-    <a href="https://ngrandphotography.com/">  
-      <img
-        src={ImgBiking}
-        loading="lazy"
-        alt="Bruno Pettersen-Coulombe biking"
-        srcset={ImgBikingSmall+" 245w, "+ImgBiking+" 485w"}
-        sizes="(max-width: 510px) 245px"
-      />
+    <a href="https://ngrandphotography.com/">
+      <picture>
+        <source media="(max-width: 510px)" srcset={ImgBikingSmall} />
+        <img src={ImgBiking} alt="Bruno Pettersen-Coulombe biking" width="485" height="333"/>
+      </picture>
     </a>
   </div>
 </div>
