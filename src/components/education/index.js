@@ -35,7 +35,7 @@ function Diploma({education_item}){
         return (<p>
             <picture>
                 <source media="(max-width: 510px)" srcset={imgSmall} />
-                <img src={img} alt={getDiplomaImgAlt(education_item)} width="958" height="auto"/>
+                <img src={img} alt={getDiplomaImgAlt(education_item)} width="958" height="auto" style={{border:"#755142 outset 12px"}}/>
             </picture>
         </p>);
     }catch(err){
