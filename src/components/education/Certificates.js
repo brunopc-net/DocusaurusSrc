@@ -1,13 +1,11 @@
 import React from 'react';
-import './Certificates.css';
 
 const certificates = require('@site/src/data/resume.json').certificates;
 
 function getName(cert){
-    if(cert.url)
-        return (<a href={cert.url}>{cert.name}</a>)
-    // No url
-        return cert.name;
+    return cert.url ?
+        <a href={cert.url}>{cert.name}</a>:
+        cert.name
 }
 
 function getIssuer(cert){
@@ -20,14 +18,9 @@ function getIssuer(cert){
 }
 
 function getCompletion(cert){
-    if(cert.completion === 100)
-        return (<><span className="completion">100% ✅ </span> - {cert.date}</>);
-    if(cert.completion > 75)
-        return (<><span className="completion soon">{cert.completion}% 🚧</span></>);
-    if(cert.completion > 40)
-        return (<><span className="completion inprogress">{cert.completion}% 🚧</span></>);
-    //cert.completion <= 40
-        return (<><span className="completion started">{cert.completion}% 🚧</span></>);
+    return cert.completion === 100 ?
+        (<><b>100% ✅ </b> - {cert.date}</>):
+        (<b>{cert.completion}% 🚧</b>);
 }
 
 function getCertificate(cert){
