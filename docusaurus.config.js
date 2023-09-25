@@ -73,7 +73,7 @@ const config = {
         title: 'Bruno PC',
         logo: {
           alt: 'My avatar',
-          src: 'img/avatar-43x58.webp',
+          src: 'img/avatar-65x87.webp',
           width: 43,
           height: 58
         },
