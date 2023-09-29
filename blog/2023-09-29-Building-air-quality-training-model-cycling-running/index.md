@@ -14,7 +14,7 @@ With the effects of global warming increasing every year, I suspected it marked 
 
 This is when I began searching for a specific and detailed model of what to do for different outdoor air pollution levels. Unfortunately, all the advice I found was binary "Exercise is ok in the orange zone (100-150) but not ok in the red zone (150-200)" or was extremely vague "You can wear a N95 mask, but don't stay outdoors too much". I wanted to know: could I still train outdoors? Could I exercise if I wear a N95 mask? Should I minimize my exposure time? For how much, *exactly*?
 
-Here I try to answer that question, and believe I can contribute with my insights.
+Here I try to answer that question, as I believe I can contribute with my analysis.
 
 :::caution
 
