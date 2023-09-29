@@ -10,7 +10,9 @@ tags: ["Self-Development", "Motivation"]
 
 I was listening [to a podcast featuring my friend Olivier Jean](https://livingrichly.me/the-champion-mindset/), gold medalist during the 2010 Olympics in Vancouver. Towards the end, the host asked him a question that gets asked a lot: How do I find my passion? How do I maintain it enough so I can keep going on?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6bttHdNJIcs?si=CZabeQbghfAZKnJz&amp;clip=Ugkxo1jeBGjZBnxyWnjQKgo4UeIaaMhApENi&amp;clipt=ENzObxi8o3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br/><br/>
+<div class="videoContainer">
+    <iframe width="100%" height="100%" height="auto" src="https://www.youtube.com/embed/6bttHdNJIcs?si=CZabeQbghfAZKnJz&amp;clip=Ugkxo1jeBGjZBnxyWnjQKgo4UeIaaMhApENi&amp;clipt=ENzObxi8o3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen/>
+</div>
 
 Having dedicated my life to speed skating for 15 years - I can relate to that feeling of being lost after a big journey that was ended. Especially between the years 2014 to 2020, it was a very challenging time for me. Looking back now, I definitely had a depression or some sort of existential crisis at one point.
 
@@ -38,7 +40,9 @@ With hamonious passion, as your focus is to play, people will be happy to practi
 
 [Firas Zahabi](https://en.wikipedia.org/wiki/Firas_Zahabi), head coach of [Georges St-Pierre](https://en.wikipedia.org/wiki/Georges_St-Pierre), said at the Joe Rogan podcast that it's a joy to spare with him because he's having a lot of fun during his training. He's not trying to crush everyone to show that he's the best: that is for the fight night only. That relaxed attitude is an important factor on why he's been able to train with a lot of talented athletes all over the world, but also a factor on why he's still so healthy today, physically and mentally.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_fbCcWyYthQ?si=vmo1zTw64wH638Jo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br/><br/>
+<div class="videoContainer">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_fbCcWyYthQ?si=vmo1zTw64wH638Jo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 I can personally give yourself a good exemple of harmonious passion that I experienced last summer.
 
