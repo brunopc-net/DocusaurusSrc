@@ -1,18 +1,22 @@
 ---
 title: "How to make your passion stick"
+description: "Finding your passion sometimes feels like looking for a needle in a haystack. What can you do to help?"
 authors: brunopc
 enableComments: true
 image: ./fuel-your-passion.webp
 tags: ["Self-Development", "Motivation"]
 ---
 
+import Video from '@site/src/components/media/Video';
+
 ![Fuel your passion](./fuel-your-passion.webp)
 
-I was listening [to a podcast featuring my friend Olivier Jean](https://livingrichly.me/the-champion-mindset/), gold medalist during the 2010 Olympics in Vancouver. Towards the end, the host asked him a question that gets asked a lot: How do I find my passion? How do I maintain it enough so I can keep going on?
+I was listening [to a podcast featuring my friend Olivier Jean](https://livingrichly.me/the-champion-mindset/), gold medalist during the 2010 Olympics in Vancouver. Towards the end, the host asked him a question that gets asked a lot: How do I find my passion? How do I maintain it enough so I can keep going on?   
 
-<div class="videoContainer">
-    <iframe width="100%" height="100%" height="auto" src="https://www.youtube.com/embed/6bttHdNJIcs?si=CZabeQbghfAZKnJz&amp;clip=Ugkxo1jeBGjZBnxyWnjQKgo4UeIaaMhApENi&amp;clipt=ENzObxi8o3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen/>
-</div>
+<Video
+    url="https://www.youtube.com/embed/6bttHdNJIcs?si=CZabeQbghfAZKnJz&amp;clip=Ugkxo1jeBGjZBnxyWnjQKgo4UeIaaMhApENi&amp;clipt=ENzObxi8o3M"
+    title="Olympic Champion Olivier Jean get asked how to find your passion"
+/>
 
 Having dedicated my life to speed skating for 15 years - I can relate to that feeling of being lost after a big journey that was ended. Especially between the years 2014 to 2020, it was a very challenging time for me. Looking back now, I definitely had a depression or some sort of existential crisis at one point.
 
@@ -40,9 +44,10 @@ With hamonious passion, as your focus is to play, people will be happy to practi
 
 [Firas Zahabi](https://en.wikipedia.org/wiki/Firas_Zahabi), head coach of [Georges St-Pierre](https://en.wikipedia.org/wiki/Georges_St-Pierre), said at the Joe Rogan podcast that it's a joy to spare with him because he's having a lot of fun during his training. He's not trying to crush everyone to show that he's the best: that is for the fight night only. That relaxed attitude is an important factor on why he's been able to train with a lot of talented athletes all over the world, but also a factor on why he's still so healthy today, physically and mentally.
 
-<div class="videoContainer">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/_fbCcWyYthQ?si=vmo1zTw64wH638Jo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+<Video 
+    url="https://www.youtube.com/embed/_fbCcWyYthQ?si=vmo1zTw64wH638Jo"
+    title="How to workout smarter by Firas Zahabi, head coach of Georges St-Pierre"
+/>
 
 I can personally give yourself a good exemple of harmonious passion that I experienced last summer.
 
@@ -75,7 +80,22 @@ In summary, to build yourself a model, you need to:
 
 How does your brain - your personality and your emotions - work?
 
-The most advanced scientific model for personality is the [Big 5 Personality model](https://www.verywellmind.com/the-big-five-personality-dimensions-2795422). Basically, there are five dimensions to someone's personality:
+If you are a Myers-Briggs personality test believer here, sorry, but Myers-briggs test is scientific junk.
+
+<Video 
+    url="https://www.youtube.com/embed/_TGdzGIvcRs?si=NgSTcoaSX0L182HI&amp;clip=UgkxCcJcFu1OUdZ3T4ZTCpXM_7F-oOgUlcNg&amp;clipt=EIzTvgMYzNbBAw"
+    title="Dr. Ali Mattu explains that Myers-Briggs personality test is scientific junk"
+/>
+
+<Video
+    url="https://www.youtube.com/embed/Q5pggDCnt5M?si=myHQZOyyhYVro9Ui"
+    title="Vox explains the problems with the Myers-Briggs personality test"
+/>
+
+The most advanced scientific model for personality is the [Big 5 Personality model](https://www.verywellmind.com/the-big-five-personality-dimensions-2795422). 
+
+
+Basically, there are five dimensions or spectrums to someone's personality:
 1. Extraversion, the degree of how much someone gains energy from social interactions
 1. Neuroticism, the degree of how much someone tends to experience negative emotions
 1. Conscientiousness, the degree of how someone tends naturally to execute the tasks they are supposed to do

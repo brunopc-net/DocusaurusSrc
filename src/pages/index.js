@@ -76,8 +76,8 @@ function Feature({Svg, title, link, description}) {
 export default function Home() {
   return (
     <Layout
-      title={'Welcome to my cyber-home'}
-      description="Read my blog, comment, see my resume and contact me here">
+      title={''}
+      description="Welcome to my cyber-space! Learn more about me here">
       <HomepageHeader />
       <main>
         <section className={styles.features}>

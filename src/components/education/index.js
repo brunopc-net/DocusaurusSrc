@@ -1,5 +1,6 @@
 import React from 'react';
 import { EcoleTechnologieSuperieure, CegepAndreLaurendeau, Institution } from './Institution'
+import ElasticImg from '@site/src/components/media/ElasticImg';
 
 import './Logo.css';
 
@@ -19,24 +20,14 @@ function getDiplomaImgName(education_item){
         .toLowerCase();
 }
 
-function getDiplomaImgLink(imgName){
-    return require('@site/static/img/education/'+imgName).default;
-}
-
-function getDiplomaImgAlt(education_item){
-    return education_item.area+" "+education_item.studyType+" diploma";
-}
-
 function Diploma({education_item}){
     try{
-        const imgName = getDiplomaImgName(education_item);
-        const img = getDiplomaImgLink(imgName+".webp");
-        const imgSmall = getDiplomaImgLink(imgName+"-480.webp");
         return (<p>
-            <picture>
-                <source media="(max-width: 510px)" srcset={imgSmall} />
-                <img src={img} alt={getDiplomaImgAlt(education_item)} width="958" height="auto" style={{border:"#755142 outset 12px"}}/>
-            </picture>
+            <ElasticImg
+                src={"education/"+getDiplomaImgName(education_item)+".webp"}
+                alt={education_item.area+" "+education_item.studyType+" diploma"}
+                style={{border:"#755142 outset 6px"}}
+            />
         </p>);
     }catch(err){
         return "";

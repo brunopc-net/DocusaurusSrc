@@ -1,5 +1,6 @@
 ---
 title: "Outlive your project bankruptcy"
+description: "Like preventing a disease is way better then trying to cure it, preventing Software problems will save your organization a fortune and increase your productivity like no other"
 authors: brunopc
 enableComments: true
 image: "./Outlive-The-Science&Art-of-Longevity.webp"
@@ -12,8 +13,12 @@ Unfortunately, attempting to eliminate a rampant, evolving disease in its advanc
 
 Peter Attia questions the relevance of healing someone in the late stages of life if it only prolongs a state of pain for several years. What's the purpose of being alive if you can't pursue what you love? Is the achievement of extending life by another five years considered a medical success if it means enduring prolonged suffering confined to a bed during that time?
 
+<div class="centered">
+
 [![Outlive - The-Science & Art of Longevity](./Outlive-The-Science&Art-of-Longevity.webp)](https://peterattiamd.com/outlive/)
 
+</div>
+ 
 Traditional medicine has embraced a proactive approach in some of its practices. For instance, it advises people not to smoke at all rather than suggesting they quit smoking only after reaching 50 years of age, which would be rather absurd. However, there is still ample room for improvement by extending this philosophy to other diseases such as diabetes. Dr. Attia, who refers to this as *Medicine 3.0*, advocates for a significantly more proactive approach. In essence, it strives to prevent encountering icebergs altogether before there's a need for a catastrophic course correction.
 
 A lot can be done to help you live longer and, more importantly, live better for as long as possible. Exercise, nutrition, medications, and supplements are all covered in this cutting-edge book, which presents the latest medical evidence on how to stay as youthful and capable as you can. In other words, it explores how we can be the best version of ourselves for as long as possible.
