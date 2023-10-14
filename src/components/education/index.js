@@ -14,26 +14,6 @@ function getCourseName(course){
     return course.split(" - ")[1];
 }
 
-function getDiplomaImgName(education_item){
-    return (education_item.area+"-"+education_item.studyType)
-        .replace(" ","-")
-        .toLowerCase();
-}
-
-function Diploma({education_item}){
-    try{
-        return (<p>
-            <ElasticImg
-                src={"education/"+getDiplomaImgName(education_item)+".webp"}
-                alt={education_item.area+" "+education_item.studyType+" diploma"}
-                style={{border:"#755142 outset 6px"}}
-            />
-        </p>);
-    }catch(err){
-        return "";
-    }
-}
-
 function CourseTable({ courses }) {
     return (<>
         <h2>Curriculum</h2>
@@ -69,9 +49,15 @@ function Education({ area, studyType}) {
     const education_item = educationList.filter((ei) => {
         return ei.area === area && ei.studyType === studyType
     })[0];
+    const diplomaImg = (education_item.area+"-"+education_item.studyType).replace(" ","-").toLowerCase();
+
     return (<>
+        <ElasticImg
+            src={"education/"+diplomaImg+".webp"}
+            alt={education_item.area+" "+education_item.studyType+" diploma"}
+            style={{border:"#755142 outset 6px"}}
+        />
         <p><b>Graduation year: </b>{new Date(education_item.endDate).getFullYear()}</p>
-        <Diploma education_item={education_item} />
         <Institute  education_item={education_item} />
         <CourseTable courses={education_item.courses} />
     </>);

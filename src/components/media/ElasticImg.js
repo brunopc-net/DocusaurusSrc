@@ -6,19 +6,23 @@ function getImgSmallSrc(src){
 }
 
 function ElasticImg({src, alt, url, style}){
-    const img = require("@site/static/img/"+src).default;
-    const imgSmall = require("@site/static/img/"+getImgSmallSrc(src)).default;
+    try{
+        const img = require("@site/static/img/"+src).default;
+        const imgSmall = require("@site/static/img/"+getImgSmallSrc(src)).default;
 
-    const elasticImg = (
-        <picture>
-            <source media="(max-width: 510px)" srcSet={imgSmall} />
-            <img src={img} alt={alt} style={style}/>
-        </picture>
-    );
-
-    return url ? 
-        <a href={url}>{elasticImg}</a>:
-        elasticImg;
+        const elasticImg = (
+            <picture>
+                <source media="(max-width: 510px)" srcSet={imgSmall} />
+                <img src={img} alt={alt} style={style}/>
+            </picture>
+        );
+    
+        return url ? 
+            <a href={url}>{elasticImg}</a>:
+            elasticImg;
+    } catch(err){
+        return "";
+    }    
 }
 
 export default ElasticImg;
