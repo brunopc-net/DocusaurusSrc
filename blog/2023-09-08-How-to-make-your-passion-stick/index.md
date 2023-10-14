@@ -7,15 +7,16 @@ image: ./fuel-your-passion.webp
 tags: ["Self-Development", "Motivation"]
 ---
 
-import Video from '@site/src/components/media/Video';
+import '@justinribeiro/lite-youtube';
 
 ![Fuel your passion](./fuel-your-passion.webp)
 
-I was listening [to a podcast featuring my friend Olivier Jean](https://livingrichly.me/the-champion-mindset/), gold medalist during the 2010 Olympics in Vancouver. Towards the end, the host asked him a question that gets asked a lot: How do I find my passion? How do I maintain it enough so I can keep going on?   
+I was listening [to a podcast featuring my friend Olivier Jean](https://livingrichly.me/the-champion-mindset/), gold medalist during the 2010 Olympics in Vancouver. Towards the end, the host asked him a question that gets asked a lot: How do I find my passion? How do I maintain it enough so I can keep going on?
 
-<Video
-    url="https://www.youtube.com/embed/6bttHdNJIcs?si=CZabeQbghfAZKnJz&amp;clip=Ugkxo1jeBGjZBnxyWnjQKgo4UeIaaMhApENi&amp;clipt=ENzObxi8o3M"
-    title="Olympic Champion Olivier Jean get asked how to find your passion"
+<lite-youtube 
+    videoid="6bttHdNJIcs"
+    videoStartAt="1809"
+    videotitle="Olympic Champion Olivier Jean get asked how to find your passion"
 />
 
 Having dedicated my life to speed skating for 15 years - I can relate to that feeling of being lost after a big journey that was ended. Especially between the years 2014 to 2020, it was a very challenging time for me. Looking back now, I definitely had a depression or some sort of existential crisis at one point.
@@ -44,9 +45,9 @@ With hamonious passion, as your focus is to play, people will be happy to practi
 
 [Firas Zahabi](https://en.wikipedia.org/wiki/Firas_Zahabi), head coach of [Georges St-Pierre](https://en.wikipedia.org/wiki/Georges_St-Pierre), said at the Joe Rogan podcast that it's a joy to spare with him because he's having a lot of fun during his training. He's not trying to crush everyone to show that he's the best: that is for the fight night only. That relaxed attitude is an important factor on why he's been able to train with a lot of talented athletes all over the world, but also a factor on why he's still so healthy today, physically and mentally.
 
-<Video 
-    url="https://www.youtube.com/embed/_fbCcWyYthQ?si=vmo1zTw64wH638Jo"
-    title="How to workout smarter by Firas Zahabi, head coach of Georges St-Pierre"
+<lite-youtube
+    videoid="_fbCcWyYthQ"
+    videotitle="How to workout smarter by Firas Zahabi, head coach of Georges St-Pierre"
 />
 
 I can personally give yourself a good exemple of harmonious passion that I experienced last summer.
@@ -70,7 +71,6 @@ Here's some talk associated with obsessive passion:
 
 Too much obsessive passion can be detrimental for the well-being, so you have to make sure that your harmonious passion - which is positive for your well-being - is strong enough on to support your mental health if you want to crank up obsessive passion. Otherwise, you'll be trading performance at the cost of mental health. It can work on the short term, but you'll blow up eventually.
 
-
 In summary, to build yourself a model, you need to:
 1. Know yourself first
 1. Find an activity that matches your personality
@@ -82,14 +82,15 @@ How does your brain - your personality and your emotions - work?
 
 If you are a Myers-Briggs personality test believer here, sorry, but Myers-briggs test is scientific junk.
 
-<Video 
-    url="https://www.youtube.com/embed/_TGdzGIvcRs?si=NgSTcoaSX0L182HI&amp;clip=UgkxCcJcFu1OUdZ3T4ZTCpXM_7F-oOgUlcNg&amp;clipt=EIzTvgMYzNbBAw"
-    title="Dr. Ali Mattu explains that Myers-Briggs personality test is scientific junk"
+<lite-youtube 
+    videoid="_TGdzGIvcRs"
+    videoStartAt="7319"
+    videotitle="Dr. Ali Mattu explains that Myers-Briggs personality test is scientific junk"
 />
 
-<Video
-    url="https://www.youtube.com/embed/Q5pggDCnt5M?si=myHQZOyyhYVro9Ui"
-    title="Vox explains the problems with the Myers-Briggs personality test"
+<lite-youtube
+    videoid="Q5pggDCnt5M"
+    videoStartAt="Vox explains the problems with the Myers-Briggs personality test"
 />
 
 The most advanced scientific model for personality is the [Big 5 Personality model](https://www.verywellmind.com/the-big-five-personality-dimensions-2795422). 
