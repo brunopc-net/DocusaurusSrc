@@ -1,5 +1,6 @@
 ---
 title: Do you really need the complete stack?
+description: Humans are prone to action, but the most efficient code is the code you won't write.
 authors: brunopc
 tags: [Wordpress, PHP, Jekyll, Javascript, React, SSG, Docusaurus]
 image: ./useful-or-useless.webp
@@ -18,7 +19,7 @@ The idea of static site generators (SSGs) was so impressive that other SSGs star
 
 As humans, we can be peculiar at times. We try to solve one problem after another, but often, in doing so, we create more problems. Back then, I didn't need a database. Yes, it may have been "better" and "more technologically advanced" to use a DB instead of plain text HTML. However, in using a backend to manage the database, I needed a hosting plan. That hosting plan cost me money, which meant I had to work to pay for it. Essentially, I was working to buy myself more work. I did learn a lot, but I could have achieved more of what I really wanted at that time: establishing an online presence.
 
-Having gained some experience in the industry now, I can say that many people tend to think that more is better. And it's not exclusive to software builders and managers. Asset manager Ben Carlson nailed it in his book [A Wealth of Common Sense](http://www.amazon.ca/gp/product/1119024927/ref=as_li_ss_tl?ie=UTF8&camp=15121&creative=390961&creativeASIN=1119024927&linkCode=as2&tag=canacoucpota-20). Dan Bortolotti explains it well in his Canadian Couch Potato blog, in the post [*Why Simple Is Still a Hard Sell*](https://canadiancouchpotato.com/2016/01/25/why-simple-is-still-a-hard-sell/):
+Having gained some experience in the industry now, I can say that [people tend to think that more is better](https://en.wikipedia.org/wiki/Action_bias). And it's not exclusive to software builders and managers. Asset manager Ben Carlson nailed it in his book [A Wealth of Common Sense](http://www.amazon.ca/gp/product/1119024927/ref=as_li_ss_tl?ie=UTF8&camp=15121&creative=390961&creativeASIN=1119024927&linkCode=as2&tag=canacoucpota-20). Dan Bortolotti explains it well in his Canadian Couch Potato blog, in the post [*Why Simple Is Still a Hard Sell*](https://canadiancouchpotato.com/2016/01/25/why-simple-is-still-a-hard-sell/):
 
 > Ben Carlson […] reveals that he’s made the same discovery: investors resist simplicity. Yet Carlson believes it’s the right solution for most of us. “I’ve spent my entire career working in portfolio management,” he writes. “This experience has taught me that less is always more when making investment decisions. Simplicity trumps complexity. Conventional gives you much better odds than exotic.”
 
