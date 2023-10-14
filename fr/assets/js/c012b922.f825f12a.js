@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[6313],{5493:a=>{a.exports=JSON.parse('{"label":"QA","permalink":"/fr/blog/tags/qa","allTagsPath":"/fr/blog/tags","count":1}')}}]);
