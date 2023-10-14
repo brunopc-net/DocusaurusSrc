@@ -1,5 +1,6 @@
 import React from 'react';
 import { EcoleTechnologieSuperieure, CegepAndreLaurendeau, Institution } from './Institution'
+import ElasticImg from '@site/src/components/media/ElasticImg';
 
 import './Logo.css';
 
@@ -11,36 +12,6 @@ function getCourseCode(course){
 
 function getCourseName(course){
     return course.split(" - ")[1];
-}
-
-function getDiplomaImgName(education_item){
-    return (education_item.area+"-"+education_item.studyType)
-        .replace(" ","-")
-        .toLowerCase();
-}
-
-function getDiplomaImgLink(imgName){
-    return require('@site/static/img/education/'+imgName).default;
-}
-
-function getDiplomaImgAlt(education_item){
-    return education_item.area+" "+education_item.studyType+" diploma";
-}
-
-function Diploma({education_item}){
-    try{
-        const imgName = getDiplomaImgName(education_item);
-        const img = getDiplomaImgLink(imgName+".webp");
-        const imgSmall = getDiplomaImgLink(imgName+"-480.webp");
-        return (<p>
-            <picture>
-                <source media="(max-width: 510px)" srcset={imgSmall} />
-                <img src={img} alt={getDiplomaImgAlt(education_item)} width="958" height="auto" style={{border:"#755142 outset 12px"}}/>
-            </picture>
-        </p>);
-    }catch(err){
-        return "";
-    }
 }
 
 function CourseTable({ courses }) {
@@ -78,9 +49,15 @@ function Education({ area, studyType}) {
     const education_item = educationList.filter((ei) => {
         return ei.area === area && ei.studyType === studyType
     })[0];
+    const diplomaImg = (education_item.area+"-"+education_item.studyType).replace(" ","-").toLowerCase();
+
     return (<>
+        <ElasticImg
+            src={"education/"+diplomaImg+".webp"}
+            alt={education_item.area+" "+education_item.studyType+" diploma"}
+            style={{border:"#755142 outset 6px"}}
+        />
         <p><b>Graduation year: </b>{new Date(education_item.endDate).getFullYear()}</p>
-        <Diploma education_item={education_item} />
         <Institute  education_item={education_item} />
         <CourseTable courses={education_item.courses} />
     </>);

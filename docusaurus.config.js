@@ -5,6 +5,8 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const profiles = require('./src/data/resume.json').basics.profiles;
+const work = require('./src/data/resume.json').work;
+const xpTotal = require('./src/components/experience/experience.functions').getTotalXp(work);
 
 function getSocialLink(socialNetwork){
   const profileItem = profiles.find(
@@ -22,8 +24,8 @@ const links = {
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Bruno Pettersen-Coulombe',
-  tagline: 'Full stack Developer, B. Eng. Racing geek',
+  title: 'Bruno Pettersen-Coulombe, B. Eng. Full-Stack Developer, Tech Lead, DevOps Expert, SDET, Freelancer, Entrepreneur - '+xpTotal+' years of experience',
+  tagline: 'Full stack Developer, B. Eng, Racing geek',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -57,7 +59,11 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
         },
         blog: {
+          blogDescription: "Software Industry reflections from a critical Full Stack Dev who value building efficiency as paramount. Coding's about business scalability, not marketing buzz",
           showReadingTime: true,
+          postsPerPage: 5,
+          blogSidebarTitle: 'Last 10 posts',
+          blogSidebarCount: 10
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

@@ -1,5 +1,6 @@
 ---
 title: "Building an air quality advice model for cycling and running"
+description: "More and more pollution warnings will occur in the future. How can athletes adapt their training to this new reality?"
 authors: brunopc
 enableComments: true
 image: "./thumbnail.webp"
@@ -50,9 +51,7 @@ I fear that the advice "don't exercise outside today" will be misleading the maj
 
 You don't believe me? Know that having an athlete level "elite" VO2max - the maximum level of oxygen consumption - is associated with a 5-fold reduction in all cause mortality, which is more than smoking. And smoking is much more harmful to you than any level of pollution.
 
-<div class="videoContainer">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ovM3mD5Roow?si=7hRNbkM6PTheh9gl&amp;clip=UgkxbWB6JujD39QYuBippiU0t7DA9MyUUZhw&amp;clipt=ELTXEhinhBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+<Video src="https://www.youtube.com/embed/ovM3mD5Roow?si=7hRNbkM6PTheh9gl&amp;clip=UgkxbWB6JujD39QYuBippiU0t7DA9MyUUZhw&amp;clipt=ELTXEhinhBY" />
 
 So if you never exercise right now, tackle that habit first. You'll be able to optimize your pollution level later.
 

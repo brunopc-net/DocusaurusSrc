@@ -4,18 +4,15 @@ sidebar_position: 1
 
 import MarkdownLink from '@site/src/components/MarkdownLink';
 import SkillTable from '@site/src/components/SkillTable';
-import ExperienceTotal from '@site/src/components/experience/ExperienceTotal';
+import {TotalXpComponent} from '@site/src/components/experience/ExperienceTotal';
 
-import ImgKarting from '@site/static/img/Bruno-PC-karting.webp';
-import ImgKartingSmall from '@site/static/img/Bruno-PC-karting-245.webp';
-import ImgBiking from '@site/static/img/Bruno-PC-cycling.webp';
-import ImgBikingSmall from '@site/static/img/Bruno-PC-cycling-245.webp';
+import ElasticImg from '@site/src/components/media/ElasticImg';
 
 # About me
 
 I live in Montreal, Canada. [I am a scientific mind in an athlete body](https://passionpvss.blogspot.com/2017/06/scientist-mind-athlete-body.html).
 
-My <a href="/docs/category/experiences/" target="_blank"><ExperienceTotal/> years of work experience has been very diverse so far</a>, as I did development (software and web), but also worked as a DevOps, SDET and Application Support Analyst. In my last roles, I had my first experiences as a technical lead.
+My <a href="/docs/category/experiences/" target="_blank"><TotalXpComponent /> years of work experience has been very diverse so far</a>, as I did development (software and web), but also worked as a DevOps, SDET and Application Support Analyst. In my last roles, I had my first experiences as a technical lead.
 
 ## Résumé
 
@@ -59,20 +56,18 @@ As for now, my current hobbies include kart and bike racing.
 
 <div className="row">
   <div className="sideBySide">
-    <a href="https://www.facebook.com/bruno.dorais.9">
-      <picture>
-        <source media="(max-width: 510px)" srcset={ImgKartingSmall} />
-        <img src={ImgKarting} alt="Bruno Pettersen-Coulombe karting" width="485" height="333"/>
-      </picture>
-    </a>
+    <ElasticImg
+      src="Bruno-PC-karting.webp"
+      alt="Bruno Pettersen-Coulombe karting"
+      url="https://www.facebook.com/bruno.dorais.9"
+    />
   </div>
   <div className="sideBySide">
-    <a href="https://ngrandphotography.com/">
-      <picture>
-        <source media="(max-width: 510px)" srcset={ImgBikingSmall} />
-        <img src={ImgBiking} alt="Bruno Pettersen-Coulombe biking" width="485" height="333"/>
-      </picture>
-    </a>
+    <ElasticImg
+      src="Bruno-PC-cycling.webp"
+      alt="Bruno Pettersen-Coulombe cycling"
+      url="https://ngrandphotography.com"
+    />
   </div>
 </div>
 

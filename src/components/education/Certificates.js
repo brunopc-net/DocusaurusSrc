@@ -1,4 +1,5 @@
 import React from 'react';
+import ElasticImg from '@site/src/components/media/ElasticImg';
 
 const certificates = require('@site/src/data/resume.json').certificates;
 
@@ -24,17 +25,14 @@ function getCompletion(cert){
 }
 
 function getCertificate(cert){
-    const img = require('@site/static/img/education/'+cert.certificate+'.webp').default;
-    const imgSmall = require('@site/static/img/education/'+cert.certificate+'-480.webp').default;
-    const imgAlt = cert.name+" certificate";
-
     if(cert.issuer === "Udemy")
-        return (<p><a href={"https://www.udemy.com/certificate/"+cert.certificate}>
-            <picture>
-                <source media="(max-width: 510px)" srcset={imgSmall} />
-                <img src={img} alt={imgAlt} width="958" height="auto"/>
-            </picture>
-        </a></p>)
+        return (<p>
+            <ElasticImg
+                src={'education/'+cert.certificate+'.webp'}
+                alt={cert.name+" certificate"}
+                url={"https://www.udemy.com/certificate/"+cert.certificate}
+            />
+        </p>)
 }
 
 function Certificates() {
