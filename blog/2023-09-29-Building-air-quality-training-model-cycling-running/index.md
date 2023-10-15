@@ -7,7 +7,7 @@ image: "./thumbnail.webp"
 tags: ["Health", "Cycling", "Running", "Automate your life"]
 ---
 
-import '@justinribeiro/lite-youtube';
+import Youtube from '@site/src/components/media/Youtube';
 
 ![Woman cycling with mask](./thumbnail.webp)
 
@@ -53,10 +53,10 @@ I fear that the advice "don't exercise outside today" will be misleading the maj
 
 You don't believe me? Know that having an athlete level "elite" VO2max - the maximum level of oxygen consumption - is associated with a 5-fold reduction in all cause mortality, which is more than smoking. And smoking is much more harmful to you than any level of pollution.
 
-<lite-youtube
-    videoid="ovM3mD5Roow"
-    videoStartAt="306"
-    videotitle="Peter Attia comments the reduction in all cause mortality rate with increased vo2max"
+<Youtube
+    id="ovM3mD5Roow"
+    start="306"
+    title="Peter Attia comments the reduction in all cause mortality rate with increased vo2max"
 />
 
 So if you never exercise right now, tackle that habit first. You'll be able to optimize your pollution level later.

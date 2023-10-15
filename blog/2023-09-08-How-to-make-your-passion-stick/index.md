@@ -7,16 +7,16 @@ image: ./fuel-your-passion.webp
 tags: ["Self-Development", "Motivation"]
 ---
 
-import '@justinribeiro/lite-youtube';
+import Youtube from '@site/src/components/media/Youtube';
 
 ![Fuel your passion](./fuel-your-passion.webp)
 
 I was listening [to a podcast featuring my friend Olivier Jean](https://livingrichly.me/the-champion-mindset/), gold medalist during the 2010 Olympics in Vancouver. Towards the end, the host asked him a question that gets asked a lot: How do I find my passion? How do I maintain it enough so I can keep going on?
 
-<lite-youtube 
-    videoid="6bttHdNJIcs"
-    videoStartAt="1809"
-    videotitle="Olympic Champion Olivier Jean get asked how to find your passion"
+<Youtube
+    id="6bttHdNJIcs"
+    start="1809"
+    title="Olympic Champion Olivier Jean get asked how to find your passion"
 />
 
 Having dedicated my life to speed skating for 15 years - I can relate to that feeling of being lost after a big journey that was ended. Especially between the years 2014 to 2020, it was a very challenging time for me. Looking back now, I definitely had a depression or some sort of existential crisis at one point.
@@ -45,9 +45,9 @@ With hamonious passion, as your focus is to play, people will be happy to practi
 
 [Firas Zahabi](https://en.wikipedia.org/wiki/Firas_Zahabi), head coach of [Georges St-Pierre](https://en.wikipedia.org/wiki/Georges_St-Pierre), said at the Joe Rogan podcast that it's a joy to spare with him because he's having a lot of fun during his training. He's not trying to crush everyone to show that he's the best: that is for the fight night only. That relaxed attitude is an important factor on why he's been able to train with a lot of talented athletes all over the world, but also a factor on why he's still so healthy today, physically and mentally.
 
-<lite-youtube
-    videoid="_fbCcWyYthQ"
-    videotitle="How to workout smarter by Firas Zahabi, head coach of Georges St-Pierre"
+<Youtube
+    id="_fbCcWyYthQ"
+    title="How to workout smarter by Firas Zahabi, head coach of Georges St-Pierre"
 />
 
 I can personally give yourself a good exemple of harmonious passion that I experienced last summer.
@@ -82,15 +82,15 @@ How does your brain - your personality and your emotions - work?
 
 If you are a Myers-Briggs personality test believer here, sorry, but Myers-briggs test is scientific junk.
 
-<lite-youtube 
-    videoid="_TGdzGIvcRs"
-    videoStartAt="7319"
-    videotitle="Dr. Ali Mattu explains that Myers-Briggs personality test is scientific junk"
+<Youtube
+    id="_TGdzGIvcRs"
+    start="7319"
+    title="Dr. Ali Mattu explains that Myers-Briggs personality test is scientific junk"
 />
 
-<lite-youtube
-    videoid="Q5pggDCnt5M"
-    videoStartAt="Vox explains the problems with the Myers-Briggs personality test"
+<Youtube
+    id="Q5pggDCnt5M"
+    title="Vox explains the problems with the Myers-Briggs personality test"
 />
 
 The most advanced scientific model for personality is the [Big 5 Personality model](https://www.verywellmind.com/the-big-five-personality-dimensions-2795422). 
