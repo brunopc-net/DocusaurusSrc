@@ -93,3 +93,7 @@ span.anchor {
   text-align: center;
   margin: auto;
 }
+
+img {
+  height: auto;
+}

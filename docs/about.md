@@ -6,8 +6,6 @@ import MarkdownLink from '@site/src/components/MarkdownLink';
 import SkillTable from '@site/src/components/SkillTable';
 import {TotalXpComponent} from '@site/src/components/experience/ExperienceTotal';
 
-import ElasticImg from '@site/src/components/media/ElasticImg';
-
 # About me
 
 I live in Montreal, Canada. [I am a scientific mind in an athlete body](https://passionpvss.blogspot.com/2017/06/scientist-mind-athlete-body.html).
@@ -56,17 +54,27 @@ As for now, my current hobbies include kart and bike racing.
 
 <div className="row">
   <div className="sideBySide">
-    <ElasticImg
-      src="Bruno-PC-karting.webp"
-      alt="Bruno Pettersen-Coulombe karting"
-      url="https://www.facebook.com/bruno.dorais.9"
-    />
+    <a href="https://www.facebook.com/bruno.dorais.9">
+      <img
+        alt="Bruno Pettersen-Coulombe karting"
+        src={require('@site/static/img/Bruno-PC-karting.webp').default}
+        width="485"
+        heigth="333"
+        srcSet={require('@site/static/img/Bruno-PC-karting-small.webp').default+" 245w,"+require('@site/static/img/Bruno-PC-karting.webp').default+" 485w"}
+        sizes="(max-width: 510px) 245px, 485px"
+        loading="lazy"
+      />
+    </a>
   </div>
   <div className="sideBySide">
-    <ElasticImg
-      src="Bruno-PC-cycling.webp"
+    <img
       alt="Bruno Pettersen-Coulombe cycling"
-      url="https://ngrandphotography.com"
+      src={require('@site/static/img/Bruno-PC-cycling.webp').default}
+      width="485"
+      heigth="333"
+      srcSet={require('@site/static/img/Bruno-PC-cycling-small.webp').default+" 245w,"+require('@site/static/img/Bruno-PC-cycling.webp').default+" 485w"}
+      sizes="(max-width: 510px) 245px, 485px"
+      loading="lazy"
     />
   </div>
 </div>

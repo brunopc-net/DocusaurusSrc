@@ -3,11 +3,11 @@ title: Do you really need the complete stack?
 description: Humans are prone to action, but the most efficient code is the code you won't write.
 authors: brunopc
 tags: [Wordpress, PHP, Jekyll, Javascript, React, SSG, Docusaurus]
-image: ./useful-or-useless.webp
+image: "./thumbnail-default.webp"
 enableComments: true
 ---
 
-![Useful or useless?](./useful-or-useless.webp)
+<img loading="eager" alt="Useful of useless?" src={require('./thumbnail-default.webp').default} srcSet={require('./thumbnail-small.webp').default+" 480w,"+require('./thumbnail-medium.webp').default+" 566w,"+require('./thumbnail-large.webp').default+" 633w,"+require('./thumbnail-default.webp').default+" 778w,"+require('./thumbnail-xlarge.webp').default+" 964w"} sizes="(max-width: 512px) 480px,(max-width: 598px) 566px,(max-width: 665px) 633px,(max-width: 810px) 778px,(max-width: 996px) 964px,(max-width: 1024px) 566px,(max-width: 1368px) 633px,778px" width="964" height="618" />
 
 While thinking about this blog, my initial plan was to use [Wordpress](https://wordpress.com/). After all, I was familiar with the platform, having worked with PHP in the past. People generally dislike unnecessary changes, and I'm no alien. However, upon reflecting on my past experiences with WordPress, I realized it had its drawbacks. It wasn't free since I had to purchase a web hosting plan and manage the hosting myself. Additionally, there were frequent updates and security vulnerabilities to patch. Although it seemed wonderful initially, over time, the operational burdens increased significantly. Eventually, I stopped blogging because it became costly in terms of both money and energy.
 
