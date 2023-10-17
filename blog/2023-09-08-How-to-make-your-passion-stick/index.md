@@ -9,7 +9,7 @@ tags: ["Self-Development", "Motivation"]
 
 import Youtube from '@site/src/components/media/Youtube';
 
-<img loading="eager" src={require('./thumbnail-default.webp').default} srcSet={require('./thumbnail-small.webp').default+" 480w,"+require('./thumbnail-medium.webp').default+" 566w,"+require('./thumbnail-large.webp').default+" 633w,"+require('./thumbnail-default.webp').default+" 778w,"+require('./thumbnail-xlarge.webp').default+" 964w"} sizes="(max-width: 512px) 480px,(max-width: 598px) 566px,(max-width: 665px) 633px,(max-width: 810px) 778px,(max-width: 996px) 964px,(max-width: 1024px) 566px,(max-width: 1368px) 633px,778px" width="964" height="642" />
+<img loading="eager" alt="Fuel your passion" src={require('./thumbnail-default.webp').default} srcSet={require('./thumbnail-small.webp').default+" 480w,"+require('./thumbnail-medium.webp').default+" 566w,"+require('./thumbnail-large.webp').default+" 633w,"+require('./thumbnail-default.webp').default+" 778w,"+require('./thumbnail-xlarge.webp').default+" 964w"} sizes="(max-width: 512px) 480px,(max-width: 598px) 566px,(max-width: 665px) 633px,(max-width: 810px) 778px,(max-width: 996px) 964px,(max-width: 1024px) 566px,(max-width: 1368px) 633px,778px" width="964" height="642" />
 
 
 I was listening [to a podcast featuring my friend Olivier Jean](https://livingrichly.me/the-champion-mindset/), gold medalist during the 2010 Olympics in Vancouver. Towards the end, the host asked him a question that gets asked a lot: How do I find my passion? How do I maintain it enough so I can keep going on?
