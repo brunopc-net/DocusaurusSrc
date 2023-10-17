@@ -1,5 +1,4 @@
 import React from 'react';
-import ElasticImg from '@site/src/components/media/ElasticImg';
 
 const certificates = require('@site/src/data/resume.json').certificates;
 
@@ -24,15 +23,25 @@ function getCompletion(cert){
         (<b>{cert.completion}% 🚧</b>);
 }
 
-function getCertificate(cert){
-    if(cert.issuer === "Udemy")
+function Certificate({cert}){
+    const src = require('@site/static/img/education/'+cert.certificate+'.webp').default;
+    const srcSet = require('@site/static/img/education/'+cert.certificate+'-small.webp').default+" 480w,"+src+" 958w";
+    if(cert.issuer === "Udemy"){
         return (<p>
-            <ElasticImg
-                src={'education/'+cert.certificate+'.webp'}
-                alt={cert.name+" certificate"}
-                url={"https://www.udemy.com/certificate/"+cert.certificate}
-            />
-        </p>)
+            <a href={"https://www.udemy.com/certificate/"+cert.certificate}>
+                <img
+                    alt={"Certificate for "+cert.name}
+                    src={require('@site/static/img/education/'+cert.certificate+'.webp').default}
+                    width="958"
+                    heigth="713"
+                    srcSet={srcSet}
+                    sizes="(max-width: 512px) 480px, 958px"
+                    loading="lazy"
+                />
+            </a>
+        </p>);
+    }
+    return "";
 }
 
 function Certificates() {
@@ -41,7 +50,7 @@ function Certificates() {
             <h2>{getName(cert)}</h2>
             <p>Issuer: {getIssuer(cert)}</p>
             <p>Completion: {getCompletion(cert)}</p>
-            {cert.certificate && (getCertificate(cert))}
+            {cert.certificate && <Certificate cert={cert} />}
         </div>))}
     </>);
 }

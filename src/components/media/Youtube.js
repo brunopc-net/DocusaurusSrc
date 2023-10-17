@@ -16,6 +16,7 @@ function Youtube({id, title, start, end}){
             title={title}
             noCookie={true}
             params={params}
+            webp={true}
         /><br/>
     </>);
 }

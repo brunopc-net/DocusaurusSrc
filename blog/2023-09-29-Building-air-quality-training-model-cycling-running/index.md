@@ -3,13 +3,13 @@ title: "Building an air quality advice model for cycling and running"
 description: "More and more pollution warnings will occur in the future. How can athletes adapt their training to this new reality?"
 authors: brunopc
 enableComments: true
-image: "./thumbnail.webp"
+image: "./thumbnail-default.webp"
 tags: ["Health", "Cycling", "Running", "Automate your life"]
 ---
 
 import Youtube from '@site/src/components/media/Youtube';
 
-![Woman cycling with mask](./thumbnail.webp)
+<img loading="eager" alt="Woman cycling with mask" src={require('./thumbnail-default.webp').default} srcSet={require('./thumbnail-small.webp').default+" 480w,"+require('./thumbnail-medium.webp').default+" 566w,"+require('./thumbnail-large.webp').default+" 633w,"+require('./thumbnail-default.webp').default+" 778w,"+require('./thumbnail-xlarge.webp').default+" 964w"} sizes="(max-width: 512px) 480px,(max-width: 598px) 566px,(max-width: 665px) 633px,(max-width: 810px) 778px,(max-width: 996px) 964px,(max-width: 1024px) 566px,(max-width: 1368px) 633px,778px" width="964" height="641" />
 
 Summer 2023, wildfires are terrible in Canada. Air quality deteriorates: [Montreal becomes temporarily the worst city in the world for air quality](https://www.journaldemontreal.com/2023/06/25/montreal-la-plus-polluee-au-monde). This is the most direct effect of climate change so far. It is in our face.
 

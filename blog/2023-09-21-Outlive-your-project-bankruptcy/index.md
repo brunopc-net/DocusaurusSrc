@@ -3,11 +3,13 @@ title: "Outlive your project bankruptcy"
 description: "Like preventing a disease is way better then trying to cure it, preventing Software problems will save your organization a fortune and increase your productivity like no other"
 authors: brunopc
 enableComments: true
-image: "./Outlive-The-Science&Art-of-Longevity.webp"
+image: "./thumbnail-default.webp"
 tags: ["health", "Software quality", "Technical debt", "Automated tests"]
 ---
 
 I'm currently reading a fantastic book from [Peter Attia](https://twitter.com/PeterAttiaMD): [*Outlive - The Science & Art of Longevity*](https://peterattiamd.com/outlive/). The book emphasizes the fact that traditional medicine - Medicine 2.0 as he calls it - is shaped around the notion of healing at the very end of a disease lifespan, like the crew of the Titanic tried to save the ship at the last minute, even after being warned hours before the incident.
+
+<img loading="eager" src={require('./thumbnail-default.webp').default} srcSet={require('./thumbnail-small.webp').default+" 480w,"+require('./thumbnail-medium.webp').default+" 566w,"+require('./thumbnail-large.webp').default+" 633w,"+require('./thumbnail-default.webp').default+" 778w,"+require('./thumbnail-xlarge.webp').default+" 964w"} sizes="(max-width: 512px) 480px,(max-width: 598px) 566px,(max-width: 665px) 633px,(max-width: 810px) 778px,(max-width: 996px) 964px,(max-width: 1024px) 566px,(max-width: 1368px) 633px,778px" width="964" height="485" />
 
 Unfortunately, attempting to eliminate a rampant, evolving disease in its advanced stages significantly reduces the chances of recovery. Moreover, even in cases of complete healing, patients often find themselves in a state of suffering for the remainder of their lives. This is because the body, having deteriorated over decades, lacks the resilience to fully recover.
 
