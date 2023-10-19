@@ -94,6 +94,11 @@ const config = {
           position: 'left'
         },
         {
+          to: 'https://brunopc-net.github.io/Horus/',
+          label: 'Montreal Weather',
+          position: 'left'
+        },
+        {
           href: links.github,
           html: `<svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" aria-hidden="true" viewBox="0 0 16 16">
             <title>GitHub logo icon</title>
