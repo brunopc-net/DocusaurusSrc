@@ -1,16 +1,15 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const {themes} = require('prism-react-renderer');
 
 const profiles = require('./src/data/resume.json').basics.profiles;
 const work = require('./src/data/resume.json').work;
 const xpTotal = require('./src/components/experience/experience.functions').getTotalXp(work);
 
 function getSocialLink(socialNetwork){
-  const profileItem = profiles.find(
-    profile => profile.network === socialNetwork
+  const profileItem = profiles.find(profile =>
+    profile.network === socialNetwork
   );
   // @ts-ignore
   return profileItem.url
@@ -59,7 +58,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
         },
         blog: {
-          blogDescription: "Software Industry reflections from a critical Full Stack Dev who value building efficiency as paramount. Coding's about business scalability, not marketing buzz",
+          blogDescription: "Software Industry reflections from a critical Full Stack who value building efficiency as paramount. Coding's about business scalability, not marketing buzz",
           showReadingTime: true,
           postsPerPage: 5,
           blogSidebarTitle: 'Last 10 posts',
@@ -73,6 +72,9 @@ const config = {
   ],
 
   themeConfig: ({ /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    metadata: [
+      {name: 'google-site-verification', content: '9okJ-HC3L1uzSPnJkHgcbyRAx60HFLkR5T4j1VxB2_A'}
+    ],
     navbar: {
       title: 'Bruno PC',
       logo: {
@@ -178,8 +180,8 @@ const config = {
       copyright: `Copyright © ${new Date().getFullYear()} Bruno Pettersen-Coulombe. Built with React-based <a href="https://docusaurus.io">Docusaurus</a>`,
     },
     prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
+      theme: themes.github,
+      darkTheme: themes.dracula,
     },
     colorMode: {
       defaultMode: 'dark',
@@ -198,16 +200,7 @@ const config = {
     }
   ],
 
-  plugins: [
-    [
-      '@docusaurus/plugin-ideal-image',{
-        max: 958, // max resized image's size.
-        min: 480, // min resized image's size. if original is lower, use that size.
-        steps: 4, // the max number of images generated between min and max (inclusive)
-        disableInDev: false,
-      },
-    ],
-  ],
+  plugins: [],
 };
 
 module.exports = config

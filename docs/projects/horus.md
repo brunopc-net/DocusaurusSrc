@@ -116,22 +116,22 @@ Take as much water/electrolytes as possible<br/>
 
 #### 🥶 Cold alerts
 
-🟢 **12-28°C**<br/>
+🟢 **12 to 28°C**<br/>
 No alert<br/>
 
-🟡 **6-12°C**<br/>
+🟡 **6 to 12°C**<br/>
 You may need a light jacket or sleeves<br/>
 
-🟠 **0-6°C**<br/>
+🟠 **0 to 6°C**<br/>
 You may need winter gear, watch out for ice🧊<br/>
 
-🔴 **-12 to 0°C**<br/>
+🔴 **&#45;12 to 0°C**<br/>
 Put winter gear<br/>
 
-🟣 **-24 to -12°C**<br/>
+🟣 **&#45;24 to &#45;12°C**<br/>
 Wear maximum clothing, goggles<br/>
 
-💀 **<-24°C**<br/>
+💀 **Lower than &#45;24°C**<br/>
 Extreme cold, stay indoors<br/>
 
 ### 🌧️🌨️ Precipitations
