@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[4955],{8416:s=>{s.exports=JSON.parse('{"label":"Wordpress","permalink":"/fr/blog/tags/wordpress","allTagsPath":"/fr/blog/tags","count":1}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[7976],{1991:s=>{s.exports=JSON.parse('{"label":"SSG","permalink":"/fr/blog/tags/ssg","allTagsPath":"/fr/blog/tags","count":1}')}}]);

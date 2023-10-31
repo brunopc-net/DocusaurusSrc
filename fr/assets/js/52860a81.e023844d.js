@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[5139],{389:a=>{a.exports=JSON.parse('{"label":"Software quality","permalink":"/fr/blog/tags/software-quality","allTagsPath":"/fr/blog/tags","count":1,"unlisted":false}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[6560],{404:a=>{a.exports=JSON.parse('{"label":"Automation","permalink":"/blog/tags/automation","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

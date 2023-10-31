@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[8914],{3235:e=>{e.exports=JSON.parse('{"label":"Automate your life","permalink":"/blog/tags/automate-your-life","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

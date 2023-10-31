@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[7482],{6658:l=>{l.exports=JSON.parse('{"label":"PHP","permalink":"/blog/tags/php","allTagsPath":"/blog/tags","count":1}')}}]);

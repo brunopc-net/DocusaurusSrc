@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[6407],{5282:l=>{l.exports=JSON.parse('{"label":"Jekyll","permalink":"/blog/tags/jekyll","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

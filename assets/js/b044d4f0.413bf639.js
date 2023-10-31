@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[4186],{8897:e=>{e.exports=JSON.parse('{"label":"Technical debt","permalink":"/blog/tags/technical-debt","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

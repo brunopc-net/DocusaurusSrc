@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[7438],{2161:s=>{s.exports=JSON.parse('{"label":"DevOps","permalink":"/fr/blog/tags/dev-ops","allTagsPath":"/fr/blog/tags","count":1,"unlisted":false}')}}]);
