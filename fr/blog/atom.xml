@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://brunopc.net/fr/blog</id>
-    <title>Bruno Pettersen-Coulombe, B. Eng. Full-Stack Developer, Tech Lead, DevOps Expert, SDET, Freelancer, Entrepreneur - 10 years of experience Blog</title>
+    <title>Bruno PC, Bruno Pettersen-Coulombe, B. Eng. Full-Stack Developer, Tech Lead, DevOps Expert, SDET, Freelancer, Entrepreneur - 10 years of experience Blog</title>
     <updated>2023-10-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://brunopc.net/fr/blog"/>
-    <subtitle>Bruno Pettersen-Coulombe, B. Eng. Full-Stack Developer, Tech Lead, DevOps Expert, SDET, Freelancer, Entrepreneur - 10 years of experience Blog</subtitle>
+    <subtitle>Bruno PC, Bruno Pettersen-Coulombe, B. Eng. Full-Stack Developer, Tech Lead, DevOps Expert, SDET, Freelancer, Entrepreneur - 10 years of experience Blog</subtitle>
     <icon>https://brunopc.net/fr/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[The Engineer term and its cascading mess]]></title>
@@ -87,7 +87,7 @@
 <p>Having a required "P. Eng." for any job that pose a risk for human safety like in the U.S. would be a good compromise. You write software for a production self-driving car? You'd be required to be P. Eng. Otherwise, simply requiring an Engineering degree to use the word "Engineer" would be fair to me.</p>
 <p>Also, in a world where Banks and payment methods rely more heavily on software every year, where financial institutions can be affected with <a href="https://www.cbc.ca/news/canada/montreal/desjardins-data-breach-1.5344216" target="_blank" rel="noopener noreferrer">data theft that affects 4,200,000 people</a>, I would like to see more Software engineering jobs requiring the P. Eng. title. I also hypothesize that P. Eng. obligation could be better when sensitive data is managed like <a href="https://www.reddit.com/r/webdev/comments/6bzicz/best_practice_for_storing_ssn/" target="_blank" rel="noopener noreferrer">when storing social security numbers</a>, or for the software built for telecommunication networks. Remember the <a href="https://en.wikipedia.org/wiki/2022_Rogers_Communications_outage" target="_blank" rel="noopener noreferrer">2022 Rogers Communications outage</a>?</p>]]></content>
         <author>
-            <name>Bruno Pettersen-Coulombe</name>
+            <name>Bruno PC</name>
             <uri>https://github.com/brunopc-net/</uri>
         </author>
         <category label="Regulations" term="Regulations"/>
@@ -176,7 +176,7 @@
 <li>144 for a 4-hour ride / 219 with N95</li>
 <li>118 for a 5-hour ride / 192 with N95</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-running">🏃‍♂️ Running<a href="https://brunopc.net/fr/blog/2023/09/29/Building-air-quality-training-model-cycling-running#%EF%B8%8F-running" class="hash-link" aria-label="Lien direct vers 🏃‍♂️ Running" title="Lien direct vers �🏃‍♂️ Running">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-running">🏃‍♂️ Running<a href="https://brunopc.net/fr/blog/2023/09/29/Building-air-quality-training-model-cycling-running#%EF%B8%8F-running" class="hash-link" aria-label="Lien direct vers 🏃‍♂️ Running" title="Lien direct vers 🏃‍♂️ Running">​</a></h3>
 <p>We consider that running is done away from pollution, in a low-traffic area.</p>
 <p>Running limits can be considered for other sports like soccer, but also for less intense activity like hiking or walking. AQI limits would be higher for these, so if you're safe to run, you'll be safe to walk or hike.</p>
 <p><img loading="lazy" alt="AQI limits for running" src="https://brunopc.net/fr/assets/images/AQI-limits-running-5ddf0d35fe847b4444261d05ecaeac2e.webp" width="958" height="688" class="img_ev3q"></p>
@@ -213,7 +213,7 @@
 <p><a href="https://docs.google.com/spreadsheets/d/1XMMKUA4npwtAi0dGAHJT3UPaFEC5SNRHFRRq_MFdwqo" target="_blank" rel="noopener noreferrer">Spreadsheet for AQI limits</a></p>
 <p>Thumbnail image from <a href="https://www.pexels.com/@nasirun-khan-102497153/" target="_blank" rel="noopener noreferrer">Nasirun Khan</a></p>]]></content>
         <author>
-            <name>Bruno Pettersen-Coulombe</name>
+            <name>Bruno PC</name>
             <uri>https://github.com/brunopc-net/</uri>
         </author>
         <category label="Health" term="Health"/>
@@ -302,7 +302,7 @@
 <p>A product owner, a scrum-master or a software project manager should know both worlds inside and out. Unfortunately, this job is sometimes occupied with someone who didn't ever write software at all, or sometimes, that doesn't have any background in marketing.</p>
 <p>Sounds familiar?</p>]]></content>
         <author>
-            <name>Bruno Pettersen-Coulombe</name>
+            <name>Bruno PC</name>
             <uri>https://github.com/brunopc-net/</uri>
         </author>
         <category label="health" term="health"/>
@@ -418,7 +418,7 @@
 </li>
 </ul>]]></content>
         <author>
-            <name>Bruno Pettersen-Coulombe</name>
+            <name>Bruno PC</name>
             <uri>https://github.com/brunopc-net/</uri>
         </author>
         <category label="Self-Development" term="Self-Development"/>
@@ -472,7 +472,7 @@
 <p>Both methods give you the possibility to deploy during operation hours. It you’re new to this, I suggest you start with Blue-Green, as it is easier to implement.</p>
 <p>This is a big cultural shift, yes. But I suggest you calculate the upside of it. How many deployments a year you’re doing? How much does it cost you in overtime work?</p>]]></content>
         <author>
-            <name>Bruno Pettersen-Coulombe</name>
+            <name>Bruno PC</name>
             <uri>https://github.com/brunopc-net/</uri>
         </author>
         <category label="Deployment-optimisation" term="Deployment-optimisation"/>
@@ -504,7 +504,7 @@
 <p>What is your real goal? Do you want an illusion of control, or resolving the problem?</p>
 <p>Personally, I choose the latter.</p>]]></content>
         <author>
-            <name>Bruno Pettersen-Coulombe</name>
+            <name>Bruno PC</name>
             <uri>https://github.com/brunopc-net/</uri>
         </author>
         <category label="Wordpress" term="Wordpress"/>
@@ -527,7 +527,7 @@
 <p>This is the beginning of a journey. I don't know where it's gonna take me but I'm pretty sure it's gonna be great!</p>
 <p>Long live the internet.</p>]]></content>
         <author>
-            <name>Bruno Pettersen-Coulombe</name>
+            <name>Bruno PC</name>
             <uri>https://github.com/brunopc-net/</uri>
         </author>
     </entry>
