@@ -77,7 +77,7 @@ export default function Home() {
   return (
     <Layout
       title={''}
-      description="Welcome to my cyber-space! Learn more about me here">
+      description="Welcome to brunopc.net, Bruno PC cyber-space! Learn more about Bruno Pettersen-Coulombe here">
       <HomepageHeader />
       <main>
         <section className={styles.features}>
