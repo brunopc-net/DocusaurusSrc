@@ -3,7 +3,7 @@ sidebar_position: 2
 tags: [javascript, node.js, react, serverless]
 ---
 
-import MarkdownLink from '@site/src/components/MarkdownLink';
+import MarkdownLink from '@site/src/components/link/MarkdownLink';
 
 # Cher-Ami
 

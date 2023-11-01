@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-import MarkdownLink from '@site/src/components/MarkdownLink';
+import MarkdownLink from '@site/src/components/link/MarkdownLink';
 import SkillTable from '@site/src/components/SkillTable';
 import {TotalXpComponent} from '@site/src/components/experience/ExperienceTotal';
 
@@ -30,7 +30,7 @@ My <a href="/docs/category/experiences/" target="_blank"><TotalXpComponent /> ye
 />
 
 <MarkdownLink button
-  to='files/resume.pdf'
+  to='/files/resume.pdf'
   text='PDF 📃'
 />
 
