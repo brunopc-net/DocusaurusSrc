@@ -3,7 +3,7 @@ import { EcoleTechnologieSuperieure, CegepAndreLaurendeau, Institution } from '.
 
 import './Logo.css';
 
-const educationList = require('@site/src/data/resume.json').education;
+const educationList = require('@site/static/data/resume.json').education;
 
 function getCourseCode(course){
     return course.split(" - ")[0];

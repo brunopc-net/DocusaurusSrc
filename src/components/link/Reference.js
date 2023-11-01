@@ -1,5 +1,5 @@
 import React from 'react';
-import MarkdownLink from '@site/src/components/MarkdownLink';
+import MarkdownLink from './MarkdownLink';
 
 const AUTHOR_SPLITTER = "@";
 
