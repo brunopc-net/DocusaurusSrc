@@ -91,7 +91,7 @@ const config = {
           label: 'About me'
         },
         {
-          to: '/blog',
+          to: '/blog/',
           label: 'Blog',
           position: 'left'
         },

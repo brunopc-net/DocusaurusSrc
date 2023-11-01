@@ -18,7 +18,7 @@ const FeatureList = [
   },
   {
     title: 'Read my blog',
-    link: '/blog',
+    link: '/blog/',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (<>
         I write sometimes, especially when my coffee is too strong 💀
@@ -45,7 +45,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/about">
+            to="/docs/about/">
             See my résumé 📃
           </Link>
         </div>
