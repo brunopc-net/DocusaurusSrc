@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[7985],{6294:l=>{l.exports=JSON.parse('{"label":"Regulations","permalink":"/fr/blog/tags/regulations","allTagsPath":"/fr/blog/tags","count":1,"unlisted":false}')}}]);
