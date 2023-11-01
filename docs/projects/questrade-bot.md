@@ -3,7 +3,7 @@ sidebar_position: 5
 tags: ["Automate your life", python]
 ---
 
-import MarkdownLink from '@site/src/components/MarkdownLink';
+import MarkdownLink from '@site/src/components/link/MarkdownLink';
 
 # QuestradeBot
 

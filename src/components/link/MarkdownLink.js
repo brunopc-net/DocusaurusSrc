@@ -1,17 +1,13 @@
 import React from 'react';
-
-function getLink(to){
-    return to.startsWith('files') 
-        ? require(`@site/static/${to}`).default
-        : to;
-}
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 function MarkdownLink({ button, to, text}) {
+    const link = to.includes("http") ? to : useBaseUrl(to);
     return (
         <a
             className={`${button && "button button--secondary button--lg"}`}
             target="_blank"
-            href={getLink(to)}>
+            href={link}>
             {text}
         </a>
     );

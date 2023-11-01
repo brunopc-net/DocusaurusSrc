@@ -3,7 +3,7 @@ sidebar_position: 4
 tags: ["Automate your life", python, docker]
 ---
 
-import MarkdownLink from '@site/src/components/MarkdownLink';
+import MarkdownLink from '@site/src/components/link/MarkdownLink';
 
 # Cerberus
 

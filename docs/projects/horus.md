@@ -3,7 +3,7 @@ sidebar_position: 1
 tags: ["Automate your life", "Javascript", "Node.js", "React", "GitHub Actions"]
 ---
 
-import MarkdownLink from '@site/src/components/MarkdownLink';
+import MarkdownLink from '@site/src/components/link/MarkdownLink';
 
 # Horus
 
