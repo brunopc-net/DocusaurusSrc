@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './styles.module.css';
 
-const skillGroups = require('@site/src/data/resume.json').skills;
+const skillGroups = require('@site/static/data/resume.json').skills;
 
 function TagLink(){
     return (

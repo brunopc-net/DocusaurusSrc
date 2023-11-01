@@ -2,7 +2,7 @@ import React from 'react';
 
 import { getExperienceAmount } from  './dates.functions';
 
-const work = require('@site/src/data/resume.json').work;
+const work = require('@site/static/data/resume.json').work;
 
 function getWorkType(type){
     switch(type){

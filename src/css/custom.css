@@ -97,3 +97,11 @@ span.anchor {
 img {
   height: auto;
 }
+
+#__blog-post-container a {
+  text-decoration: underline;
+}
+
+#__blog-post-container a:hover {
+  color: #cc91fd;
+}

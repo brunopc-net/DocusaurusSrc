@@ -1,6 +1,6 @@
 import React from 'react';
 
-const certificates = require('@site/src/data/resume.json').certificates;
+const certificates = require('@site/static/data/resume.json').certificates;
 
 function getName(cert){
     return cert.url ?

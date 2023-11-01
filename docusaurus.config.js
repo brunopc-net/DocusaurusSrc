@@ -3,12 +3,11 @@
 
 const {themes} = require('prism-react-renderer');
 
-const profiles = require('./src/data/resume.json').basics.profiles;
-const work = require('./src/data/resume.json').work;
-const xpTotal = require('./src/components/experience/experience.functions').getTotalXp(work);
+const resume = require('./static/data/resume.json');
+const xpTotal = require('./src/components/experience/experience.functions').getTotalXp(resume.work);
 
 function getSocialLink(socialNetwork){
-  const profileItem = profiles.find(profile =>
+  const profileItem = resume.basics.profiles.find(profile =>
     profile.network === socialNetwork
   );
   // @ts-ignore

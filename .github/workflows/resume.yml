@@ -16,4 +16,4 @@ jobs:
         with:
           token: ${{ secrets.TOKEN }}
           gist_id: f833820a518473e995a55b9420307197
-          file_path: src/data/resume.json
+          file_path: static/data/resume.json
