@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Logo from '@site/src/components/media/Logo';
 import { getExperienceAmount } from  './dates.functions';
 
 const work = require('@site/static/data/resume.json').work;
@@ -13,7 +13,7 @@ function getWorkType(type){
         case "internship":
             return "Internship";
         case "freelance":
-            return "Freelance mandate"; 
+            return "Freelance contract"; 
     }
     return "";
 }
@@ -110,6 +110,7 @@ function Experience({ title, cover }) {
     return (
         <div>
             <h2>{getWorkType(workItem.type)}</h2>
+            <Logo org={workItem.name} link={workItem.url} />
             <ExperienceTable experience={workItem}/>
             <ExperienceDescription experience={workItem}/>
         </div>

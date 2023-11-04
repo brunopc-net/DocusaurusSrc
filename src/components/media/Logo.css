@@ -1,0 +1,8 @@
+.logo {
+    transition-duration: var(--ifm-button-transition-duration);
+    transition-timing-function: var(--ifm-transition-timing-default);
+}
+
+.logo:hover{
+    filter: invert(60%) sepia(50%) saturate(70%) hue-rotate(227deg) brightness(110%) contrast(90%);
+}

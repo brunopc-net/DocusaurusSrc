@@ -1,7 +1,5 @@
 import React from 'react';
-import { EcoleTechnologieSuperieure, CegepAndreLaurendeau, Institution } from './Institution'
-
-import './Logo.css';
+import Logo from '@site/src/components/media/Logo';
 
 const educationList = require('@site/static/data/resume.json').education;
 
@@ -35,15 +33,6 @@ function CourseTable({ courses }) {
     </>);
 }
 
-function Institute({education_item}){
-    if(education_item.institution.includes("Laurendeau"))
-        return <CegepAndreLaurendeau />
-    if(education_item.institution.includes("technologie supérieure"))
-        return <EcoleTechnologieSuperieure />
-    //Other
-        return <Institution  name={education_item.institution} url={education_item.url} />;
-}
-
 function Diploma({education_item}){
     const diplomaImg = (education_item.area+"-"+education_item.studyType).replace(" ","-").toLowerCase();
     try{
@@ -73,7 +62,8 @@ function Education({ area, studyType}) {
     return (<>
         <Diploma education_item={education_item} />
         <p><b>Graduation year: </b>{new Date(education_item.endDate).getFullYear()}</p>
-        <Institute  education_item={education_item} />
+        <p><b>Institution: </b><a href={education_item.url}>{education_item.institution}</a></p>
+        <Logo org={education_item.institution} link={education_item.url} />
         <CourseTable courses={education_item.courses} />
     </>);
 }
