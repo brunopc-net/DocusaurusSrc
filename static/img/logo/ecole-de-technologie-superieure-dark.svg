@@ -1,10 +1,10 @@
-<svg class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 272.57 144">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 272.57 144">
     <style>
         .carreRouge{fill:#f0262d}
         .ETS, .LeGeniePourLindustrie {fill:#fff}
         .EcoleDeTechnologieSuperieure, .UniversiteDuQuebec {fill:#fff}
     </style>
-    <rect class="logo carreRouge" width="144" height="144"/>
+    <rect class="carreRouge" width="144" height="144"/>
     <g class="ETS">
         <polygon points="58.99 42.05 33.57 42.05 22.2 87.63 47.83 87.63 49.56 80.54 32.5 80.54 35.78 67.47 50.37 67.47 52.13 60.44 37.48 60.44 40.29 49.14 57.16 49.14 58.99 42.05"/>
         <path d="M56.45,30.81h0c-1.03,0-2.02,.55-3.83,1.55l-.15,.09-8.99,5.39-1.25,.75,1.45,.14,1.95,.19h.09l.09-.02,10.26-3.16c1.19-.3,2.37-.7,2.72-2,.15-.55,.06-1.18-.26-1.73-.31-.54-.79-.93-1.35-1.08-.24-.06-.48-.1-.72-.1"/>
