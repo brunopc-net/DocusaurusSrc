@@ -345,34 +345,37 @@
     ],
     "certificates": [
         {
+            "name": "AWS Certified Cloud Practitioner",
+            "issuer": "Amazon Web Services Training and Certification",
+            "url": "https://aws.amazon.com/certification/exams/",
+            "date": "2023-11-05",
+            "id": "e7283417-5935-4b11-b498-53169f85a385"
+        },
+        {
             "name": "Start with React",
             "issuer": "OpenClassroom",
             "url": "https://openclassrooms.com/fr/courses/7008001-debutez-avec-react",
-            "completion": 100,
             "date": "2023-07-21"
         },
         {
             "name": "Create a Java Application with Spring Boot",
             "issuer": "OpenClassroom",
             "url": "https://openclassrooms.com/fr/courses/6900101-creez-une-application-java-avec-spring-boot",
-            "completion": 100,
             "date": "2023-07-05"
         },
         {
             "name": "Jenkins, From Zero To Hero: Become a DevOps Jenkins Master",
             "issuer": "Udemy",
             "url": "https://www.udemy.com/course/jenkins-from-zero-to-hero/",
-            "completion": 100,
             "date": "2021-01-29",
-            "certificate": "UC-f5f51268-7bf8-4856-aca7-b72cfe46810e"
+            "id": "UC-f5f51268-7bf8-4856-aca7-b72cfe46810e"
         },
         {
             "name": "Ansible for the absolute Beginner - Hands-On - DevOps",
             "issuer": "Udemy",
             "url": "https://www.udemy.com/course/learn-ansible/",
-            "completion": 100,
             "date": "2020-06-02",
-            "certificate": "UC-6a8d8088-b7d3-4070-a43a-ffb14f2e4b34"
+            "id": "UC-6a8d8088-b7d3-4070-a43a-ffb14f2e4b34"
         },
         {
             "name": "Learn DevOps: Infrastructure Automation With Terraform",
@@ -390,7 +393,7 @@
             "name": "Amazon Web Services (AWS) Certified - 4 Certifications!",
             "issuer": "Udemy",
             "url": "https://www.udemy.com/course/aws-certified-associate-architect-developer-sysops-admin/",
-            "completion": 34
+            "completion": 45
         }
     ],
     "skills": [

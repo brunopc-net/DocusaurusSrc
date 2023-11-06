@@ -1,11 +1,14 @@
 import React from 'react';
 
+import CredlyBadge from '@site/src/components/media/CredlyBadge';
+import UdemyCertificate from '@site/src/components/media/UdemyCertificate';
+
 const certificates = require('@site/static/data/resume.json').certificates;
 
 function getName(cert){
-    return cert.url ?
-        <a href={cert.url}>{cert.name}</a>:
-        cert.name
+    const emoji = cert.date ? "✅" : "🚧";
+    const name = emoji+" "+cert.name;
+    return cert.url ? <a href={cert.url}>{name}</a>: {name}
 }
 
 function getIssuer(cert){
@@ -13,44 +16,22 @@ function getIssuer(cert){
         return (<a href="https://openclassrooms.com/">OpenClassroom</a>)
     if(cert.issuer === "Udemy")
         return (<a href="https://www.udemy.com/">Udemy</a>)
+    if(cert.issuer.includes("Amazon"))
+        return (<a href="https://aws.amazon.com/certification/exams/">Amazon Web Services Training and Certification</a>)
     // Other
         return cert.issuer;
 }
 
-function getCompletion(cert){
-    return cert.completion === 100 ?
-        (<><b>100% ✅ </b> - {cert.date}</>):
-        (<b>{cert.completion}% 🚧</b>);
-}
-
-function Certificate({cert}){
-    const src = require('@site/static/img/education/'+cert.certificate+'.webp').default;
-    const srcSet = require('@site/static/img/education/'+cert.certificate+'-small.webp').default+" 480w,"+src+" 958w";
-    if(cert.issuer === "Udemy"){
-        return (<p>
-            <a href={"https://www.udemy.com/certificate/"+cert.certificate}>
-                <img
-                    alt={"Certificate for "+cert.name}
-                    src={require('@site/static/img/education/'+cert.certificate+'.webp').default}
-                    width="958"
-                    heigth="713"
-                    srcSet={srcSet}
-                    sizes="(max-width: 512px) 480px, 958px"
-                    loading="lazy"
-                />
-            </a>
-        </p>);
-    }
-    return "";
-}
-
 function Certificates() {
     return (<>
-        {certificates.map((cert, i) => (<div key={i}>
+        {certificates.map((cert, i) => (<div key={i} style={{marginTop: 60}}>
             <h2>{getName(cert)}</h2>
-            <p>Issuer: {getIssuer(cert)}</p>
-            <p>Completion: {getCompletion(cert)}</p>
-            {cert.certificate && <Certificate cert={cert} />}
+            {cert.id && cert.issuer.includes("Amazon") && <CredlyBadge id={cert.id} name={cert.name} />}
+            <p>
+                <b>Issuer:</b> {getIssuer(cert)}<br/>
+                <b>Completion:</b> {cert.date || cert.completion+"%"}
+            </p>
+            {cert.id && cert.issuer === "Udemy" && <UdemyCertificate id={cert.id} name={cert.name} />}
         </div>))}
     </>);
 }
