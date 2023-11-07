@@ -1,22 +1,23 @@
 import React from 'react';
 
-function Diploma({education_item}){
-    const diplomaImg = (education_item.area+"-"+education_item.studyType).replace(" ","-").toLowerCase();
+function Diploma({id, desc, link, wFrame}){
     try{
-        const src = require('@site/static/img/education/'+diplomaImg+'.webp').default;
-        const srcSet = require('@site/static/img/education/'+diplomaImg+'-small.webp').default+" 480w,"+src+" 958w";
-        return (
-            <img
-                alt={education_item.area+" "+education_item.studyType+" diploma"}
-                src={src}
-                srcSet={srcSet}
-                width="958"
-                heigth="739"
-                sizes="(max-width: 512px) 480px, 958px"
-                style={{border:"#755142 outset 6px"}}
-                loading="lazy"
-            />
-        );
+        const src = require('@site/static/img/certificates/'+id+'.webp').default;
+        const srcSet = require('@site/static/img/certificates/'+id+'-small.webp').default+" 480w,"+src+" 958w";
+        return (<p>
+            <a href={link}>
+                <img
+                    alt={desc+" diploma"}
+                    src={src}
+                    srcSet={srcSet}
+                    width="958"
+                    heigth="713"
+                    sizes="(max-width: 512px) 480px, 958px"
+                    loading="lazy"
+                    style={{border: wFrame ? "#755142 outset 6px" : "none"}}
+                />
+            </a>
+        </p>);
     }catch(err){
         return "";
     }

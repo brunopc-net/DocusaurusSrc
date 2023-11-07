@@ -1,7 +1,7 @@
 import React from 'react';
 
 import CredlyBadge from '@site/src/components/media/CredlyBadge';
-import UdemyCertificate from '@site/src/components/media/UdemyCertificate';
+import Diploma from '@site/src/components/media/Diploma';
 
 const certificates = require('@site/static/data/resume.json').certificates;
 
@@ -29,9 +29,9 @@ function Certificates() {
             {cert.id && cert.issuer.includes("Amazon") && <CredlyBadge id={cert.id} name={cert.name} />}
             <p>
                 <b>Issuer:</b> {getIssuer(cert)}<br/>
-                <b>Completion:</b> {cert.date || cert.completion+"%"}
+                <b>Completion:</b> {cert.date || cert.completion}
             </p>
-            {cert.id && cert.issuer === "Udemy" && <UdemyCertificate id={cert.id} name={cert.name} />}
+            {cert.id && cert.issuer === "Udemy" && <Diploma id={cert.id} desc={cert.name} link={"https://www.udemy.com/certificate/"+cert.id} />}
         </div>))}
     </>);
 }
