@@ -4,8 +4,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import './Logo.css';
 
-const ConditionalWrapper = ({ condition, wrapper, children }) => 
-  condition ? wrapper(children) : children;
+const ConditionalWrapper = ({ condition, wrapper, children }) => condition ? wrapper(children) : children;
 
 function removeAccents(text){
     const regexE=/é|è|ê/gi;
@@ -27,8 +26,7 @@ function Logo({org, link}){
         return (<>
             <ConditionalWrapper
                 condition={link}
-                wrapper={children => <a href={link} target="_blank">{children}</a>}
-            >
+                wrapper={children => <a href={link} target="_blank">{children}</a>}>
                 <ThemedImage
                     className="logo"
                     alt={org+' logo'}
