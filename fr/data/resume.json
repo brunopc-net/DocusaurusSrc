@@ -381,19 +381,19 @@
             "name": "Learn DevOps: Infrastructure Automation With Terraform",
             "issuer": "Udemy",
             "url": "https://www.udemy.com/course/learn-devops-infrastructure-automation-with-terraform/",
-            "completion": 60
+            "completion": "60%"
         },
         {
             "name": "Docker Mastery: with Kubernetes +Swarm from a Docker Captain",
             "issuer": "Udemy",
             "url": "https://www.udemy.com/course/docker-mastery/",
-            "completion": 54
+            "completion": "54%"
         },
         {
             "name": "Amazon Web Services (AWS) Certified - 4 Certifications!",
             "issuer": "Udemy",
             "url": "https://www.udemy.com/course/aws-certified-associate-architect-developer-sysops-admin/",
-            "completion": 45
+            "completion": "45%"
         }
     ],
     "skills": [
