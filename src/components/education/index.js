@@ -39,8 +39,10 @@ function Education({ area, studyType}) {
     const education_item = educationList.filter((ei) => {
         return ei.area === area && ei.studyType === studyType
     })[0];
+    const desc = education_item.area+" "+education_item.studyType;
+    const id = desc.replaceAll(" ","-").toLowerCase();
     return (<>
-        <Diploma education_item={education_item} />
+        <Diploma wFrame id={id} desc={desc} />
         <p>
             <b>Graduation year: </b>{new Date(education_item.endDate).getFullYear()}<br/>
             <b>Institution: </b><a href={education_item.url}>{education_item.institution}</a>

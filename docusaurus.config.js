@@ -31,6 +31,8 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
+  //Resolving Google Seo problem https://stackoverflow.com/questions/70002202/docusaurus-links-on-google-app-engine-give-seo-problems
+  trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
