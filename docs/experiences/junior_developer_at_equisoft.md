@@ -1,5 +1,5 @@
 ---
-sidebar_position: 11
+sidebar_position: 12
 title: "Junior Developer for Equisoft"
 tags: ["C#", "VISUAL STUDIO", "GIT"]
 ---
