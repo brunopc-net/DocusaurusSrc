@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 title: "SDET Developer for National Bank of Canada"
 tags: ["JAVA", "API REST", "JUNIT", "SELENIUM", "JENKINS", "DOCKER", "INTELLIJ", "GIT", "BITBUCKET", "KAFKA", "MQ", "SWAGGER", "GHERKIN", "XML"]
 ---
