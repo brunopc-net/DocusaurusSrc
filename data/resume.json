@@ -47,6 +47,45 @@
         }
     ],
     "work": [
+	    {
+            "name": "Rona",
+            "type": "mandate",
+            "employer": "Levio",
+            "employerUrl": "https://levio.ca/",
+            "url": "https://www.rona.ca/",
+            "position": "Backend Developer",
+            "startDate": "2024-02",
+            "endDate": "2024-07",
+            "summary": "Building of 4 microservices with Spring Boot for Selling-Tools project",
+            "highlights": [
+                "Coding of Customer microservice (handling of Rona customers)",
+		        "Coding of Quotes microservice, extensible quotes handling system primarily use for custom doors/windows",
+                "Coding of Rona's Reference microservice, a data reference service to connect to Rona's product database",
+                "Coding of Message-Receiver, a Tibco Queue listening service to handle quotes updates (Quotes-ms) sent via XML files",
+                "Implement API key authorization & Token appId authentication",
+		        "Implement XSS & Content Security Policy (CSP) protections",
+		        "Design & implement Cucumber scenarios/tests for all services"
+            ]
+        },
+	    {
+            "name": "Rona",
+            "type": "mandate",
+            "employer": "Levio",
+            "employerUrl": "https://levio.ca/",
+            "url": "https://www.rona.ca/",
+            "position": "DevOps Developer",
+            "startDate": "2023-10",
+            "endDate": "2024-01",
+            "summary": "Putting in place generic Gitlab pipelines for all Rona development teams",
+            "highlights": [
+                "Automatize DAST and DAST-API security scanning (all pipelines)",
+		        "Automatize NIST security flaws daily database download/update in artifactory",
+                "Implement OWASP dep-scan library analysis to prevent security false to reach production systems (all pipelines)",
+                "Put Wiremock stubbing capabilities with Helm to allow Postman component testing for Maven/Gradle pipelines",
+                "Implement Cypress Front-end component testing for NPM/Yarn pipelines",
+		        "Work in completing pipelines for Maven, Gradle, Yarn, NPM & Go Module"
+            ]
+        },
         {
             "name": "National Bank of Canada",
             "type": "mandate",
@@ -427,6 +466,8 @@
             "keywords": [
                 "Deployment optimisation",
                 "CI/CD",
+		        "GitLabs",
+		        "Helm/Kubernetes",
                 "Jenkins",
                 "GitHub Actions",
                 "Docker",
@@ -458,6 +499,7 @@
             "name": "SDET/QA",
             "level": "Senior",
             "keywords": [
+		        "Cucumber",
                 "Gherkin",
                 "Rest Assured",
                 "Selenium",
@@ -502,6 +544,10 @@
         }
     ],
     "references": [
+        {
+            "name": "Vera Jovicic, Sr Project Manager, Levio, LL.M, PMP, PSM",
+            "reference": "I would like to thank Bruno for taking a chance and joining our team! Having him on board really helped the project move along. I really hope we get to work together again. I'm sure he will do great in whatever project he'll go next."
+        },
         {
             "name": "Ali Boutaba, Team Manager, Société Générale",
             "reference": "Bruno was very good at planning and implementing improvements based on real data. His pragmatism led to realistic goals, which led to mesurable results. He his a great asset for any team leader that needs guidance and arguments that helps to manage the project budjet."
