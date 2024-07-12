@@ -98,7 +98,7 @@
             "summary": "This mandate consisted of analyzing the efficiency of the team and proposing solutions to improve the speed of work. In particular, the potential gains of test automation was studied.",
             "highlights": [
                 "Tested new AWS microservices to ensure compliance with legacy system",
-                "Interviewd developers and testers to fully understand their tasks, challenges and slowdowns",
+                "Interviewed developers and testers to fully understand their tasks, challenges and slowdowns",
                 "Analyzed bottlenecks, project context and automation costs",
                 "Delivered a factual analysis on test automation relevance"
             ]
@@ -467,7 +467,8 @@
                 "Deployment optimisation",
                 "CI/CD",
 		        "GitLabs",
-		        "Helm/Kubernetes",
+		        "Helm",
+                "Kubernetes",
                 "Jenkins",
                 "GitHub Actions",
                 "Docker",
@@ -500,6 +501,7 @@
             "level": "Senior",
             "keywords": [
 		        "Cucumber",
+                "Cypress",
                 "Gherkin",
                 "Rest Assured",
                 "Selenium",
