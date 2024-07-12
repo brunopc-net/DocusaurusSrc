@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[2881],{8714:e=>{e.exports=JSON.parse('{"label":"Engineer","permalink":"/blog/tags/engineer","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

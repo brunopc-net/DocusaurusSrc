@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[9090],{2766:e=>{e.exports=JSON.parse('{"label":"Deployment-optimisation","permalink":"/blog/tags/deployment-optimisation","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[246],{8258:a=>{a.exports=JSON.parse('{"label":"Canari","permalink":"/fr/blog/tags/canari","allTagsPath":"/fr/blog/tags","count":1,"unlisted":false}')}}]);

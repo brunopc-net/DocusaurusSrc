@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbrunopc_blog=self.webpackChunkbrunopc_blog||[]).push([[8883],{6935:e=>{e.exports=JSON.parse('{"label":"Self-Development","permalink":"/blog/tags/self-development","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
