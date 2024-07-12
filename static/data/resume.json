@@ -500,6 +500,7 @@
             "level": "Senior",
             "keywords": [
 		        "Cucumber",
+                "Cypress",
                 "Gherkin",
                 "Rest Assured",
                 "Selenium",
