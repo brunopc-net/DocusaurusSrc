@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: "Computer Science DEC"
-tags: ["Java","C","HTML","Javascript","PHP"]
+tags: ["Java","C","HTML","Javascript","PHP","Oracle"]
 ---
 
 import Education from '@site/src/components/education';
