@@ -100,10 +100,11 @@ function ExperienceDescription({ experience }) {
     </>);
 }
 
-function Experience({ title, cover }) {
+function Experience({title}) {
     const workItem = work.filter((work_item) => {
-        const position = title.split(' for ')[0];
-        const name = title.split(' for ')[1];
+        const separator = title.includes(" for ") ? " for " : " at ";
+        const position = title.split(separator)[0];
+        const name = title.split(separator)[1];
         return work_item.position === position && work_item.name === name
     })[0];
 
