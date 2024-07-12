@@ -20,6 +20,11 @@ My <a href="/docs/category/experiences/" target="_blank"><TotalXpComponent /> ye
 />
 
 <MarkdownLink button
+  to='/files/resume.pdf'
+  text='PDF 📃'
+/>
+
+<MarkdownLink button
   to='https://registry.jsonresume.org/brunopc-net.json'
   text='JSON 📃'
 />
@@ -27,11 +32,6 @@ My <a href="/docs/category/experiences/" target="_blank"><TotalXpComponent /> ye
 <MarkdownLink button
   to='https://registry.jsonresume.org/brunopc-net.yaml'
   text='Yaml 📃'
-/>
-
-<MarkdownLink button
-  to='/files/resume.pdf'
-  text='PDF 📃'
 />
 
 ## Skills
