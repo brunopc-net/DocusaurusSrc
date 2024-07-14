@@ -444,10 +444,10 @@
                 "API SOAP",
                 "Java",
                 "Spring Boot",
-                "KAFKA",
+                "Kafka",
                 "MQ",
-                "TIBCO",
-                "Javascript",
+                "Tibco",
+                "JavaScript",
                 "Node.js",
                 "Express",
                 "Python",
@@ -496,7 +496,7 @@
             "keywords": [
                 "Bash",
                 "Groovy",
-                "Powershell"
+                "PowerShell"
             ]
         },
         {
@@ -512,6 +512,7 @@
                 "Mockito",
                 "Spock",
                 "JUnit",
+                "QUnit",
                 "PHPUnit",
                 "Xray"
             ]
