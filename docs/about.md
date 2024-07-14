@@ -4,13 +4,13 @@ sidebar_position: 1
 
 import MarkdownLink from '@site/src/components/link/MarkdownLink';
 import SkillTable from '@site/src/components/SkillTable';
-import {TotalXpComponent} from '@site/src/components/experience/ExperienceTotal';
+import {TotalXp} from '@site/src/components/experience/TotalXp';
 
 # About me
 
 I live in Montreal, Canada. [I am a scientific mind in an athlete body](https://passionpvss.blogspot.com/2017/06/scientist-mind-athlete-body.html).
 
-My <a href="/docs/category/experiences/" target="_blank"><TotalXpComponent /> years of work experience has been very diverse so far</a>, as I did development (software and web), but also worked as a DevOps, SDET and Application Support Analyst. In my last roles, I had my first experiences as a technical lead.
+My <a href="/docs/category/experiences/" target="_blank"><TotalXp /> years of work experience has been very diverse so far</a>, as I did development (software and web), but also worked as a DevOps, SDET and Application Support Analyst. In my last roles, I had my first experiences as a technical lead.
 
 ## Résumé
 

@@ -4,7 +4,7 @@
 const {themes} = require('prism-react-renderer');
 
 const resume = require('./static/data/resume.json');
-const xpTotal = require('./src/components/experience/experience.functions').getTotalXp(resume.work);
+const xpTotal = require('./src/components/experience/xp.functions').getXpTotal(resume.work);
 
 function getSocialLink(socialNetwork){
   const profileItem = resume.basics.profiles.find(profile =>

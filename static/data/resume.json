@@ -444,7 +444,10 @@
                 "API SOAP",
                 "Java",
                 "Spring Boot",
-                "Javascript",
+                "Kafka",
+                "MQ",
+                "Tibco",
+                "JavaScript",
                 "Node.js",
                 "Express",
                 "Python",
@@ -464,7 +467,6 @@
             "name": "DevOps",
             "level": "Intermediate",
             "keywords": [
-                "Deployment optimisation",
                 "CI/CD",
 		        "GitLabs",
 		        "Helm",
@@ -479,11 +481,12 @@
             "name": "Databases",
             "level": "Intermediate",
             "keywords": [
-                "Redis",
+                "PostgreSQL",
+                "Oracle",
                 "NoSQL",
                 "SQL Server",
-                "Oracle",
-                "PostgreSQL",
+                "H2",
+                "Redis",
                 "MariaDB/MySQL"
             ]
         },
@@ -493,7 +496,7 @@
             "keywords": [
                 "Bash",
                 "Groovy",
-                "Powershell"
+                "PowerShell"
             ]
         },
         {
@@ -509,6 +512,7 @@
                 "Mockito",
                 "Spock",
                 "JUnit",
+                "QUnit",
                 "PHPUnit",
                 "Xray"
             ]

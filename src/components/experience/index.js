@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '@site/src/components/media/Logo';
-import { getExperienceAmount } from  './dates.functions';
+import { getXpAmount } from  './xp.functions';
 
 const work = require('@site/static/data/resume.json').work;
 
@@ -55,7 +55,7 @@ function Client({experience}){
 
 function ExperienceTable({ experience }) {
     const period = formatDate(experience.startDate)+' to '+formatDate(experience.endDate);
-    const expAmt = getExperienceAmount(experience.startDate, experience.endDate);
+    const xpAmount = getXpAmount(experience.startDate, experience.endDate);
 
     return (
         <table style={{marginTop: 20}}>
@@ -74,7 +74,7 @@ function ExperienceTable({ experience }) {
                     <Client experience={experience} />
                     <td>{experience.position}</td>
                     <td>{period}</td>
-                    <td>{expAmt} {expAmt > 1 ? 'months' : 'month'}</td>
+                    <td>{xpAmount} {xpAmount > 1 ? 'months' : 'month'}</td>
                 </tr>
             </tbody>
         </table>
