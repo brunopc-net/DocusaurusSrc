@@ -444,6 +444,9 @@
                 "API SOAP",
                 "Java",
                 "Spring Boot",
+                "KAFKA",
+                "MQ",
+                "TIBCO",
                 "Javascript",
                 "Node.js",
                 "Express",
@@ -464,7 +467,6 @@
             "name": "DevOps",
             "level": "Intermediate",
             "keywords": [
-                "Deployment optimisation",
                 "CI/CD",
 		        "GitLabs",
 		        "Helm",

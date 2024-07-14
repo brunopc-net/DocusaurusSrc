@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: "Developer for Constellio"
-tags: ["JAVASCRIPT", "JQUERY", "QUNIT", "JAVA", "MOCKITO", "JUNIT", "SELENIUM", "CSS", "INTELLIJ", "GIT"]
+tags: ["JAVASCRIPT", "JQUERY", "QUNIT", "JAVA", "MOCKITO", "JUNIT", "SELENIUM", "CSS", "GIT", "INTELLIJ"]
 ---
 
 import Experience from '@site/src/components/experience';

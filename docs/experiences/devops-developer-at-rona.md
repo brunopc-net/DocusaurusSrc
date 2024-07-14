@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: "DevOps Developer for Rona"
-tags: ["DEPLOYMENT OPTIMISATION", "CI/CD", "GITLABS", "DOCKER", "HELM", "KUBERNETES", "BASH", "CYPRESS"]
+tags: ["CI/CD", "GITLABS", "DOCKER", "HELM", "KUBERNETES", "BASH", "CYPRESS", "VISUAL STUDIO CODE"]
 ---
 
 import Experience from '@site/src/components/experience';

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: "Software Engineering Bachelor"
-tags: ["Java","C++","HTML"]
+tags: ["Java", "C++", "HTML", "ECLIPSE"]
 ---
 
 import Education from '@site/src/components/education';
