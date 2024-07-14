@@ -481,11 +481,12 @@
             "name": "Databases",
             "level": "Intermediate",
             "keywords": [
-                "Redis",
+                "PostgreSQL",
+                "Oracle",
                 "NoSQL",
                 "SQL Server",
-                "Oracle",
-                "PostgreSQL",
+                "H2",
+                "Redis",
                 "MariaDB/MySQL"
             ]
         },
