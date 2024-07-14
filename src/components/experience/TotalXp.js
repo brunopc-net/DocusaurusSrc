@@ -1,27 +1,10 @@
 import React from 'react';
+import { getXpTotal } from  './xp.functions';
 
-const work = require('@site/static/data/resume.json').work;
-
-const getTotalXp = (work) => {
-    const totalMonths = work.reduce((totalXp, workItem) => 
-        totalXp += getExperienceAmount(workItem.startDate, workItem.endDate), 0
-    );
-    return Math.round(totalMonths/12);
-}
-
-const getExperienceAmount = (sd, ed) => {
-    const startDate = new Date(sd);
-    const endDate = new Date(ed);
-
-    var months = 1 +
-        (endDate.getFullYear() - startDate.getFullYear()) * 12
-        + endDate.getMonth() - startDate.getMonth()
-        
-    return months <= 0 ? 0 : months;
-}
+const totalXp = getXpTotal(require('@site/static/data/resume.json').work);
 
 function TotalXp(){
-    return (<>{getTotalXp(work)}</>);
+    return (<>{totalXp}</>);
 }
 
-export default TotalXp;
+export {totalXp, TotalXp};

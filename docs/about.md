@@ -4,7 +4,7 @@ sidebar_position: 1
 
 import MarkdownLink from '@site/src/components/link/MarkdownLink';
 import SkillTable from '@site/src/components/SkillTable';
-import TotalXp from '@site/src/components/experience/TotalXp';
+import {TotalXp} from '@site/src/components/experience/TotalXp';
 
 # About me
 
