@@ -532,7 +532,7 @@
                 "Maven",
                 "Gradle",
                 "Nexus",
-                "Swagger"
+                "Swagger/OpenApi"
             ]
         }
     ],
@@ -547,6 +547,9 @@
         },
 		{
             "name": "Coaching"
+        },
+		{
+            "name": "Writing - Author of 2 books on Speed skating"
         }
     ],
     "references": [

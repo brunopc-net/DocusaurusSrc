@@ -61,6 +61,7 @@ const config = {
         blog: {
           blogDescription: "Software Industry reflections from a critical Full Stack who value coding efficiency as paramount. Coding is about business scalability, not marketing buzz",
           showReadingTime: true,
+          showLastUpdateTime: true,
           postsPerPage: 5,
           blogSidebarTitle: 'Last 10 posts',
           blogSidebarCount: 10
