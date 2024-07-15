@@ -482,6 +482,7 @@
             "level": "Intermediate",
             "keywords": [
                 "PostgreSQL",
+                "Flyway",
                 "Oracle",
                 "NoSQL",
                 "SQL Server",
@@ -504,6 +505,7 @@
             "level": "Senior",
             "keywords": [
 		        "Cucumber",
+                "Wiremock",
                 "Cypress",
                 "Gherkin",
                 "Rest Assured",
