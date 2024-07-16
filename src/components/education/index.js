@@ -36,9 +36,7 @@ function CourseTable({ courses }) {
 }
 
 function Education({ area, studyType}) {
-    const education_item = educationList.filter((ei) => {
-        return ei.area === area && ei.studyType === studyType
-    })[0];
+    const education_item = educationList.find(ei => ei.area === area && ei.studyType === studyType);
     const desc = education_item.area+" "+education_item.studyType;
     const id = desc.replaceAll(" ","-").toLowerCase();
     return (<>

@@ -385,7 +385,7 @@
     "certificates": [
         {
             "name": "AWS Certified Cloud Practitioner",
-            "issuer": "Amazon Web Services Training and Certification",
+            "issuer": "Amazon",
             "url": "https://aws.amazon.com/certification/exams/",
             "date": "2023-11-05",
             "id": "e7283417-5935-4b11-b498-53169f85a385"

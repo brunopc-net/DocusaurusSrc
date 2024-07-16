@@ -4,6 +4,6 @@ title: "Learn DevOps: Infrastructure Automation With Terraform"
 tags: ["Terraform"]
 ---
 
-import Certification from '@site/src/components/education/Certification';
+import Certification from '@site/src/components/certification';
 
 <Certification name={frontMatter.title} />
