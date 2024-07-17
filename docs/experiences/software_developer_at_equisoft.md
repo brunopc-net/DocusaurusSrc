@@ -1,7 +1,7 @@
 ---
 experience:
-  position: "Web Developer"
-  place: "Heritage Software Inc."
+  position: "Software Developer"
+  place: "Equisoft"
 ---
 
 import Experience from '@site/src/components/experience';

@@ -41,7 +41,7 @@ function Employer({experience}){
 }
 
 function Client({experience}){
-    return hasClient(experience) && experience.url ?
+    return experience.url ?
         (<td><a href={experience.url}>{experience.name}</a></td>):
         (<td>{experience.name}</td>);
 }
@@ -68,7 +68,7 @@ function ExperienceTable({ experience }) {
             <tbody>
                 <tr>
                     <Employer experience={experience} />
-                    <Client experience={experience} />
+                    {hasClient(experience) && (<Client experience={experience} />)}
                     <td>{experience.position}</td>
                     <td>{period}</td>
                     <td>{xpAmount} {xpAmount > 1 ? 'months' : 'month'}</td>

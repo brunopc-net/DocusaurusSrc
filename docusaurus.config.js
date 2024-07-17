@@ -1,16 +1,16 @@
-// @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const {themes} = require('prism-react-renderer');
 
 const resume = require('./static/data/resume.json');
-const xpTotal = require('./src/components/experience/xp.functions').getXpTotal(resume.work);
+const xp_functions = require('./src/components/experience/xp.functions');
+
+const xpTotal = xp_functions.getXpTotal(resume.work);
 
 function getSocialLink(socialNetwork){
   const profileItem = resume.basics.profiles.find(profile =>
     profile.network === socialNetwork
   );
-  // @ts-ignore
   return profileItem.url
 }
 
@@ -72,6 +72,17 @@ const config = {
       }),
     ],
   ],
+
+  markdown: {
+    parseFrontMatter: async (params) => {
+      // Reuse the default parser
+      const result = await params.defaultParseFrontMatter(params);
+      if(result.frontMatter.experience){
+        result.frontMatter = xp_functions.formatFrontmatter(result.frontMatter)
+      }
+      return result;
+    }
+  },
 
   themeConfig: ({ /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     metadata: [
@@ -191,7 +202,7 @@ const config = {
       respectPrefersColorScheme: true
     }
   }),
-  
+
   scripts: [
     {
       'data-host': "https://app.microanalytics.io",
@@ -202,7 +213,7 @@ const config = {
     }
   ],
 
-  plugins: [],
+  plugins: []
 };
 
 module.exports = config

@@ -1,6 +1,6 @@
 ---
-sidebar_position: 3
-tags: ["Automate your life", python, docker]
+sidebar_position: 4
+tags: ["Automation", "PYTHON", "DOCKER", "PYCHARM"]
 ---
 
 import MarkdownLink from '@site/src/components/link/MarkdownLink';

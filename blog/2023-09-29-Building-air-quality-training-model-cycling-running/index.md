@@ -4,7 +4,7 @@ description: "More and more pollution warnings will occur in the future. How can
 authors: brunopc
 enableComments: true
 image: "./thumbnail-default.webp"
-tags: ["Health", "Cycling", "Running", "Automate your life"]
+tags: ["Health", "Cycling", "Running", "Automation"]
 ---
 
 import Youtube from '@site/src/components/media/Youtube';

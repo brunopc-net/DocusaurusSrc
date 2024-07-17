@@ -1,7 +1,7 @@
 ---
-sidebar_position: 3
-title: "SDET Analyst for National Bank of Canada"
-tags: ["SPRING BOOT", "JAVA", "API-SOAP", "DOCKER", "READYAPI", "JENKINS", "JIRA", "XRAY", "INTELLIJ"]
+experience:
+  position: "SDET Analyst"
+  place: "National Bank of Canada"
 ---
 
 import Experience from '@site/src/components/experience';

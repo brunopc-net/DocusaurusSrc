@@ -4,9 +4,16 @@ import styles from './styles.module.css';
 var resume_skills;
 
 function TagLink(tag){
-    const tagLink = "/docs/tags/"+tag
-        .replace(' ', '-')
-        .replace('/',"-");
+    const tagLink = "/docs/tags/"+tag.toLowerCase()
+        .replaceAll(' ', '-')
+        .replaceAll('.', '-')
+        .replaceAll('/',"-")
+        //Special cases
+        .replace('h2', 'h-2')
+        .replace('phpunit', 'php-unit')
+        .replace('github', 'git-hub')
+        .replace('mysql', 'my-sql')
+        .replace('mariadb', 'maria-db');
         
     return (
         <a 
@@ -43,7 +50,7 @@ function SkillTable({skills}) {
                 <SkillRow category="Backend" />
                 <SkillRow category="Frontend" />
                 <SkillRow category="DevOps" />
-                <SkillRow category="Databases" />
+                <SkillRow category="Database" />
                 <SkillRow category="Scripting" />
                 <SkillRow category="SDET/QA" />
                 <SkillRow category="Tools" />

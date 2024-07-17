@@ -65,6 +65,28 @@
                 "Implement API key authorization & Token appId authentication",
 		        "Implement XSS & Content Security Policy (CSP) protections",
 		        "Design & implement Cucumber scenarios/tests for all services"
+            ],
+            "skills": [
+                {
+                    "name": "Backend",
+                    "keywords": ["SPRING BOOT", "JAVA", "TIBCO"]
+                },
+                {
+                    "name": "DevOps",
+                    "keywords": ["DOCKER", "CI/CD", "GITLABS", "ELK STACK"]
+                },
+                {
+                    "name": "SDET/QA",
+                    "keywords": ["CUCUMBER", "GHERKIN", "JUNIT", "MOCKITO"]
+                },
+                {
+                    "name": "Database",
+                    "keywords": ["POSTGRESQL", "FLYWAY", "H2", "NOSQL"]
+                },
+                {
+                    "name": "Tools",
+                    "keywords": ["SWAGGER/OPENAPI", "MAVEN", "GRADLE", "GIT", "POSTMAN", "JIRA", "INTELLIJ"]
+                }
             ]
         },
 	    {
@@ -84,6 +106,24 @@
                 "Put Wiremock stubbing capabilities with Helm to allow Postman component testing for Maven/Gradle pipelines",
                 "Implement Cypress Front-end component testing for NPM/Yarn pipelines",
 		        "Work in completing pipelines for Maven, Gradle, Yarn, NPM & Go Module"
+            ],
+            "skills": [
+                {
+                    "name": "DevOps",
+                    "keywords": ["CI/CD", "GITLABS", "DOCKER", "HELM", "KUBERNETES"]
+                },
+                {
+                    "name": "SDET/QA",
+                    "keywords": ["CYPRESS", "WIREMOCK"]
+                },
+                {
+                    "name": "Scripting",
+                    "keywords": ["BASH"]
+                },
+                {
+                    "name": "Tools",
+                    "keywords": ["VISUAL STUDIO CODE", "SWAGGER/OPENAPI", "MAVEN", "GRADLE", "NPM", "YARN", "JIRA"]
+                }
             ]
         },
         {
@@ -101,7 +141,8 @@
                 "Interviewed developers and testers to fully understand their tasks, challenges and slowdowns",
                 "Analyzed bottlenecks, project context and automation costs",
                 "Delivered a factual analysis on test automation relevance"
-            ]
+            ],
+            "skills": []
         },
         {
             "name": "National Bank of Canada",
@@ -110,32 +151,39 @@
             "employer": "Levio",
             "employerUrl": "https://levio.ca/",
             "position": "SDET Technical Lead",
-            "startDate": "2022-08",
+            "startDate": "2022-03",
             "endDate": "2023-03",
             "summary": "Building a new testing framework from scratch for the Swift payment infrastructure.",
             "highlights": [
                 "Reduced the number of lines of code by 85% compared to legacy framework",
-                "Separated the test framework into several JAR deployed in Nexus: an API client for the main application (APS) and a payment injector to push payments in APS via Kafka Queues",
+                "Splitted the test framework into multiple JAR deployed in Nexus: an API client for the main application (APS) and a payment injector to push payments in APS via Kafka Queues",
                 "Refactored the code using Unirest, Lombok, Jackson, Prowide Software libraries (Prowide core and Prowide ISO 2022), object inheritance, dependency injection, and Gherkin",
                 "Implemented Fail-fast principle and detailled logs",
-                "Trained 30 people within the SDET team via 7 presentations on the new test architecture"
-            ]
-        },
-        {
-            "name": "National Bank of Canada",
-            "url": "https://www.nbc.ca/",
-            "type": "mandate",
-            "employer": "Levio",
-            "employerUrl": "https://levio.ca/",
-            "position": "SDET Developer",
-            "startDate": "2022-03",
-            "endDate": "2022-07",
-            "summary": "Test automation for the Bankmate service, a Swift MT to MX(XML) format converter.",
-            "highlights": [
-                "Developed about 30 different tests to validate the behavior of Bankmate",
-                "Revised existing Bankmate test code to eliminate code duplication",
-                "Rewrited Bankmate legacy tests using Gherkin structure",
-                "Assisted my colleagues on the technical side"
+                "Trained 30 people within the QA team (7 presentations) on the new test architecture",
+                "Developed new integration tests for Bankmate microservice",
+                "Rewrited Bankmate legacy tests using Gherkin structure while eliminating code duplication"
+            ],
+            "skills": [
+                {
+                    "name": "Backend",
+                    "keywords": ["JAVA", "KAFKA", "MQ"]
+                },
+                {
+                    "name": "DevOps",
+                    "keywords": ["CI/CD", "JENKINS"]
+                },
+                {
+                    "name": "SDET/QA",
+                    "keywords": ["JUNIT", "SELENIUM", "SAUCELABS", "GHERKIN", "POSTMAN", "XRAY"]
+                },
+                {
+                    "name": "Scripting",
+                    "keywords": ["BASH"]
+                },
+                {
+                    "name": "Tools",
+                    "keywords": ["NEXUS", "GIT", "BITBUCKET", "MAVEN", "INTELLIJ", "JIRA"]
+                }
             ]
         },
         {
@@ -147,14 +195,36 @@
             "position": "QA Developer",
             "startDate": "2020-10",
             "endDate": "2022-02",
-            "summary": "Test automation for the ICOP application and microservices",
+            "summary": "Test automation for the ICOP ecosystem",
             "highlights": [
-                "Upgraded the test velocity from 1 manual test/hour to 400 tests/hour",
+                "Improved the test velocity from 1 manual test/hour to 400 automated tests/hour",
                 "Developed ~120 automated tests for the ICOP application using the Selenium library",
                 "Developed ~60 automated tests for ICOP microservices (ISRPB/IIAPB/CAOPB) via Rest Assured",
                 "Set up 4 Jenkins pipelines for the execution of the automated tests",
                 "Documented pipeline execution, code structure and maintenance guidance",
                 "Trained new employees on National Bank's Test Automation Framework"
+            ],
+            "skills": [
+                {
+                    "name": "Backend",
+                    "keywords": ["JAVA", "CAMUNDA"]
+                },
+                {
+                    "name": "DevOps",
+                    "keywords": ["CI/CD", "JENKINS"]
+                },
+                {
+                    "name": "SDET/QA",
+                    "keywords": ["JUNIT", "HTMLUNIT", "SELENIUM", "SAUCELABS", "REST ASSURED", "GHERKIN", "POSTMAN", "XRAY"]
+                },
+                {
+                    "name": "Scripting",
+                    "keywords": ["BASH"]
+                },
+                {
+                    "name": "Tools",
+                    "keywords": ["GIT", "BITBUCKET", "MAVEN", "INTELLIJ"]
+                }
             ]
         },
         {
@@ -171,6 +241,24 @@
                 "Developed Powershell scripts to communicate between APIs (Elasticsearch and Autosys)",
                 "Managed deployments",
                 "Writed dynamic documentation scripts (Do-nothing scripts) to improve bug investigation time"
+            ],
+            "skills": [
+                {
+                    "name": "Scripting",
+                    "keywords": ["POWERSHELL"]
+                },
+                {
+                    "name": "DevOps",
+                    "keywords": ["ELK STACK"]
+                },
+                {
+                    "name": "Database",
+                    "keywords": ["SQL SERVER", "NOSQL"]
+                },
+                {
+                    "name": "Tools",
+                    "keywords": ["AUTOSYS"]
+                }
             ]
         },
         {
@@ -179,7 +267,7 @@
             "type": "mandate",
             "employer": "CGI",
             "employerUrl": "https://www.cgi.com/",
-            "position": "Application Support Analyst",
+            "position": "Automation Developer",
             "startDate": "2016-08",
             "endDate": "2018-12",
             "summary": "My first mandate after graduation to support several global finance applications. Lots of low-hanging fruits so having a development background, I took the opportunity to improve things.",
@@ -190,31 +278,87 @@
                 "Automated manual daily monitoring checks and alerts (by email)",
                 "Developed bash scripts to automate fixes for recurring operations failure",
                 "Supported production operations"
+            ],
+            "skills": [
+                {
+                    "name": "Scripting",
+                    "keywords": ["BASH", "GROOVY"]
+                },
+                {
+                    "name": "DevOps",
+                    "keywords": ["ELK STACK"]
+                },
+                {
+                    "name": "Database",
+                    "keywords": ["SQL SERVER", "ORACLE"]
+                },
+                {
+                    "name": "Tools",
+                    "keywords": ["AUTOSYS", "GRADLE"]
+                },
+                {
+                    "name": "SDET/QA",
+                    "keywords": ["SPOCK"]
+                },
+                {
+                    "name": "Backend",
+                    "keywords": ["JAVA", "KAFKA"]
+                }
             ]
         },
         {
             "name": "Constellio",
-            "position": "Developer",
+            "position": "Software Developer",
             "type": "internship",
             "url": "https://www.constellio.com/",
             "startDate": "2014-09",
             "endDate": "2015-04",
-            "summary": "Constellio was a small business (growned and sold since) with a clientele that was mainly governmental. I built out a modular JavaScript web client for their flagship product.",
+            "summary": "Constellio was a small business (growned and sold since) with a clientele that was mainly governmental. Their flagship product was an intranet search application build on the Lucene search engine. I built out a modular JavaScript web client for that product.",
             "highlights": [
-                "Deployed on the Government du Québec website, sucessfully handling 100,000 requests/day",
-                "Developed unit and integration tests for their product, using Mockito and JUnit"
+                "Built the client customizable so it sould be integrated on any website for their future clients",
+                "Developped unit & integration tests for the web client using QUnit Library",
+                "Deployed on the Government du Québec website, sucessfully handling 100,000+ requests/day",
+                "Developed unit tests for their backend, using Mockito and JUnit"
+            ],
+            "skills": [
+                {
+                    "name": "Frontend",
+                    "keywords": ["JAVASCRIPT", "JQUERY", "CSS"]
+                },
+                {
+                    "name": "SDET/QA",
+                    "keywords": ["QUNIT", "MOCKITO", "JUNIT", "GHERKIN", "SELENIUM"]
+                },
+                {
+                    "name": "Backend",
+                    "keywords": ["JAVA"]
+                },
+                {
+                    "name": "Tools",
+                    "keywords": ["GIT", "INTELLIJ"]
+                }
             ]
         },
         {
             "name": "Equisoft",
             "type": "internship",
-            "position": "Junior Developer",
+            "position": "Software Developer",
             "url": "https://www.equisoft.com/",
             "startDate": "2013-01",
             "endDate": "2013-05",
             "summary": "Implemented Entity framework on their subscription management software.",
             "highlights": [
                 "First experience as a professional software developer"
+            ],
+            "skills": [
+                {
+                    "name": "Backend",
+                    "keywords": ["C#"]
+                },
+                {
+                    "name": "Tools",
+                    "keywords": ["ENTITY FRAMEWORK", "VISUAL STUDIO", "GIT"]
+                }
             ]
         },
         {
@@ -227,6 +371,16 @@
             "summary": "Following a loss of code following a virus, Solutions Technologies contacted me to restore their tailor-made and configurable e-commerce shopping cart module for their various customers.",
             "highlights": [
                 "Developed the backend of a modular e-commerce shopping cart based on Magento"
+            ],
+            "skills": [
+                {
+                    "name": "Backend",
+                    "keywords": ["PHP", "MAGENTO"]
+                },
+                {
+                    "name": "Frontend",
+                    "keywords": ["HTML"]
+                }
             ]
         },
         {
@@ -237,7 +391,13 @@
             "endDate": "2013-12",
             "summary": "The small longboard manufacturing company asked me to create their portfolio website",
             "highlights": [
-                "Applied learnings from GTI350-Design and evaluation of graphic user interfaces"
+                "Applied learnings from ÉTS GTI350 course (Design and evaluation of graphic user interfaces)"
+            ],
+            "skills": [
+                {
+                    "name": "Frontend",
+                    "keywords": ["HTML", "CSS", "JQUERY"]
+                }
             ]
         },
         {
@@ -250,6 +410,16 @@
             "summary": "FJB casting needed a module for uploading and cropping photos of models for her bank of extras. The extras could then manage their images themselves on the Figuration Julie Breton website, a task that was cumbersome for the owner of the company.",
             "highlights": [
                 "Integration of a cropping module and image upload in PHP/Javascript"
+            ],
+            "skills": [
+                {
+                    "name": "Backend",
+                    "keywords": ["PHP"]
+                },
+                {
+                    "name": "Frontend",
+                    "keywords": ["JAVASCRIPT", "HTML"]
+                }
             ]
         },
         {
@@ -257,10 +427,30 @@
             "type": "freelance",
             "position": "Web Developer",
             "startDate": "2011-05",
-            "endDate": "2011-05",
-            "summary": "Heritage Software needed a drag-and-drop file upload module for their website.",
+            "endDate": "2011-09",
+            "summary": "Heritage Software needed a web consultant to perform various tasks for them",
             "highlights": [
+                "Developped a virtual ticket backend system",
+                "Automated tests for the virtual ticket backend system",
                 "Integrated a file upload module in PHP/Javascript"
+            ],
+            "skills": [
+                {
+                    "name": "Backend",
+                    "keywords": ["PHP"]
+                },
+                {
+                    "name": "SDET/QA",
+                    "keywords": ["PHPUNIT"]
+                },
+                {
+                    "name": "Frontend",
+                    "keywords": ["JAVASCRIPT", "JQUERY", "HTML", "CSS"]
+                },
+                {
+                    "name": "Database",
+                    "keywords": ["MariaDB/MySQL"]
+                }
             ]
         },
         {
@@ -277,6 +467,16 @@
                 "Secured the full size images so that they were inaccessible to the public",
                 "Automated the payment via PayPal API",
                 "Automated email sending with attached full size images once payment was made"
+            ],
+            "skills": [
+                {
+                    "name": "Backend",
+                    "keywords": ["PHP", "PAYPAL API"]
+                },
+                {
+                    "name": "Frontend",
+                    "keywords": ["HTML", "CSS"]
+                }
             ]
         },
         {
@@ -286,11 +486,25 @@
             "position": "Web Developer",
             "startDate": "2010-01",
             "endDate": "2010-05",
-            "summary": "First professional mandate (intership) which was an opportunity for me to gain experience in a direct relationship with various clients. I gained experience with both front-end and back-end.",
+            "summary": "First professional mandate (intership) which was an opportunity for me to gain experience in a direct relationship with various clients. I gained experience with both frontend and backend.",
             "highlights": [
                 "Redesigned a citizen news website based on Wordpress",
                 "Built a custom CMS",
                 "Designed a website for an elderly residence"
+            ],
+            "skills": [
+                {
+                    "name": "Backend",
+                    "keywords": ["PHP", "WORDPRESS"]
+                },
+                {
+                    "name": "Frontend",
+                    "keywords": ["JAVASCRIPT", "JQUERY", "HTML", "CSS"]
+                },
+                {
+                    "name": "Database",
+                    "keywords": ["MariaDB/MySQL"]
+                }
             ]
         }
     ],
@@ -440,16 +654,13 @@
             "name": "Backend",
             "level": "Senior",
             "keywords": [
-                "API REST",
-                "API SOAP",
-                "Java",
                 "Spring Boot",
+                "Java",
                 "Kafka",
                 "MQ",
                 "Tibco",
                 "JavaScript",
                 "Node.js",
-                "Express",
                 "Python",
                 "PHP"
             ]
@@ -478,9 +689,11 @@
             ]
         },
         {
-            "name": "Databases",
+            "name": "Database",
             "level": "Intermediate",
             "keywords": [
+                "Json",
+                "NoSQL",
                 "PostgreSQL",
                 "Flyway",
                 "Oracle",
@@ -489,6 +702,15 @@
                 "H2",
                 "Redis",
                 "MariaDB/MySQL"
+            ]
+        },
+        {
+            "name": "Data structures",
+            "level": "Intermediate",
+            "keywords": [
+                "Json",
+                "XML",
+                "Swift"
             ]
         },
         {
@@ -524,7 +746,6 @@
             "keywords": [
                 "IntelliJ",
                 "PyCharm",
-                "WebStorm",
                 "Visual Studio Code",
                 "Visual Studio",
                 "Eclipse",

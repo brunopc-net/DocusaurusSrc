@@ -1,13 +1,19 @@
 ---
 sidebar_position: 4
-tags: ["Automate your life", python, docker]
+tags: ["Automation", "PYTHON", "DOCKER", "JENKINS", "PYCHARM"]
 ---
 
 import MarkdownLink from '@site/src/components/link/MarkdownLink';
 
+:::note
+
+I stopped this project when Proton released a got enough desktop app for [ProtonDrive](https://proton.me/drive). I was already paying for an account for their great email service ; hence it was a free addition to my acccount.
+
+:::
+
 # Cerberus
 
-Documents backup script
+Documents backup script.
 
 <MarkdownLink button
   to='https://github.com/brunopc-net/Cerberus'

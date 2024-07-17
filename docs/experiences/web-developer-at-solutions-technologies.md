@@ -1,7 +1,7 @@
 ---
-sidebar_position: 10
-title: "Web Developer for Solutions Technologies"
-tags: ["PHP", "MAGENTO API", "HTML"]
+experience:
+  position: "Web Developer"
+  place: "Solutions Technologies"
 ---
 
 import Experience from '@site/src/components/experience';
