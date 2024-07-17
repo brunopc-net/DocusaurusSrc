@@ -3,9 +3,9 @@
 const {themes} = require('prism-react-renderer');
 
 const resume = require('./static/data/resume.json');
-const xp_functions = require('./src/components/experience/xp.functions');
+const experience_functions = require('./src/components/experience/xp.functions');
 
-const xpTotal = xp_functions.getXpTotal(resume.work);
+const xpTotal = experience_functions.getXpTotal(resume.work);
 
 function getSocialLink(socialNetwork){
   const profileItem = resume.basics.profiles.find(profile =>
@@ -77,8 +77,27 @@ const config = {
     parseFrontMatter: async (params) => {
       // Reuse the default parser
       const result = await params.defaultParseFrontMatter(params);
+
+      //Experience doc page
       if(result.frontMatter.experience){
-        result.frontMatter = xp_functions.formatFrontmatter(result.frontMatter)
+        const position = result.frontMatter.experience.position;
+        const place = result.frontMatter.experience.place;
+        const index = resume.work.findIndex(work_item => 
+          work_item.position === position &&
+          work_item.name === place
+        );
+
+        // title
+        result.frontMatter.title = position+" at "+place;
+        
+        // position
+        result.frontMatter.sidebar_position = index+1;
+
+        // tags
+        result.frontMatter.tags = [];
+        resume.work[index].skills.forEach(category => {
+          result.frontMatter.tags.push(...category.keywords)
+        });
       }
       return result;
     }
