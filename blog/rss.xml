@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Bruno PC, Bruno Pettersen-Coulombe, B. Eng. Full-Stack Developer, Tech Lead, DevOps Expert, SDET, Freelancer, Entrepreneur - 10 years of experience Blog</title>
+        <title>Bruno PC, Bruno Pettersen-Coulombe, B. Eng. Full-Stack Developer, Tech Lead, DevOps Expert, SDET, Freelancer, Entrepreneur - 11 years of experience Blog</title>
         <link>https://brunopc.net/blog/</link>
-        <description>Bruno PC, Bruno Pettersen-Coulombe, B. Eng. Full-Stack Developer, Tech Lead, DevOps Expert, SDET, Freelancer, Entrepreneur - 10 years of experience Blog</description>
+        <description>Bruno PC, Bruno Pettersen-Coulombe, B. Eng. Full-Stack Developer, Tech Lead, DevOps Expert, SDET, Freelancer, Entrepreneur - 11 years of experience Blog</description>
         <lastBuildDate>Fri, 13 Oct 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
@@ -212,7 +212,7 @@
             <category>Health</category>
             <category>Cycling</category>
             <category>Running</category>
-            <category>Automate your life</category>
+            <category>Automation</category>
         </item>
         <item>
             <title><![CDATA[Outlive your project bankruptcy]]></title>
