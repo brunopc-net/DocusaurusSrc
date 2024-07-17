@@ -18,10 +18,6 @@ function getWorkType(type){
     return "";
 }
 
-function hasClient(experience){
-    return 'mandate|freelance'.includes(experience.type);
-}
-
 function formatDate(date){
     return new Date(date)
         .toISOString()
@@ -32,25 +28,26 @@ function formatDate(date){
 function Employer({experience}){
     if ('freelance' === experience.type) 
         return null;
+
     if (experience.employer){
-        if(experience.employerUrl) 
-            return (<td><a href={experience.employerUrl}>{experience.employer}</a></td>);
-        else
-            return (<td>{experience.employer}</td>);
+        return experience.employerUrl ?
+            (<td><a href={experience.employerUrl}>{experience.employer}</a></td>):
+            (<td>{experience.employer}</td>);
     }
-    if (experience.url)
-        return (<td><a href={experience.url}>{experience.name}</a></td>);
-    else
-        return <td>{experience.name}</td>
+
+    return experience.url ?
+        (<td><a href={experience.url}>{experience.name}</a></td>):
+        (<td>{experience.name}</td>);
 }
 
 function Client({experience}){
-    return (
-        hasClient(experience) && (experience.url ?
-            (<td><a href={experience.url}>{experience.name}</a></td>):
-            (<td>{experience.name}</td>)
-        )
-    );
+    return experience.url ?
+        (<td><a href={experience.url}>{experience.name}</a></td>):
+        (<td>{experience.name}</td>);
+}
+
+function hasClient(experience){
+    return 'mandate|freelance'.includes(experience.type);
 }
 
 function ExperienceTable({ experience }) {
@@ -71,7 +68,7 @@ function ExperienceTable({ experience }) {
             <tbody>
                 <tr>
                     <Employer experience={experience} />
-                    <Client experience={experience} />
+                    {hasClient(experience) && (<Client experience={experience} />)}
                     <td>{experience.position}</td>
                     <td>{period}</td>
                     <td>{xpAmount} {xpAmount > 1 ? 'months' : 'month'}</td>
@@ -88,11 +85,9 @@ function ExperienceDescription({ experience }) {
 
         <h2>Highlights</h2>
         <ul>
-            {experience.highlights.map((task) => (
-                <li key={task}>
-                    {task}
-                </li>
-            ))}
+            {experience.highlights.map((task) =>
+                <li key={task}>{task}</li>
+            )}
         </ul>
         {experience.cover && (
             <img src={experience.cover} alt={`${experience.name} cover`} />
@@ -101,13 +96,12 @@ function ExperienceDescription({ experience }) {
 }
 
 function Experience({title}) {
-    const workItem = work.filter((work_item) => {
+    const workItem = work.find((work_item) => {
         const separator = title.includes(" for ") ? " for " : " at ";
         const position = title.split(separator)[0];
         const name = title.split(separator)[1];
         return work_item.position === position && work_item.name === name
-    })[0];
-
+    });
     return (
         <div>
             <h2>{getWorkType(workItem.type)}</h2>

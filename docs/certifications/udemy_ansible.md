@@ -4,6 +4,6 @@ title: "Ansible for the absolute Beginner - Hands-On - DevOps"
 tags: ["Ansible"]
 ---
 
-import Certification from '@site/src/components/education/Certification';
+import Certification from '@site/src/components/certification';
 
 <Certification name={frontMatter.title} />

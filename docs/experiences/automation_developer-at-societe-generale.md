@@ -1,7 +1,7 @@
 ---
-sidebar_position: 12
-title: "Junior Developer for Equisoft"
-tags: ["C#", "VISUAL STUDIO", "GIT"]
+experience:
+  position: "Automation Developer"
+  place: "Société Générale"
 ---
 
 import Experience from '@site/src/components/experience';

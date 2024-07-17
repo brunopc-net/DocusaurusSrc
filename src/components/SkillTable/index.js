@@ -1,13 +1,19 @@
 import React from 'react';
-
 import styles from './styles.module.css';
 
-const skillGroups = require('@site/static/data/resume.json').skills;
+var resume_skills;
 
 function TagLink(tag){
-    const tagLink = "/docs/tags/"+tag
-        .replace(' ', '-')
-        .replace('/',"-");
+    const tagLink = "/docs/tags/"+tag.toLowerCase()
+        .replaceAll(' ', '-')
+        .replaceAll('.', '-')
+        .replaceAll('/',"-")
+        //Special cases
+        .replace('h2', 'h-2')
+        .replace('phpunit', 'php-unit')
+        .replace('github', 'git-hub')
+        .replace('mysql', 'my-sql')
+        .replace('mariadb', 'maria-db');
         
     return (
         <a 
@@ -28,28 +34,26 @@ function TagList({ title, tags}) {
     </>);
 }
 
-function SkillTableRow({skillGroupName}){
-    const tags = skillGroups.find(sg =>
-        sg.name === skillGroupName
-    ).keywords;
-
+function SkillRow({category}){
+    const tags = resume_skills.find(sc => sc.name === category).keywords;
     return (<tr>
-        <td>{skillGroupName}</td>
+        <td>{category}</td>
         <td><TagList tags={tags} /></td>
     </tr>);
 }
 
-function SkillTable() {
+function SkillTable({skills}) {
+    resume_skills = skills;
     return (
         <table className={styles.skillTable}>
             <tbody>
-                <SkillTableRow skillGroupName="Backend" />
-                <SkillTableRow skillGroupName="Frontend" />
-                <SkillTableRow skillGroupName="DevOps" />
-                <SkillTableRow skillGroupName="Databases" />
-                <SkillTableRow skillGroupName="Scripting" />
-                <SkillTableRow skillGroupName="SDET/QA" />
-                <SkillTableRow skillGroupName="Tools" />
+                <SkillRow category="Backend" />
+                <SkillRow category="Frontend" />
+                <SkillRow category="DevOps" />
+                <SkillRow category="Database" />
+                <SkillRow category="Scripting" />
+                <SkillRow category="SDET/QA" />
+                <SkillRow category="Tools" />
             </tbody>
         </table>
     );

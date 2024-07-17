@@ -1,7 +1,7 @@
 ---
-sidebar_position: 15
-title: "Web Developer for Les 2 Photographes"
-tags: ["PHP", "PAYPAL API", "HTML", "CSS", "LINUX"]
+experience:
+  position: "Web Developer"
+  place: "Les 2 Photographes"
 ---
 
 import Experience from '@site/src/components/experience';

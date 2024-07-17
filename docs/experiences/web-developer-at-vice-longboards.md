@@ -1,7 +1,7 @@
 ---
-sidebar_position: 11
-title: "Web Developer for Vice Longboards"
-tags: ["HTML", "JAVASCRIPT", "JQUERY", "CSS"]
+experience:
+  position: "Web Developer"
+  place: "Vice Longboards"
 ---
 
 import Experience from '@site/src/components/experience';

@@ -1,16 +1,16 @@
-// @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const {themes} = require('prism-react-renderer');
 
 const resume = require('./static/data/resume.json');
-const xpTotal = require('./src/components/experience/xp.functions').getXpTotal(resume.work);
+const experience_functions = require('./src/components/experience/xp.functions');
+
+const xpTotal = experience_functions.getXpTotal(resume.work);
 
 function getSocialLink(socialNetwork){
   const profileItem = resume.basics.profiles.find(profile =>
     profile.network === socialNetwork
   );
-  // @ts-ignore
   return profileItem.url
 }
 
@@ -61,6 +61,7 @@ const config = {
         blog: {
           blogDescription: "Software Industry reflections from a critical Full Stack who value coding efficiency as paramount. Coding is about business scalability, not marketing buzz",
           showReadingTime: true,
+          showLastUpdateTime: true,
           postsPerPage: 5,
           blogSidebarTitle: 'Last 10 posts',
           blogSidebarCount: 10
@@ -71,6 +72,36 @@ const config = {
       }),
     ],
   ],
+
+  markdown: {
+    parseFrontMatter: async (params) => {
+      // Reuse the default parser
+      const result = await params.defaultParseFrontMatter(params);
+
+      //Experience doc page
+      if(result.frontMatter.experience){
+        const position = result.frontMatter.experience.position;
+        const place = result.frontMatter.experience.place;
+        const index = resume.work.findIndex(work_item => 
+          work_item.position === position &&
+          work_item.name === place
+        );
+
+        // title
+        result.frontMatter.title = position+" at "+place;
+        
+        // position
+        result.frontMatter.sidebar_position = index+1;
+
+        // tags
+        result.frontMatter.tags = [];
+        resume.work[index].skills.forEach(category => {
+          result.frontMatter.tags.push(...category.keywords)
+        });
+      }
+      return result;
+    }
+  },
 
   themeConfig: ({ /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     metadata: [
@@ -190,7 +221,7 @@ const config = {
       respectPrefersColorScheme: true
     }
   }),
-  
+
   scripts: [
     {
       'data-host': "https://app.microanalytics.io",
@@ -201,7 +232,7 @@ const config = {
     }
   ],
 
-  plugins: [],
+  plugins: []
 };
 
 module.exports = config

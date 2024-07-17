@@ -1,7 +1,7 @@
 ---
-sidebar_position: 16
-title: "Web Developer for CADS Informatique"
-tags: ["PHP", "WORDPRESS", "MYSQL", "JAVASCRIPT", "JQUERY", "HTML", "CSS"]
+experience:
+  position: "Web Developer"
+  place: "CADS Informatique"
 ---
 
 import Experience from '@site/src/components/experience';

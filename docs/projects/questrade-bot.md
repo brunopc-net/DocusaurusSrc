@@ -1,13 +1,21 @@
 ---
-sidebar_position: 5
-tags: ["Automate your life", python]
+sidebar_position: 6
+tags: ["Automation", "PYTHON", "REDIS", "PYCHARM"]
 ---
 
 import MarkdownLink from '@site/src/components/link/MarkdownLink';
 
+:::note
+
+I stopped this project because [Questrade API discontinued order entry](https://www.reddit.com/r/Questrade/comments/82qjv3/questrade_api_discontinuing_order_entry/), so it is now impossible to automate the buying process - unless relying on a sub-optimal solution like Selenium.
+
+I since use https://passiv.com/ to *almost* automate my stock orders: I just need to click a button to confirm.
+
+:::
+
 # QuestradeBot
 
-Bot stock buyer for Questrade. Deprecated.
+Stock buyer bot for Questrade.
 
 <MarkdownLink button
   to='https://github.com/brunopc-net/QuestradeBot'
@@ -23,7 +31,3 @@ I use the old [Canadian Couch Potato](https://canadiancouchpotato.com/) portfoli
 - ZAG.TO (25%)
 
 Depending on the price of these ETF from one day to another, the amount of shares to buy will vary.
-
-I stopped this project because [Questrade API discontinued order entry](https://www.reddit.com/r/Questrade/comments/82qjv3/questrade_api_discontinuing_order_entry/), so it is now impossible to automate the buying process - unless relying on a sub-optimal solution like Selenium.
-
-I since use https://passiv.com/ to *almost* automate my stock orders: I just need to click a button to confirm.
