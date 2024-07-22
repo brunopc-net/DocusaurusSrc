@@ -52,7 +52,7 @@ function hasClient(experience){
 
 function ExperienceTable({ experience }) {
     const period = formatDate(experience.startDate)+' to '+formatDate(experience.endDate);
-    const xpAmount = getXpAmount(experience.startDate, experience.endDate);
+    const xpAmount = experience.amount || getXpAmount(experience.startDate, experience.endDate);
 
     return (
         <table style={{marginTop: 20}}>
@@ -62,7 +62,7 @@ function ExperienceTable({ experience }) {
                     {hasClient(experience) && (<th>Client</th>)}
                     <th>Position</th>
                     <th>Period</th>
-                    <th>Total experience</th>
+                    <th>Effective experience</th>
                 </tr>
             </thead>
             <tbody>
@@ -82,7 +82,6 @@ function ExperienceDescription({ experience }) {
     return (<>
         <h2>Summary</h2>
         <p>{experience.summary}</p>
-
         <h2>Highlights</h2>
         <ul>
             {experience.highlights.map((task) =>
@@ -95,13 +94,10 @@ function ExperienceDescription({ experience }) {
     </>);
 }
 
-function Experience({title}) {
-    const workItem = work.find((work_item) => {
-        const separator = title.includes(" for ") ? " for " : " at ";
-        const position = title.split(separator)[0];
-        const name = title.split(separator)[1];
-        return work_item.position === position && work_item.name === name
-    });
+function Experience({position, place}) {
+    const workItem = work.find((work_item) => 
+        work_item.position === position && work_item.name === place
+    );
     return (
         <div>
             <h2>{getWorkType(workItem.type)}</h2>

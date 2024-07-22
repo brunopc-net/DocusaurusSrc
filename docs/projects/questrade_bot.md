@@ -1,21 +1,20 @@
 ---
-sidebar_position: 6
-tags: ["Automation", "PYTHON", "REDIS", "PYCHARM"]
+project: "Questrade Bot"
 ---
 
 import MarkdownLink from '@site/src/components/link/MarkdownLink';
+
+# QuestradeBot
+
+A Python bot that buy stocks on [Questrade](https://www.questrade.com/).
 
 :::note
 
 I stopped this project because [Questrade API discontinued order entry](https://www.reddit.com/r/Questrade/comments/82qjv3/questrade_api_discontinuing_order_entry/), so it is now impossible to automate the buying process - unless relying on a sub-optimal solution like Selenium.
 
-I since use https://passiv.com/ to *almost* automate my stock orders: I just need to click a button to confirm.
+I since use [Passiv](https://passiv.com/) to *almost* automate my stock orders: I just need to click a button and it's done.
 
 :::
-
-# QuestradeBot
-
-Stock buyer bot for Questrade.
 
 <MarkdownLink button
   to='https://github.com/brunopc-net/QuestradeBot'

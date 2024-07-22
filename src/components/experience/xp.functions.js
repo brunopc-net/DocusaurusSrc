@@ -11,7 +11,7 @@ const getXpAmount = (start, end) => {
 
 const getXpTotal = (work) => {
     const totalMonths = work.reduce((totalXp, workItem) => 
-        totalXp += getXpAmount(workItem.startDate, workItem.endDate), 0
+        totalXp += workItem.amount || getXpAmount(workItem.startDate, workItem.endDate), 0
     );
     return Math.round(totalMonths/12);
 }

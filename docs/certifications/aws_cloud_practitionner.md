@@ -1,9 +1,7 @@
 ---
-sidebar_position: 1
-title: "AWS Certified Cloud Practitioner"
-tags: ["AWS"]
+certification: "AWS Cloud Practitioner"
 ---
 
 import Certification from '@site/src/components/certification';
 
-<Certification name={frontMatter.title} />
+<Certification name={frontMatter.certification} />

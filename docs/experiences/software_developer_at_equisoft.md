@@ -6,4 +6,4 @@ experience:
 
 import Experience from '@site/src/components/experience';
 
-<Experience title={frontMatter.title} />
+<Experience position={frontMatter.experience.position}  place={frontMatter.experience.place} />

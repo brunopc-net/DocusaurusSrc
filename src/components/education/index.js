@@ -46,7 +46,7 @@ function Education({ area, studyType}) {
             <b>Institution: </b><a href={education_item.url}>{education_item.institution}</a>
         </p>
         <Logo org={education_item.institution} link={education_item.url} />
-        <CourseTable courses={education_item.courses} />
+        <CourseTable courses={education_item.course_list} />
     </>);
 }
 

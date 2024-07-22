@@ -1,22 +1,21 @@
 ---
-sidebar_position: 2
-tags: ["Automation", "Javascript", "Node.js", "React", "GitHub Actions", "VISUAL STUDIO CODE"]
+project: "Horus"
 ---
 
 import MarkdownLink from '@site/src/components/link/MarkdownLink';
 
 # Horus
 
-Live at [https://brunopc-net.github.io/Horus](https://brunopc-net.github.io/Horus)
+A Node.js/React short term weather report designed for sports, live at [https://brunopc-net.github.io/Horus](https://brunopc-net.github.io/Horus).
 
-Named after the [Egyptian god of rainstorms, weather, sky and war](https://en.wikipedia.org/wiki/Weather_god)
+Named after the [Egyptian god of rainstorms, weather, sky and war](https://en.wikipedia.org/wiki/Weather_god).
 
 <MarkdownLink button
   to='https://github.com/brunopc-net/Horus'
   text='Repository'
 /><br/><br/>
 
-Summer 2023, Wildfires were terrible in Canada. With global warming effects increasing every year, I wanted an algorithm that would advice me on what to do when I'm planning to go play outside. I also wanted something to advice me to protect from the sun, as UV can be high even if it's cloudy outside.
+Summer 2023, Wildfires were terrible in Canada. With global warming effects increasing every year, I wanted an algorithm that would advice me on what to do when I'm planning to go play outside. I also wanted something to advice me to protect from the sun, as UV can be high even if it's cloudy.
 
 While I was on it, I decided to include precipitation alerts so I won't go for a long bike ride if there will be rain in two hours for exemple. I also included temperature alerts to make sure I'm aware of the conditions for my time outside.
 
