@@ -63,7 +63,7 @@ Problem with that? As they are not the same job, [someone doing data engineering
 
 ### SDET/QA
 
-Another example is the term [SDET - Software Development Engineer in Test](https://www.softwaretestinghelp.com/what-is-sdet/). I was personally executed multiple SDET roles in my last jobs, [including a SDET Tech Lead mandate](/docs/experiences/sdet-technical-lead-at-national-bank-of-canada). My job was pretty much the same as that of a Software Development Tech lead: I was performing conception, design, technical leadership/optimization, coding, deployments, and training for my team.
+Another example is the term [SDET - Software Development Engineer in Test](https://www.softwaretestinghelp.com/what-is-sdet/). I was personally executed multiple SDET roles in my last jobs, [including a SDET Tech Lead mandate](/docs/experiences/sdet-tech-lead-at-national-bank-of-canada). My job was pretty much the same as that of a Software Development Tech lead: I was performing conception, design, technical leadership/optimization, coding, deployments, and training for my team.
 
 However, because SDET term may have legal consequences in Canada, I often get referred as a "QA". [A QA often refers to someone manually testing software](https://www.softwaretestinghelp.com/what-is-sdet/#:~:text=QA%20tester%20would%20just%20use%20the%20Application/System%20under%20test%20as%20any%20normal%20user/customer%20would%20use).
 
