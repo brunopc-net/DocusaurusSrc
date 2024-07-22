@@ -1,11 +1,12 @@
 {
   "name": "brunopc-blog",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
+    "export-resume": "node src/ResumeExporter.js",
+    "start": "node src/ResumeUpdater.js && docusaurus start",
+    "build": "node src/ResumeUpdater.js && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",

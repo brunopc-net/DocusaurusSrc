@@ -1,7 +1,7 @@
 ---
 experience:
-  position: "DevOps Developer"
-  place: "Société Générale"
+  position: "Backend Tech Lead"
+  place: "Rona"
 ---
 
 import Experience from '@site/src/components/experience';

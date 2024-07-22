@@ -1,9 +1,0 @@
----
-experience:
-  position: "Web Developer"
-  place: "Heritage Software Inc."
----
-
-import Experience from '@site/src/components/experience';
-
-<Experience title={frontMatter.title} />

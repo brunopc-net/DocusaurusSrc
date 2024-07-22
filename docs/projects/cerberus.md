@@ -1,19 +1,18 @@
 ---
-sidebar_position: 4
-tags: ["Automation", "PYTHON", "DOCKER", "JENKINS", "PYCHARM"]
+project: "Cerberus"
 ---
 
 import MarkdownLink from '@site/src/components/link/MarkdownLink';
+
+A Python file backup application.
+
+Named after [the Greek hound of Hades, a multi-headed dog that guards the gates of the Underworld](https://en.wikipedia.org/wiki/Cerberus).
 
 :::note
 
 I stopped this project when Proton released a got enough desktop app for [ProtonDrive](https://proton.me/drive). I was already paying for an account for their great email service ; hence it was a free addition to my acccount.
 
 :::
-
-# Cerberus
-
-Documents backup script.
 
 <MarkdownLink button
   to='https://github.com/brunopc-net/Cerberus'

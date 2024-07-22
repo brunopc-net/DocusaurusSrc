@@ -1,9 +1,7 @@
 ---
-sidebar_position: 2
-title: "Start with React"
-tags: ["React", "Javascript"]
+certification: "Start with React"
 ---
 
 import Certification from '@site/src/components/certification';
 
-<Certification name={frontMatter.title} />
+<Certification name={frontMatter.certification} />

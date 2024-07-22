@@ -1,9 +1,7 @@
 ---
-sidebar_position: 6
-title: "Learn DevOps: Infrastructure Automation With Terraform"
-tags: ["Terraform"]
+certification: "Learn DevOps: Infrastructure Automation With Terraform"
 ---
 
 import Certification from '@site/src/components/certification';
 
-<Certification name={frontMatter.title} />
+<Certification name={frontMatter.certification} />

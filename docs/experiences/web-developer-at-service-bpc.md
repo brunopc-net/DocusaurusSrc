@@ -1,15 +1,14 @@
 ---
 experience:
   position: "Web Developer"
-  place: "Vice Longboards"
+  place: "ServiceBPC"
 ---
 
 import Experience from '@site/src/components/experience';
-
 import ViceLongboardCover from '@site/static/img/ViceLongboards.webp';
 import ViceLongboardCoverSmall from '@site/static/img/ViceLongboards-small.webp';
 
-<Experience title={frontMatter.title} />
+<Experience position={frontMatter.experience.position}  place={frontMatter.experience.place} />
 
 <img
     alt="ViceLongboard website cover"

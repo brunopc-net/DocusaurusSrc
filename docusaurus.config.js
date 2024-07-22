@@ -79,7 +79,7 @@ const config = {
       const result = await params.defaultParseFrontMatter(params);
 
       //Experience doc page
-      if(result.frontMatter.experience){
+      if(result.frontMatter.experience != undefined){
         const position = result.frontMatter.experience.position;
         const place = result.frontMatter.experience.place;
         const index = resume.work.findIndex(work_item => 
@@ -89,16 +89,66 @@ const config = {
 
         // title
         result.frontMatter.title = position+" at "+place;
-        
         // position
         result.frontMatter.sidebar_position = index+1;
-
         // tags
         result.frontMatter.tags = [];
-        resume.work[index].skills.forEach(category => {
+        let skills = resume.work[index].skills;
+        skills && skills.forEach(category => {
           result.frontMatter.tags.push(...category.keywords)
         });
       }
+
+      //Education doc page
+      if(result.frontMatter.education != undefined){
+        const area = result.frontMatter.education.area;
+        const studyType = result.frontMatter.education.studyType;
+        const index = resume.education.findIndex(education_item => 
+          education_item.area === area &&
+          education_item.studyType === studyType
+        );
+        // title
+        result.frontMatter.title = area+" "+studyType;
+        // position
+        result.frontMatter.sidebar_position = index+1;
+        // tags
+        result.frontMatter.tags = [];
+        let skills = resume.education[index].skills;
+        skills && skills.forEach(category => {
+          result.frontMatter.tags.push(...category.keywords)
+        });
+      }
+
+      //Certification doc page
+      if(result.frontMatter.certification != undefined){
+        const index = resume.certificates.findIndex(cert => cert.name === result.frontMatter.certification);
+        // title
+        result.frontMatter.title = result.frontMatter.certification;
+        // position
+        result.frontMatter.sidebar_position = index+1;
+        // tags
+        result.frontMatter.tags = [];
+        let skills = resume.certificates[index].skills;
+        skills && skills.forEach(category => {
+          result.frontMatter.tags.push(...category.keywords)
+        });
+      }
+
+      //Project doc page
+      if(result.frontMatter.project != undefined){
+        const index = resume.projects.findIndex(proj => proj.name === result.frontMatter.project);
+        // title
+        result.frontMatter.title = result.frontMatter.project;
+        // position
+        result.frontMatter.sidebar_position = index+1;
+        // tags
+        result.frontMatter.tags = [];
+        let skills = resume.projects[index].skills;
+        skills && skills.forEach(category => {
+          result.frontMatter.tags.push(...category.keywords)
+        });
+      }
+
       return result;
     }
   },
