@@ -15,7 +15,8 @@ function getTagLink(tag){
         .replaceAll('.', '-')
         .replaceAll('/',"-")
         //Special cases
-        .replace('c-c++', 'c-c');
+        .replace('unit', '-unit')
+        .replace('c++', 'c');
 }
 
 function SkillTable({skills}) {
