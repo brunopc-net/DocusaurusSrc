@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
 
 function getTagLink(tag){
-    return "/docs/tags/"+tag.toLowerCase()
+    return "/docs/tags/"+tag
         .replace('c++', 'c')
         .replace(/unit/gi, '-unit')
         .replace(/([a-z])([A-Z])/g, '$1-$2')
