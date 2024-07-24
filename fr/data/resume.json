@@ -468,7 +468,6 @@
       },
       {
          "name": "ServiceBPC",
-         "type": "freelance",
          "position": "Web Developer",
          "startDate": "2010-01",
          "endDate": "2016-07",
@@ -580,7 +579,7 @@
                "name": "Backend",
                "keywords": [
                   "Java",
-                  "C++"
+                  "C/C++"
                ]
             },
             {
@@ -589,6 +588,12 @@
                   "JavaScript",
                   "HTML",
                   "CSS"
+               ]
+            },
+            {
+               "name": "Database",
+               "keywords": [
+                  "Oracle"
                ]
             },
             {
@@ -642,7 +647,7 @@
                "name": "Backend",
                "keywords": [
                   "Java",
-                  "C",
+                  "C/C++",
                   "PHP"
                ]
             },
@@ -817,24 +822,57 @@
    ],
    "references": [
       {
-         "name": "Vera Jovicic, Sr Project Manager, Levio, LL.M, PMP, PSM",
+         "name": "Vera Jovicic, Sr Project Manager, LL.M, PMP, PSM",
+         "link": "https://www.linkedin.com/in/vera-jovicic-ll-m-pmp-psm-0b63a49a/",
+         "experience": {
+            "name": "DevOps Developer, Rona",
+            "link": "/docs/experiences/devops-developer-at-rona/"
+         },
          "reference": "I would like to thank Bruno for taking a chance and joining our team! Having him on board really helped the project move along. I really hope we get to work together again. I'm sure he will do great in whatever project he'll go next."
       },
       {
-         "name": "Ali Boutaba, Team Manager, Société Générale",
+         "name": "Ali Boutaba, Tech Lead",
+         "link": "https://www.linkedin.com/in/ali-boutabaa-9ba1b886/",
+         "experience": {
+            "name": "DevOps Developer, Société Générale",
+            "link": "/docs/experiences/devops_developer_at_societe_generale/"
+         },
          "reference": "Bruno was very good at planning and implementing improvements based on real data. His pragmatism led to realistic goals, which led to mesurable results. He his a great asset for any team leader that needs guidance and arguments that helps to manage the project budjet."
       },
       {
-         "name": "Pierre Bélanger, Entrepreneurship Teacher, ÉTS",
+         "name": "Pierre Bélanger, Entrepreneurship Teacher",
+         "experience": {
+            "name": "Entrepreneurship minor, ÉTS",
+            "link": "/docs/education/entrepreneurship-minor/"
+         },
          "reference": "I'm thrilled to testify favorably on Mr. Pettersen's behalf. Bruno has been an active and invested participant in the entrepreneurship program, both in class and in the practical work where students are involved in influencing the content taught according to the needs of student entrepreneurs. Bruno demonstrated an interest in entrepreneurship that the whole class could benefit from during the discussions on different business scenarios. He also demonstrated an obvious curiosity towards the tools of entrepreneurship and a strong desire to master their operation. It is therefore with pleasure that I refer Mr. Pettersen to any company."
       },
       {
-         "name": "Nicolas Belisle, VP Technology, Constellio",
-         "reference": "Bruno brilliantly overhauled the interface of the official search engine of the Government of Quebec during his internship at Constellio. The engine, which receives several million searches, had a flexible interface technology, but it was complex to integrate and limited response times. Bruno designed the new interface based on the latest generation technologies (Ajax/jQuery). The work done was a success! I would like to highlight the initiative, the concern for continuous improvement and the autonomy demonstrated by Bruno. It is a real pleasure to work with him!"
+         "name": "Nicolas Belisle, VP Technology",
+         "link": "https://www.linkedin.com/in/nicolas-b%C3%A9lisle-5b77764/",
+         "experience": {
+            "name": "Software Developer, Constellio",
+            "link": "/docs/experiences/software_developer-at-constellio/"
+         },
+         "reference": "Bruno brilliantly overhauled the interface of the official search engine of the Government of Quebec during his internship at Constellio. The engine, which handles millions of searches, had a flexible but complex interface technology that limited response times. Bruno designed the new interface based on the latest technologies (Ajax/jQuery). The work was a success! I would like to highlight Bruno's initiative, continuous improvement efforts, and demonstrated autonomy. It is a real pleasure to work with him!"
       },
       {
-         "name": "Louis Parent, Finance Teacher, ÉTS",
+         "name": "Louis Parent, Finance Teacher",
+         "link": "https://www.linkedin.com/in/louis-parent-4866a614/",
+         "experience": {
+            "name": "Entrepreneurship minor, ÉTS",
+            "link": "/docs/education/entrepreneurship-minor/"
+         },
          "reference": "Bruno was one of the brightest student I have had. He has great understanding of Financial Theory!"
+      },
+      {
+         "name": "Denis Tremblay M.Sc",
+         "link": "https://www.linkedin.com/in/denis-tremblay-m-sc-8310017/",
+         "experience": {
+            "name": "Web Developer, ServiceBPC",
+            "link": "/docs/experiences/web-developer-at-service-bpc/"
+         },
+         "reference": "Bruno provided us with fast and efficient service. His customer care is excellent. We would not hesitate to hire him again if needed."
       }
    ],
    "projects": [
@@ -966,8 +1004,7 @@
             "Groovy",
             "C#",
             "PHP",
-            "C++",
-            "C",
+            "C/C++",
             "Node.js",
             "Python"
          ]
