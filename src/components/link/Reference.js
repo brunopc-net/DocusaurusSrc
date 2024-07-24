@@ -16,7 +16,7 @@ function Authors({authors}){
         {authors.map((author, index) => (
             author && (<span key={index}>
                 {author.includes(AUTHOR_SPLITTER) ? (
-                    <a href={getAuthorLink(author)}>{getAuthorName(author)}</a>
+                    <Link href={getAuthorLink(author)}>{getAuthorName(author)}</Link>
                 ) : (
                     getAuthorName(author)
                 )}

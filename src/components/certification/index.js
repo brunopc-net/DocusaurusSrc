@@ -1,7 +1,8 @@
 import React from 'react';
 
-import CredlyBadge from '@site/src/components/media/CredlyBadge';
-import Diploma from '@site/src/components/media/Diploma';
+import Link from '@docusaurus/Link';
+import UdemyBadge from './UdemyBadge';
+import CredlyBadge from './CredlyBadge';
 
 const certifications = require('@site/static/data/resume.json').certificates;
 const issuers = [
@@ -21,7 +22,7 @@ const issuers = [
 
 function About({cert}){
     return cert.url && (<>
-        <b>About:</b> <a href={cert.url}>{cert.name}</a><br/>
+        <b>About:</b> <Link to={cert.url}>{cert.name}</Link><br/>
     </>);
 }
 
@@ -42,24 +43,22 @@ function Id({cert}){
 
 function Issuer({cert}){
     const issuer = issuers.find(i => i.name === cert.issuer);
-    const name = issuer ? <a href={issuer.link}>{issuer.name}</a> : cert.issuer;
     return (<>
-        <b>Issuer:</b> {name}<br/></>
+        <b>Issuer:</b> {issuer ? 
+            <Link href={issuer.link}>{issuer.name}</Link>:
+            cert.issuer
+        }<br/>
+    </>
     );
 }
 
 function Badge({cert}){
-    if("Udemy" === cert.issuer) 
-        return (<Diploma
-            id={cert.id}
-            desc={cert.name}
-            link={"https://www.udemy.com/certificate/"+cert.id}
-        />);
-    if("Amazon" === cert.issuer)
-        return (<CredlyBadge
-            id={cert.id}
-            name={cert.name}
-        />);
+    switch(cert.issuer) {
+        case "Udemy":
+            return (<UdemyBadge id={cert.id} desc={cert.name} />);
+        case "Amazon":
+            return (<CredlyBadge id={cert.id} desc={cert.name} />);
+    }
 }
 
 function Certification({name}) {
@@ -71,9 +70,7 @@ function Certification({name}) {
             <Issuer cert={cert} />
             <Id cert={cert} />
         </p>
-        <p>
-            <Badge cert={cert} /> 
-        </p>
+        {cert.id && <Badge cert={cert} />}
     </div>);
 }
 

@@ -259,7 +259,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Bruno Pettersen-Coulombe. Built with React-based <a href="https://docusaurus.io">Docusaurus</a>`,
+      copyright: `Copyright © ${new Date().getFullYear()} Bruno Pettersen-Coulombe. Built with React-based <Link to="https://docusaurus.io">Docusaurus</Link>`,
     },
     prism: {
       theme: themes.github,

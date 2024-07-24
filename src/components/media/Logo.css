@@ -1,6 +1,7 @@
 .logo {
     transition-duration: var(--ifm-button-transition-duration);
     transition-timing-function: var(--ifm-transition-timing-default);
+    margin-bottom: 1em;
 }
 
 .logo:hover{

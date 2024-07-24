@@ -2,6 +2,8 @@
 title: Disclaimer
 ---
 
+import Link from '@docusaurus/Link';
+
 # Disclaimer
 
 ## Engineering term
@@ -49,5 +51,5 @@ I use [microanalytics](https://microanalytics.io/) for my Analytics. It's fully 
 - Builders of [Docusaurus](https://docusaurus.io)
 - Builders of [Giscus](https://giscus.app)
 - Builders of [JSON Resume](https://jsonresume.org)
-- Karting photography: <a href="https://www.facebook.com/bruno.dorais.9">Bruno Dorais</a>
-- Cycling photography: <a href="https://ngrandphotography.com">Nathan Grand</a>
+- Karting photography: <Link to="https://www.facebook.com/bruno.dorais.9">Bruno Dorais</Link>
+- Cycling photography: <Link to="https://ngrandphotography.com">Nathan Grand</Link>

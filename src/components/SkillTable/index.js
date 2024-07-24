@@ -1,17 +1,15 @@
 import React from 'react';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 function getTagLink(tag){
-    return "/docs/tags/"+tag.toLowerCase()
-        .replaceAll(' ', '-')
-        .replaceAll('.', '-')
-        .replaceAll('/',"-")
-        //Special cases
-        .replace('h2', 'h-2')
-        .replace('phpunit', 'php-unit')
-        .replace('github', 'git-hub')
-        .replace('mysql', 'my-sql')
-        .replace('mariadb', 'maria-db');
+    return "/docs/tags/"+tag
+        .replace(/c\+\+/gi, 'c')
+        .replace(/unit/gi, '-unit')
+        .replace(/([a-z])([A-Z])/g, '$1-$2')
+        .replace(/([a-zA-Z])([0-9])/g, '$1-$2')
+        .replace(/[ .\/]/g, '-')
+        .toLowerCase();
 }
 
 function SkillTable({skills}) {
@@ -23,7 +21,7 @@ function SkillTable({skills}) {
                     <td>
                         <ul className={styles.skillList}>
                             {skill_category.keywords.map((tag) => (
-                                <li key={tag}><a href={getTagLink(tag)}>{tag}</a></li>
+                                <li key={tag}><Link to={getTagLink(tag)}>{tag}</Link></li>
                             ))}
                         </ul>
                     </td>

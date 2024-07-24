@@ -1,8 +1,10 @@
 import React from 'react';
 import Logo from '@site/src/components/media/Logo';
+import Link from '@docusaurus/Link';
+import Reference from '@site/src/components/references';
 import { getXpAmount } from  './xp.functions';
 
-const work = require('@site/static/data/resume.json').work;
+const resume = require('@site/static/data/resume.json');
 
 function getWorkType(type){
     switch(type){
@@ -31,29 +33,28 @@ function Employer({experience}){
 
     if (experience.employer){
         return experience.employerUrl ?
-            (<td><a href={experience.employerUrl}>{experience.employer}</a></td>):
+            (<td><Link to={experience.employerUrl}>{experience.employer}</Link></td>):
             (<td>{experience.employer}</td>);
     }
 
     return experience.url ?
-        (<td><a href={experience.url}>{experience.name}</a></td>):
+        (<td><Link href={experience.url}>{experience.name}</Link></td>):
         (<td>{experience.name}</td>);
 }
 
 function Client({experience}){
     return experience.url ?
-        (<td><a href={experience.url}>{experience.name}</a></td>):
+        (<td><Link href={experience.url}>{experience.name}</Link></td>):
         (<td>{experience.name}</td>);
 }
 
 function hasClient(experience){
-    return 'mandate|freelance'.includes(experience.type);
+    return 'contract|mandate|freelance'.includes(experience.type);
 }
 
 function ExperienceTable({ experience }) {
     const period = formatDate(experience.startDate)+' to '+formatDate(experience.endDate);
     const xpAmount = experience.amount || getXpAmount(experience.startDate, experience.endDate);
-
     return (
         <table style={{marginTop: 20}}>
             <thead>
@@ -95,15 +96,22 @@ function ExperienceDescription({ experience }) {
 }
 
 function Experience({position, place}) {
-    const workItem = work.find((work_item) => 
+    const workItem = resume.work.find((work_item) => 
         work_item.position === position && work_item.name === place
     );
+    const references = resume.references.filter((ref_item) => {
+        const exp_name = ref_item.experience.name;
+        return exp_name.includes(position) && exp_name.includes(place)
+    });
     return (
         <div>
             <h2>{getWorkType(workItem.type)}</h2>
-            <Logo org={workItem.name} link={workItem.url} />
             <ExperienceTable experience={workItem}/>
+            <Logo org={workItem.name} link={workItem.url} />
             <ExperienceDescription experience={workItem}/>
+            {references.length > 0 && <>
+                {references.map(item => <Reference reference={item}/>)}
+            </>}
         </div>
     );
 }
