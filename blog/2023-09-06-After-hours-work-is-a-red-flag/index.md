@@ -7,6 +7,7 @@ tags: ["Deployment-optimisation", "Blue–Green", "Canari", "Automation", "DevOp
 ---
 
 import EmployeeHopesSvg from './employees-hopes-McKinsey.svg';
+import Link from '@docusaurus/Link';
 
 ![Job description](./Job-description.PNG)
 
@@ -22,9 +23,9 @@ For two main reasons:
 
 After the Covid-19 pandemic, [people have more expectation about their working conditions](https://insights-north-america.aon.com/enhancing-wellbeing/changing-expectations-how-the-pandemic-has-affected-what-employees-want-from-their-benefits-programs). For example, [51% of people are hoping for a better work-life balance](https://www.weforum.org/agenda/2021/05/employers-pandemic-covid-19-mental-health/). And they should be: it is the reasonable reality to expect given what technology permits in 2023.
 
-<a href="https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/what-employees-are-saying-about-the-future-of-remote-work">
+<Link to="https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/what-employees-are-saying-about-the-future-of-remote-work">
     <EmployeeHopesSvg />
-</a>
+</Link>
 
 I’m sure, as a responsible employer, that you are always searching for ways to improve the work-life balance of your employees, which, in turn, will give you the opportunity to attract the most competent candidates. However, all these efforts from your organization can be thrown out the window if you ask for your employees to do overtime time and time again. Manual deployment is a mentally taxing task for your employees - it drains mental energy without any real contribution to expertise.
 

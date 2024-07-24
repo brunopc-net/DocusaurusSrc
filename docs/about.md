@@ -6,12 +6,13 @@ import MarkdownLink from '@site/src/components/link/MarkdownLink';
 import SkillTable from '@site/src/components/SkillTable';
 import resume from '@site/static/data/resume.json';
 import {TotalXp} from '@site/src/components/experience/TotalXp';
+import Link from '@docusaurus/Link';
 
 # About me
 
 I live in Montreal, Canada. [I am a scientific mind in an athlete body](https://passionpvss.blogspot.com/2017/06/scientist-mind-athlete-body.html).
 
-My <a href="/docs/category/experiences/" target="_blank"><TotalXp work={resume.work}/> years of work experience has been very diverse so far</a>, as I did development, both backend and frontend, software and web. I also worked in multiples [DevOps](https://www.atlassian.com/devops) transformations and as a [SDET](https://www.softwaretestinghelp.com/what-is-sdet/). In my last roles, I had my [first experiences](/docs/category/experiences/) as a Tech lead.
+My <Link to="/docs/category/experiences/"><TotalXp work={resume.work}/> years of work experience has been very diverse so far</Link>, as I did development, both backend and frontend, software and web. I also worked in multiples [DevOps](https://www.atlassian.com/devops) transformations and as a [SDET](https://www.softwaretestinghelp.com/what-is-sdet/). In my last roles, I had my [first experiences](/docs/category/experiences/) as a Tech lead.
 
 ## Résumé
 
@@ -55,7 +56,7 @@ As for now, my current hobbies include kart and bike racing.
 
 <div className="row">
   <div className="sideBySide">
-    <a href="https://www.facebook.com/bruno.dorais.9">
+    <Link to="https://www.facebook.com/bruno.dorais.9">
       <img
         alt="Bruno Pettersen-Coulombe karting"
         src={require('@site/static/img/Bruno-PC-karting.webp').default}
@@ -65,7 +66,7 @@ As for now, my current hobbies include kart and bike racing.
         sizes="(max-width: 510px) 245px, 485px"
         loading="lazy"
       />
-    </a>
+    </Link>
   </div>
   <div className="sideBySide">
     <img

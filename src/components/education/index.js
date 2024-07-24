@@ -1,7 +1,8 @@
 import React from 'react';
 
-import Diploma from '@site/src/components/media/Diploma';
 import Logo from '@site/src/components/media/Logo';
+import Link from '@docusaurus/Link';
+import Diploma from './Diploma';
 
 const educationList = require('@site/static/data/resume.json').education;
 
@@ -40,12 +41,12 @@ function Education({ area, studyType}) {
     const desc = education_item.area+" "+education_item.studyType;
     const id = desc.replaceAll(" ","-").toLowerCase();
     return (<>
-        <Diploma wFrame id={id} desc={desc} />
         <p>
             <b>Graduation year: </b>{new Date(education_item.endDate).getFullYear()}<br/>
-            <b>Institution: </b><a href={education_item.url}>{education_item.institution}</a>
+            <b>Institution: </b><Link to={education_item.url}>{education_item.institution}</Link>
         </p>
         <Logo org={education_item.institution} link={education_item.url} />
+        <Diploma id={id} desc={desc} />
         <CourseTable courses={education_item.course_list} />
     </>);
 }

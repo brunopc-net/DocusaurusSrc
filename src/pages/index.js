@@ -63,7 +63,7 @@ function Feature({Svg, title, link, description}) {
       </div>
       <div className="text--center padding-horiz--md">
         {link ? (
-          <h3><a href={link}>{title}</a></h3>
+          <h3><Link href={link}>{title}</Link></h3>
         ) : (
           <h3>{title}</h3>
         )}

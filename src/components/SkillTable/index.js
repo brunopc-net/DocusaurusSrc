@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 function getTagLink(tag){
     return "/docs/tags/"+tag.toLowerCase()
@@ -23,7 +24,7 @@ function SkillTable({skills}) {
                     <td>
                         <ul className={styles.skillList}>
                             {skill_category.keywords.map((tag) => (
-                                <li key={tag}><a href={getTagLink(tag)}>{tag}</a></li>
+                                <li key={tag}><Link to={getTagLink(tag)}>{tag}</Link></li>
                             ))}
                         </ul>
                     </td>

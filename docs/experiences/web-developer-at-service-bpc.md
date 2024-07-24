@@ -5,17 +5,17 @@ experience:
 ---
 
 import Experience from '@site/src/components/experience';
-import ViceLongboardCover from '@site/static/img/ViceLongboards.webp';
-import ViceLongboardCoverSmall from '@site/static/img/ViceLongboards-small.webp';
+import Image from '@site/src/components/media/Image';
 
 <Experience position={frontMatter.experience.position}  place={frontMatter.experience.place} />
 
-<img
-    alt="ViceLongboard website cover"
-    src={ViceLongboardCover}
-    width="958"
-    heigth="563"
-    srcSet={ViceLongboardCover+" 958w,"+ViceLongboardCoverSmall+" 480w"}
-    sizes="(max-width: 512px) 480px, 958px"
-    loading="lazy"
-/>
+Working with clients gave me invaluable experience with regards to client management. I also had to deliver multiple projects while studying full time and training 20 hours per week. It made me crazy time efficient in my work and everyday life.
+
+<figure>
+  <Image
+    path="ViceLongboards"
+    desc="ViceLongboards website"
+    width={958}
+    heigth={563}
+  />
+</figure>

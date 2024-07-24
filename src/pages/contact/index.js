@@ -173,7 +173,7 @@ function ContactMePage() {
               </form>
             </div>
             <p style={{marginTop: 20}}>
-              You can also contact me at <a href="mailto:work@brunopc.net">work@brunopc.net</a>, with or without my public key listed below.
+              You can also contact me at <Link to="mailto:work@brunopc.net">work@brunopc.net</Link>, with or without my public key listed below.
               <listing style={{marginTop: 30}}>
                 {pgp_key}
               </listing>
