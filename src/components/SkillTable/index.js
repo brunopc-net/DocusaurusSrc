@@ -2,17 +2,20 @@ import React from 'react';
 import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
 
+function insertDashBetweenLowerUpper(str) {
+    return str
+        .replace(/([a-z])([A-Z])/g, '$1-$2')
+        .replace(/([a-zA-Z])([0-9])/g, '$1-$2');
+}
+
 function getTagLink(tag){
-    return "/docs/tags/"+tag.toLowerCase()
+    let formattedTag = insertDashBetweenLowerUpper(tag);
+    return "/docs/tags/"+formattedTag.toLowerCase()
         .replaceAll(' ', '-')
         .replaceAll('.', '-')
         .replaceAll('/',"-")
         //Special cases
-        .replace('h2', 'h-2')
-        .replace('phpunit', 'php-unit')
-        .replace('github', 'git-hub')
-        .replace('mysql', 'my-sql')
-        .replace('mariadb', 'maria-db');
+        .replace('c-c++', 'c-c');
 }
 
 function SkillTable({skills}) {
