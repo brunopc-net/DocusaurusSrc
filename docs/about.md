@@ -12,7 +12,7 @@ import Link from '@docusaurus/Link';
 
 I live in Montreal, Canada. [I am a scientific mind in an athlete body](https://passionpvss.blogspot.com/2017/06/scientist-mind-athlete-body.html).
 
-My <Link to="/docs/category/experiences/"><TotalXp work={resume.work}/> years of work experience has been very diverse so far</Link>, as I did development, both backend and frontend, software and web. I also worked in multiples [DevOps](https://www.atlassian.com/devops) transformations and as a [SDET](https://www.softwaretestinghelp.com/what-is-sdet/). In my last roles, I had my [first experiences](/docs/category/experiences/) as a Tech lead.
+My <Link to="/docs/category/experiences/"><TotalXp work={resume.work}/> years of work experience has been very diverse so far</Link>, as I did development, both backend and frontend, software and web. I also worked in multiples [DevOps](https://www.atlassian.com/devops) transformations([1](/docs/experiences/devops_developer_at_societe_generale/), [2](/docs/experiences/devops-developer-at-rona/)) and as a [SDET](https://www.softwaretestinghelp.com/what-is-sdet/)([1](/docs/experiences/sdet-tech-lead-at-national-bank-of-canada/)). In my last roles, I had my first experiences as a Tech lead([1](/docs/experiences/backend-tech-lead-at-rona/), [2](/docs/experiences/devops-developer-at-rona/)).
 
 ## Résumé
 
