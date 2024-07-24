@@ -57,7 +57,7 @@ function Badge({cert}){
         case "Udemy":
             return (<UdemyBadge id={cert.id} desc={cert.name} />);
         case "Amazon":
-            return (<CredlyBadge id={cert.id} name={cert.name} />);
+            return (<CredlyBadge id={cert.id} desc={cert.name} />);
     }
 }
 
@@ -70,7 +70,7 @@ function Certification({name}) {
             <Issuer cert={cert} />
             <Id cert={cert} />
         </p>
-        <Badge cert={cert} />
+        {cert.id && <Badge cert={cert} />}
     </div>);
 }
 
