@@ -4,11 +4,11 @@ import Link from '@docusaurus/Link';
 
 function getTagLink(tag){
     return "/docs/tags/"+tag.toLowerCase()
-        .replace('unit', '-unit')
         .replace('c++', 'c')
+        .replace(/unit/gi, '-unit')
         .replace(/([a-z])([A-Z])/g, '$1-$2')
         .replace(/([a-zA-Z])([0-9])/g, '$1-$2')
-        .replace(/[ .\/]/g, '-');
+        .replace(/[ .\/]/g, '-').toLowerCase();
 }
 
 function SkillTable({skills}) {
