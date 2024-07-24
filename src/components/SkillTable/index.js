@@ -2,21 +2,13 @@ import React from 'react';
 import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
 
-function insertDashBetweenLowerUpper(str) {
-    return str
-        .replace(/([a-z])([A-Z])/g, '$1-$2')
-        .replace(/([a-zA-Z])([0-9])/g, '$1-$2');
-}
-
 function getTagLink(tag){
-    let formattedTag = insertDashBetweenLowerUpper(tag);
-    return "/docs/tags/"+formattedTag.toLowerCase()
-        .replaceAll(' ', '-')
-        .replaceAll('.', '-')
-        .replaceAll('/',"-")
-        //Special cases
+    return "/docs/tags/"+tag.toLowerCase()
         .replace('unit', '-unit')
-        .replace('c++', 'c');
+        .replace('c++', 'c')
+        .replace(/([a-z])([A-Z])/g, '$1-$2')
+        .replace(/([a-zA-Z])([0-9])/g, '$1-$2')
+        .replace(/[ .\/]/g, '-');
 }
 
 function SkillTable({skills}) {
