@@ -20,12 +20,6 @@ const issuers = [
     }
 ];
 
-function About({cert}){
-    return cert.url && (<>
-        <b>About:</b> <Link to={cert.url}>{cert.name}</Link><br/>
-    </>);
-}
-
 function Status({cert}){
     return (<>
         <b>Status: </b>{cert.date ? 
@@ -65,10 +59,12 @@ function Certification({name}) {
     const cert = certifications.find(cert => cert.name === name);
     return cert && (<div>
         <p>
-            <About cert={cert} />
             <Status cert={cert} />
             <Issuer cert={cert} />
             <Id cert={cert} />
+            {cert.url &&
+                <Link to={cert.url}>More details about this certification</Link>
+            }
         </p>
         {cert.id && <Badge cert={cert} />}
     </div>);
