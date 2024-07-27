@@ -8,8 +8,6 @@ import BuyMeCoffee from '@site/src/components/BuyMeCoffee';
 import styles from './index.module.css';
 
 const resume = require('@site/static/data/resume.json');
-const experience_functions = require('@site/src/components/experience/xp.functions');
-const xpTotal = experience_functions.getXpTotal(resume.work);
 
 const FeatureList = [
   {
@@ -37,7 +35,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">Bruno Pettersen-Coulombe</h1>
-        <h2 className="hero__subtitle">Full-Stack Developer 👨‍💻 B.Eng ⚙️ {xpTotal} years of experience</h2>
+        <h2 className="hero__subtitle">Full-Stack Developer 👨‍💻 B.Eng ⚙️ {resume.basics.experience} years of experience</h2>
         <h2 className="hero__subtitle">Racing geek 🚴🏎️</h2>
         <div className={styles.buttons}>
           <Link

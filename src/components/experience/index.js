@@ -1,8 +1,8 @@
 import React from 'react';
-import Logo from '@site/src/components/media/Logo';
 import Link from '@docusaurus/Link';
+import Logo from '@site/src/components/media/Logo';
 import Reference from '@site/src/components/references';
-import { getXpAmount } from  './xp.functions';
+import { getXpAmount } from  '@site/src/scripts/xp.functions';
 
 const resume = require('@site/static/data/resume.json');
 
@@ -37,14 +37,12 @@ function Employer({experience}){
             (<td>{experience.employer}</td>);
     }
 
-    return experience.url ?
-        (<td><Link href={experience.url}>{experience.name}</Link></td>):
-        (<td>{experience.name}</td>);
+    return <Client experience={experience} />
 }
 
 function Client({experience}){
-    return experience.url ?
-        (<td><Link href={experience.url}>{experience.name}</Link></td>):
+    return experience.website ?
+        (<td><Link href={experience.website}>{experience.name}</Link></td>):
         (<td>{experience.name}</td>);
 }
 
@@ -83,15 +81,17 @@ function ExperienceDescription({ experience }) {
     return (<>
         <h2>Summary</h2>
         <p>{experience.summary}</p>
-        <h2>Highlights</h2>
-        <ul>
-            {experience.highlights.map((task) =>
-                <li key={task}>{task}</li>
-            )}
-        </ul>
-        {experience.cover && (
+        {experience.highlights && <>
+            <h2>Highlights</h2>
+            <ul>
+                {experience.highlights.map((task) =>
+                    <li key={task}>{task}</li>
+                )}
+            </ul>
+        </>}
+        {experience.cover && 
             <img src={experience.cover} alt={`${experience.name} cover`} />
-        )}
+        }
     </>);
 }
 
@@ -107,7 +107,7 @@ function Experience({position, place}) {
         <div>
             <h2>{getWorkType(workItem.type)}</h2>
             <ExperienceTable experience={workItem}/>
-            <Logo org={workItem.name} link={workItem.url} />
+            <Logo org={workItem.name} link={workItem.website} />
             <ExperienceDescription experience={workItem}/>
             {references.length > 0 && <>
                 {references.map(item => <Reference reference={item}/>)}

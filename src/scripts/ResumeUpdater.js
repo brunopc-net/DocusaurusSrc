@@ -2,6 +2,8 @@ const fs = require('fs');
 const resume_path = 'static/data/resume.json';
 const resume = require('../'+resume_path);
 
+import { getXpAmount } from  './xp.functions';
+
 let skills_to_output = [
     {name: "Backend", keywords: []},
     {name: "Backend QA", keywords: []},
@@ -22,11 +24,21 @@ function addSkills(item){
     });
 }
 
+function getXpTotal(work){
+    const totalMonths = work.reduce((totalXp, workItem) => 
+        totalXp += workItem.amount || getXpAmount(workItem.startDate, workItem.endDate), 0
+    );
+    const totalYears = totalMonths/12;
+    const roundedYears = Math.round(totalYears)
+    return totalYears < roundedYears ? roundedYears : roundedYears+'+';
+}
+
 resume.work.forEach(item => addSkills(item));
 resume.education.forEach(item => addSkills(item));
 resume.certificates.forEach(item => addSkills(item));
 resume.projects.forEach(item => addSkills(item));
 resume.skills = skills_to_output;
+resume.basics.experience = getXpTotal(experience.work);
 
 fs.writeFileSync(
     resume_path,
