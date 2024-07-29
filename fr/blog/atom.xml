@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://brunopc.net/fr/blog/</id>
-    <title>Bruno PC, Bruno Pettersen-Coulombe, B. Eng. Full-Stack Developer, Tech Lead, DevOps Expert, SDET, Freelancer, Entrepreneur - 11 years of experience Blog</title>
+    <title>Bruno PC, Bruno Pettersen-Coulombe, B. Eng. Full-Stack Developer, Tech Lead, DevOps &amp; QA Expert, Freelancer, Entrepreneur - 11+ years of experience Blog</title>
     <updated>2023-10-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://brunopc.net/fr/blog/"/>
-    <subtitle>Bruno PC, Bruno Pettersen-Coulombe, B. Eng. Full-Stack Developer, Tech Lead, DevOps Expert, SDET, Freelancer, Entrepreneur - 11 years of experience Blog</subtitle>
+    <subtitle>Bruno PC, Bruno Pettersen-Coulombe, B. Eng. Full-Stack Developer, Tech Lead, DevOps &amp; QA Expert, Freelancer, Entrepreneur - 11+ years of experience Blog</subtitle>
     <icon>https://brunopc.net/fr/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[The Engineer term and its cascading mess]]></title>

@@ -3,16 +3,19 @@
       "theme": "stackoverflow"
    },
    "basics": {
-      "name": "Bruno Pettersen-Coulombe",
+      "name": "Bruno Pettersen-Coulombe, B.Eng.",
       "shortname": "Bruno PC",
-      "label": "Full stack Developer, B. Eng.",
+      "experience": "11+",
+      "label": "Full stack Developer | DevOps & QA expert",
+      "summary": "Entrepreneurial background, strong focus on efficiency & business value. World record holder. Passionate about continuous learning.",
       "image": "https://avatars.githubusercontent.com/u/6451835?v=4",
-      "email": "work@brunopc.net",
-      "website": "https://brunopc.net",
-      "summary": "My multi-faceted professional experience and my fast learning made me a profesionnal with great adaptability. World record holder, author, coach: I'm a scientific mind in an athlete body. Addicted to caffeine and challenges.",
       "location": {
          "city": "Montreal",
          "countryCode": "CA"
+      },
+      "contact": {
+         "email": "work@brunopc.net",
+         "website": "https://brunopc.net"
       },
       "profiles": [
          {
@@ -39,32 +42,28 @@
       },
       {
          "language": "English",
-         "fluency": "Full professional proficiency"
+         "fluency": "Fluent"
       },
       {
          "language": "Spanish",
-         "fluency": "Elementary proficiency"
+         "fluency": "Beginner"
       }
    ],
    "work": [
       {
          "name": "Rona",
+         "website": "https://www.rona.ca/",
          "type": "mandate",
          "employer": "Levio",
          "employerUrl": "https://levio.ca/",
-         "url": "https://www.rona.ca/",
          "position": "Backend Tech Lead",
          "startDate": "2024-02",
          "endDate": "2024-07",
          "summary": "Building of 4 microservices with Spring Boot for Selling-Tools project",
          "highlights": [
-            "Coding of Customer microservice (handling of Rona customers)",
-            "Coding of Quotes microservice, extensible quotes handling system primarily use for custom doors/windows",
-            "Coding of Rona's Reference microservice, a data reference service to connect to Rona's product database",
-            "Coding of Message-Receiver, a Tibco Queue listening service to handle quotes updates (Quotes-ms) sent via XML files",
-            "Implement API key authorization & Token appId authentication",
-            "Implement XSS & Content Security Policy (CSP) protections",
-            "Design & implement Cucumber scenarios/tests for all services"
+            "Coding of 4 microservices: Customer-ms (handling of Rona customers), Quotes-ms (handling of custom quotes), RRS (a product data reference service), Message-Receiver (a Tibco Queue client to handle quotes updates)",
+            "Design & implement Cucumber scenarios/tests for all services",
+            "Secure services with API key authorization, Token appId authentication, XSS & Content Security Policy (CSP) protections"
          ],
          "skills": [
             {
@@ -136,16 +135,13 @@
          "type": "mandate",
          "employer": "Levio",
          "employerUrl": "https://levio.ca/",
-         "url": "https://www.rona.ca/",
+         "website": "https://www.rona.ca/",
          "position": "DevOps Developer",
          "startDate": "2023-10",
          "endDate": "2024-01",
-         "summary": "Putting in place generic GitLab pipelines for all Rona development teams",
+         "summary": "Implementing the 5 GitLab pipelines (Maven, Gradle, Yarn, Npm & Go Module) for Rona development teams",
          "highlights": [
-            "Automatized DAST and DAST-API security scanning for all pipelines (Maven, Gradle, Yarn, Npm & Go Module)",
-            "Implemented OWASP dependency scanning library analysis to prevent security false to reach production systems (all pipelines) by automatized NIST database download/update in JFrog artifactory",
-            "Implemented Wiremock stubbing capabilities with Helm to allow Postman component testing for Maven/Gradle pipelines",
-            "Implemented Cypress Front-end component testing for Npm/Yarn pipelines",
+            "Implemented 6 of the 23 steps for each pipeline, including DAST security & OWASP dependency scanning, Wiremock stubbing capabilities (Maven/Gradle) via Helm, Cypress for frontend testing (Npm/Yarn)",
             "Documented and assisted the team for the Vault HA upgrade"
          ],
          "skills": [
@@ -217,19 +213,17 @@
       },
       {
          "name": "National Bank of Canada",
-         "url": "https://www.nbc.ca/",
+         "website": "https://www.nbc.ca/",
          "type": "mandate",
          "employer": "Levio",
          "employerUrl": "https://levio.ca/",
          "position": "SDET Tech Lead",
          "startDate": "2020-10",
          "endDate": "2023-06",
-         "summary": "Building or improving test automation for the Swift Payment Infrastructure (SPI) and the ICOP ecosystem - the transaction security scanning system for organisation and individuals",
+         "summary": "Automatized integration tests for PaymentHubs (Swift payment backend) and ICOP - a financial transaction security application.",
          "highlights": [
-            "SPI: Reduced the number of lines of code by 85% by building a new testing framework from scratch using Unirest, Lombok, Jackson, Prowide Software libraries, object inheritance, dependency injection, Gherkin, Fail-fast principle and detailled logs",
-            "SPI: Splitted the test framework into multiple JAR deployed in Nexus: an API client for the main application (APS) and a payment injector to push payments in APS via Apache Kafka Queues",
-            "ICOP: Improved the test velocity by 400x (from 1 manual test/hour to 400 automated tests/hour) by developing ~200 automated tests using the Selenium & REST Assured",
-            "ICOP: Set up 4 Jenkins pipelines for the execution of the automated tests",
+            "ICOP: Improved the test velocity by 800x (1 manual test/hour to 800 automated tests/hour) by developing ~200 tests using Selenium & REST Assured, automating execution with Jenkins",
+            "PaymentHub: Reduced code by 85% after building a new multi-JAR testing framework from scratch using Unirest, Lombok, Jackson, Prowide Software libraries, object inheritance, dependency injection, Gherkin, Fail-fast principle and detailled logs",
             "Trained ~30 people within multiple QA teams on good Software architecture & test principles. Documented pipeline execution, code structure and maintenance guidance"
          ],
          "skills": [
@@ -252,8 +246,8 @@
                "name": "Backend",
                "keywords": [
                   "Java",
-                  "Apache Kafka",
-                  "IBM MQ"
+                  "Kafka",
+                  "MQ"
                ]
             },
             {
@@ -308,18 +302,16 @@
       },
       {
          "name": "Société Générale",
-         "url": "https://www.societegenerale.com/",
+         "website": "https://www.societegenerale.com/",
          "type": "permanent",
          "position": "DevOps Developer",
          "startDate": "2016-08",
          "endDate": "2020-09",
-         "summary": "My first job after graduation, I was first hired as a consultant but then was recruted as a permanent employee. My challenge was to improve production stability by automising manuakl task & failovers as much as possible",
+         "summary": "Consultant, then recruted as a permanent employee. My job was to improve production stability by automating as much as possible",
          "highlights": [
-            "Reduced codebase for financial reports production by 95% by developing a configurable, automated report producer using Groovy and Autosys scheduler",
-            "Deployed an ELK based monitoring solution for 2,000 Autosys processes, pod monitoring and software logs monitoring, developed PowerShell scripts to transfer data",
-            "Developed ~20 bash scripts to automatize manual email daily monitoring checks and fixes for recurring operation failures",
-            "Refactored the Java GMI accounting microservice, with monitoring and automated alerts",
-            "Writed dynamic documentation scripts (Do-nothing scripts) to improve bug investigation time"
+            "Deployed an ELK based monitoring solution for 2,000 Autosys processes, multiples pods & software logs",
+            "Developed ~25 scripts (bash, PowerShell) to automatize monitoring checks, recurring production failures fixes, and improve investigation time (Do-nothing scripts)",
+            "Simplyfied by a factor of 10x the code for report production resulting in reduced maintenance overhead by developing a configurable report producer using Groovy and Autosys"
          ],
          "skills": [
             {
@@ -338,7 +330,8 @@
             {
                "name": "DevOps",
                "keywords": [
-                  "ELK stack"
+                  "ELK stack",
+                  "AutoSys Workload Automation"
                ]
             },
             {
@@ -386,15 +379,13 @@
          "name": "Constellio",
          "position": "Software Developer",
          "type": "internship",
-         "url": "https://www.constellio.com/",
+         "website": "https://www.constellio.com/",
          "startDate": "2014-09",
          "endDate": "2015-04",
-         "summary": "Constellio was a small business (growned and sold since) with a clientele that was mainly governmental. Their flagship product was an intranet search application build on the Lucene search engine. I built out a modular JavaScript web client for that product.",
+         "summary": "Constellio's flagship product was an intranet search application build on Lucene. I built a modular JavaScript web client for that product.",
          "highlights": [
-            "Built the client customizable so it sould be integrated on any website for their future clients",
-            "Developed unit & integration tests for the web client using QUnit Library",
-            "Deployed on the Government du Québec website, sucessfully handling 100,000+ requests/day",
-            "Maintained & unit tested their backend, using Mockito and JUnit"
+            "Built a modular JavaScript web client for Constellio's flagship (same name) so it could be integrated on any website. Deployed on the Government du Québec website, sucessfully handling 100,000+ requests/day",
+            "Developed frontend unit tests for the web client (QUnit) and backend unit tests for Constellio (Mockito and JUnit)"
          ],
          "skills": [
             {
@@ -444,13 +435,10 @@
          "name": "Equisoft",
          "type": "internship",
          "position": "Software Developer",
-         "url": "https://www.equisoft.com/",
+         "website": "https://www.equisoft.com/",
          "startDate": "2013-01",
          "endDate": "2013-05",
          "summary": "Implemented Entity framework on their subscription management software.",
-         "highlights": [
-            "First experience as a professional software developer"
-         ],
          "skills": [
             {
                "name": "Backend",
@@ -468,18 +456,16 @@
       },
       {
          "name": "ServiceBPC",
+         "type": "freelance",
          "position": "Web Developer",
          "startDate": "2010-01",
          "endDate": "2016-07",
          "amount": 26,
-         "summary": "ServiceBPC was my own freelance compagny that I used to perform various web consulting mandates. It gave me the opportunity to work directly with clients.",
+         "summary": "ServiceBPC was my own freelance compagny that I created to gain profesional experience during my studies.",
          "highlights": [
-            "Built a transactional photography shop for Les 2 Photographes with automated watermarks, paypal payments and email delivery",
-            "Developed the backend of a modular e-commerce shopping cart based on Magento for Solutions Technologies",
-            "Developed a portfolio website for Vice Longboards, a longboard manufacturing company",
-            "Integration of an image upload/cropping module for FJB casting",
-            "Developed a virtual ticket backend system and a file upload module for Heritage Software",
-            "Built a custom CMS and redesigned a citizen news website based on Wordpress for CADS Informatique"
+            "Built multiple transactional websites - photography shop for Les 2 Photographes, modular Magento shopping cart for Solutions Technologies, virtual ticket backend system for Heritage Software",
+            "Developed an image upload/cropping module for FJB casting, a file upload module for Heritage Software, a custom CMS & redesigned a news website based on Wordpress for CADS Informatique",
+            "Developed a portfolio website for Vice Longboards, a custom Longboard company"
          ],
          "skills": [
             {
@@ -579,7 +565,7 @@
                "name": "Backend",
                "keywords": [
                   "Java",
-                  "C/C++"
+                  "C++"
                ]
             },
             {
@@ -588,12 +574,6 @@
                   "JavaScript",
                   "HTML",
                   "CSS"
-               ]
-            },
-            {
-               "name": "Database",
-               "keywords": [
-                  "Oracle"
                ]
             },
             {
@@ -647,7 +627,7 @@
                "name": "Backend",
                "keywords": [
                   "Java",
-                  "C/C++",
+                  "C",
                   "PHP"
                ]
             },
@@ -722,7 +702,7 @@
          ]
       },
       {
-         "name": "Jenkins, From Zero To Hero: Become a DevOps Jenkins Master",
+         "name": "Jenkins, From Zero To Hero",
          "issuer": "Udemy",
          "url": "https://www.udemy.com/course/Jenkins-from-zero-to-hero/",
          "date": "2021-01-29",
@@ -744,7 +724,7 @@
          ]
       },
       {
-         "name": "Ansible for the absolute Beginner - Hands-On - DevOps",
+         "name": "Ansible for the absolute Beginner",
          "issuer": "Udemy",
          "url": "https://www.udemy.com/course/learn-ansible/",
          "date": "2020-06-02",
@@ -822,7 +802,9 @@
    ],
    "references": [
       {
-         "name": "Vera Jovicic, Sr Project Manager, LL.M, PMP, PSM",
+         "name": "Vera Jovicic, LL.M, PMP, PSM",
+         "position": "Sr Project Manager",
+         "place": "Levio",
          "link": "https://www.linkedin.com/in/vera-jovicic-ll-m-pmp-psm-0b63a49a/",
          "experience": {
             "name": "DevOps Developer, Rona",
@@ -831,7 +813,9 @@
          "reference": "I would like to thank Bruno for taking a chance and joining our team! Having him on board really helped the project move along. I really hope we get to work together again. I'm sure he will do great in whatever project he'll go next."
       },
       {
-         "name": "Ali Boutaba, Tech Lead",
+         "name": "Ali Boutaba",
+         "position": "Team Manager",
+         "place": "Société Générale",
          "link": "https://www.linkedin.com/in/ali-boutabaa-9ba1b886/",
          "experience": {
             "name": "DevOps Developer, Société Générale",
@@ -840,7 +824,9 @@
          "reference": "Bruno was very good at planning and implementing improvements based on real data. His pragmatism led to realistic goals, which led to mesurable results. He his a great asset for any team leader that needs guidance and arguments that helps to manage the project budjet."
       },
       {
-         "name": "Pierre Bélanger, Entrepreneurship Teacher",
+         "name": "Pierre Bélanger, B.Eng., MBA",
+         "position": "Entrepreneurship Teacher",
+         "place": "ÉTS",
          "experience": {
             "name": "Entrepreneurship minor, ÉTS",
             "link": "/docs/education/entrepreneurship-minor/"
@@ -848,16 +834,21 @@
          "reference": "I'm thrilled to testify favorably on Mr. Pettersen's behalf. Bruno has been an active and invested participant in the entrepreneurship program, both in class and in the practical work where students are involved in influencing the content taught according to the needs of student entrepreneurs. Bruno demonstrated an interest in entrepreneurship that the whole class could benefit from during the discussions on different business scenarios. He also demonstrated an obvious curiosity towards the tools of entrepreneurship and a strong desire to master their operation. It is therefore with pleasure that I refer Mr. Pettersen to any company."
       },
       {
-         "name": "Nicolas Belisle, VP Technology",
+         "name": "Nicolas Belisle",
+         "position": "VP Technology",
+         "place": "Constellio",
          "link": "https://www.linkedin.com/in/nicolas-b%C3%A9lisle-5b77764/",
          "experience": {
             "name": "Software Developer, Constellio",
+            "place": "Constellio",
             "link": "/docs/experiences/software_developer-at-constellio/"
          },
          "reference": "Bruno brilliantly overhauled the interface of the official search engine of the Government of Quebec during his internship at Constellio. The engine, which handles millions of searches, had a flexible but complex interface technology that limited response times. Bruno designed the new interface based on the latest technologies (Ajax/jQuery). The work was a success! I would like to highlight Bruno's initiative, continuous improvement efforts, and demonstrated autonomy. It is a real pleasure to work with him!"
       },
       {
-         "name": "Louis Parent, Finance Teacher",
+         "name": "Louis Parent",
+         "position": "Finance Teacher",
+         "place": "ÉTS",
          "link": "https://www.linkedin.com/in/louis-parent-4866a614/",
          "experience": {
             "name": "Entrepreneurship minor, ÉTS",
@@ -866,7 +857,9 @@
          "reference": "Bruno was one of the brightest student I have had. He has great understanding of Financial Theory!"
       },
       {
-         "name": "Denis Tremblay M.Sc",
+         "name": "Denis Tremblay, M.Sc",
+         "position": "President",
+         "place": "Alliance Management",
          "link": "https://www.linkedin.com/in/denis-tremblay-m-sc-8310017/",
          "experience": {
             "name": "Web Developer, ServiceBPC",
@@ -879,7 +872,7 @@
       {
          "name": "Docusaurus Blog",
          "url": "https://brunopc.net/",
-         "description": "My online web presence",
+         "summary": "My online web presence",
          "skills": [
             {
                "name": "Frontend",
@@ -895,7 +888,7 @@
       {
          "name": "Horus",
          "url": "https://brunopc-net.github.io/Horus",
-         "description": "A Node.js/React short term weather report designed for sports",
+         "summary": "A Node.js/React short term weather report",
          "skills": [
             {
                "name": "Backend",
@@ -926,7 +919,7 @@
       },
       {
          "name": "Cher Ami",
-         "description": "A Node.js email sender that runs as a DigitalOcean Serverless Function",
+         "summary": "Serverless Node.js email sender",
          "skills": [
             {
                "name": "Backend",
@@ -944,7 +937,7 @@
       },
       {
          "name": "Cerberus",
-         "description": "A Python file backup application",
+         "summary": "A Python file backup application",
          "skills": [
             {
                "name": "Backend",
@@ -969,7 +962,7 @@
       },
       {
          "name": "Questrade Bot",
-         "description": "A Python bot that buy stocks on Questrade",
+         "summary": "A Python bot that buy stocks on Questrade",
          "skills": [
             {
                "name": "Frontend",
@@ -999,12 +992,13 @@
             "Spring Boot",
             "Java",
             "Tibco",
-            "Apache Kafka",
-            "IBM MQ",
+            "Kafka",
+            "MQ",
             "Groovy",
             "C#",
             "PHP",
-            "C/C++",
+            "C++",
+            "C",
             "Node.js",
             "Python"
          ]
@@ -1032,6 +1026,7 @@
             "Kubernetes",
             "Vault",
             "Jenkins",
+            "AutoSys Workload Automation",
             "AWS",
             "Ansible",
             "Terraform",
