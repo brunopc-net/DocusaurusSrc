@@ -14,14 +14,15 @@ function getId(name){
 function Author({ reference }){
     const linkId = getId(reference.name);
     const location = useLocation();
+    const authorDetails = ", "+reference.position+", "+reference.place
     return (
         <h2
             id={linkId}
             className='anchor anchorWithStickyNavbar_node_modules-@docusaurus-theme-classic-lib-theme-Heading-styles-module'>
             {location.pathname.includes('/docs/references') ? <></> : <span>Reference: </span>}
-            {reference.link ? 
-                <Link to={reference.link}>{reference.name}</Link>:
-                reference.name
+            {reference.link ? <>
+                <Link to={reference.link}>{reference.name}</Link>{authorDetails}</>:
+                reference.name+authorDetails
             }
             <Link to={'#'+linkId} className='hash-link' />
         </h2>

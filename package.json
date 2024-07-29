@@ -5,8 +5,8 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "export-resume": "node src/ResumeExporter.js",
-    "start": "node src/ResumeUpdater.js && docusaurus start",
-    "build": "node src/ResumeUpdater.js && docusaurus build",
+    "start": "node src/scripts/ResumeUpdater.js && docusaurus start",
+    "build": "node src/scripts/ResumeUpdater.js && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",

@@ -7,30 +7,26 @@ import BuyMeCoffee from '@site/src/components/BuyMeCoffee';
 
 import styles from './index.module.css';
 
+const resume = require('@site/static/data/resume.json');
+
 const FeatureList = [
   {
     title: 'Discover my work experience',
     link: '/docs/category/experiences',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (<>
-        I like to work for nice people
-    </>),
+    description: 'I like to work for nice people'
   },
   {
     title: 'Read my blog',
     link: '/blog/',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (<>
-        I write sometimes, especially when my coffee is too strong 💀
-    </>),
+    description: 'I write sometimes, especially when my coffee is too strong 💀'
   },
   {
     title: 'See my sideline projets',
     link: '/docs/category/projects',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (<>
-        I like to optimize my skills when I have the time
-    </>),
+    description: 'I like to optimize my skills when I have the time'
   },
 ];
 
@@ -39,8 +35,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">Bruno Pettersen-Coulombe</h1>
-        <h2 className="hero__subtitle">Full-Stack Developer 👨‍💻 B.Eng ⚙️</h2>
-        <h2 className="hero__subtitle"></h2>
+        <h2 className="hero__subtitle">Full-Stack Developer 👨‍💻 B.Eng ⚙️ {resume.basics.experience} years of experience</h2>
         <h2 className="hero__subtitle">Racing geek 🚴🏎️</h2>
         <div className={styles.buttons}>
           <Link

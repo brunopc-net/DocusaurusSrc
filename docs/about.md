@@ -5,14 +5,13 @@ sidebar_position: 1
 import MarkdownLink from '@site/src/components/link/MarkdownLink';
 import SkillTable from '@site/src/components/SkillTable';
 import resume from '@site/static/data/resume.json';
-import {TotalXp} from '@site/src/components/experience/TotalXp';
 import Link from '@docusaurus/Link';
 
 # About me
 
 I live in Montreal, Canada. [I am a scientific mind in an athlete body](https://passionpvss.blogspot.com/2017/06/scientist-mind-athlete-body.html).
 
-My <Link to="/docs/category/experiences/"><TotalXp work={resume.work}/> years of work experience has been very diverse so far</Link>, as I did development, both backend and frontend, software and web. I also worked in multiples [DevOps](https://www.atlassian.com/devops) transformations([1](/docs/experiences/devops_developer_at_societe_generale/), [2](/docs/experiences/devops-developer-at-rona/)) and as a [SDET](https://www.softwaretestinghelp.com/what-is-sdet/)([1](/docs/experiences/sdet-tech-lead-at-national-bank-of-canada/)). In my last roles, I had my first experiences as a Tech lead([1](/docs/experiences/backend-tech-lead-at-rona/), [2](/docs/experiences/devops-developer-at-rona/)).
+My <Link to="/docs/category/experiences/">{resume.basics.experience} years of work experience has been very diverse so far</Link>, as I did development, both in backend/frontend, software and web. I also worked in multiples [DevOps](https://www.atlassian.com/devops) transformations([1](/docs/experiences/devops_developer_at_societe_generale/), [2](/docs/experiences/devops-developer-at-rona/)) and as a [SDET](https://www.softwaretestinghelp.com/what-is-sdet/)([1](/docs/experiences/sdet-tech-lead-at-national-bank-of-canada/)). In my last roles, I had my first experiences as a Tech lead([1](/docs/experiences/backend-tech-lead-at-rona/), [2](/docs/experiences/devops-developer-at-rona/)).
 
 ## Résumé
 
@@ -27,7 +26,7 @@ My <Link to="/docs/category/experiences/"><TotalXp work={resume.work}/> years of
 />
 
 <MarkdownLink button
-  to='https://registry.jsonresume.org/brunopc-net.json'
+  to='/data/resume.json'
   text='JSON 📃'
 />
 

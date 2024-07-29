@@ -3,9 +3,6 @@
 const {themes} = require('prism-react-renderer');
 
 const resume = require('./static/data/resume.json');
-const experience_functions = require('./src/components/experience/xp.functions');
-
-const xpTotal = experience_functions.getXpTotal(resume.work);
 
 function getSocialLink(socialNetwork){
   const profileItem = resume.basics.profiles.find(profile =>
@@ -22,7 +19,7 @@ const links = {
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Bruno PC, Bruno Pettersen-Coulombe, B. Eng. Full-Stack Developer, Tech Lead, DevOps Expert, SDET, Freelancer, Entrepreneur - '+xpTotal+' years of experience',
+  title: 'Bruno PC, Bruno Pettersen-Coulombe, B. Eng. Full-Stack Developer, Tech Lead, DevOps & QA Expert, Freelancer, Entrepreneur - '+resume.basics.experience+' years of experience',
   tagline: 'Full stack Developer, B. Eng, Racing geek',
   favicon: 'img/favicon.ico',
 
@@ -92,7 +89,7 @@ const config = {
         // position
         result.frontMatter.sidebar_position = index+1;
         // tags
-        result.frontMatter.tags = [];
+        result.frontMatter.tags = [place];
         let skills = resume.work[index].skills;
         skills && skills.forEach(category => {
           result.frontMatter.tags.push(...category.keywords)

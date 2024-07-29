@@ -1,5 +1,5 @@
 ---
-certification: "Jenkins, From Zero To Hero: Become a DevOps Jenkins Master"
+certification: "Jenkins, From Zero To Hero"
 ---
 
 import Certification from '@site/src/components/certification';

@@ -1,5 +1,5 @@
 ---
-certification: "Ansible for the absolute Beginner - Hands-On - DevOps"
+certification: "Ansible for the absolute Beginner"
 ---
 
 import Certification from '@site/src/components/certification';
