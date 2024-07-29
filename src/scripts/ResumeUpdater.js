@@ -1,6 +1,6 @@
 const fs = require('fs');
 const resume_path = 'static/data/resume.json';
-const resume = require('../'+resume_path);
+const resume = require(resume_path);
 
 const getXpAmount = require('./xp.functions');
 
