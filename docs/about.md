@@ -26,7 +26,7 @@ My <Link to="/docs/category/experiences/">{resume.basics.experience} years of wo
 />
 
 <MarkdownLink button
-  to='https://registry.jsonresume.org/brunopc-net.json'
+  to='/data/resume.json'
   text='JSON 📃'
 />
 

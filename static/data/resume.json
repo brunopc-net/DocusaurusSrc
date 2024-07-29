@@ -5,15 +5,17 @@
    "basics": {
       "name": "Bruno Pettersen-Coulombe, B.Eng.",
       "shortname": "Bruno PC",
-      "label": "Full stack Developer | DevOps & QA expert",
       "experience": "11+",
-      "image": "https://avatars.githubusercontent.com/u/6451835?v=4",
-      "email": "work@brunopc.net",
-      "website": "https://brunopc.net",
+      "label": "Full stack Developer | DevOps & QA expert",
       "summary": "Entrepreneurial background, strong focus on efficiency & business value. World record holder. Passionate about continuous learning.",
+      "image": "https://avatars.githubusercontent.com/u/6451835?v=4",
       "location": {
          "city": "Montreal",
          "countryCode": "CA"
+      },
+      "contact": {
+         "email": "work@brunopc.net",
+         "website": "https://brunopc.net"
       },
       "profiles": [
          {
