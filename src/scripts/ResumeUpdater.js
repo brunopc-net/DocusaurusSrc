@@ -2,7 +2,7 @@ const fs = require('fs');
 const resume_path = 'static/data/resume.json';
 const resume = require('../'+resume_path);
 
-import { getXpAmount } from  './xp.functions';
+const getXpAmount = require('./xp.functions');
 
 let skills_to_output = [
     {name: "Backend", keywords: []},
