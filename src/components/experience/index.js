@@ -2,7 +2,7 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 import Logo from '@site/src/components/media/Logo';
 import Reference from '@site/src/components/references';
-import { getXpAmount } from  '@site/src/scripts/xp.functions';
+import getXpAmount from  '@site/src/scripts/xp.functions';
 
 const resume = require('@site/static/data/resume.json');
 
