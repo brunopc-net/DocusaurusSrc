@@ -1,4 +1,4 @@
-const getXpAmount = (start, end) => {
+export function getXpAmount(start, end){
     const startDate = new Date(start);
     const endDate = new Date(end);
 
@@ -7,8 +7,4 @@ const getXpAmount = (start, end) => {
         + endDate.getMonth() - startDate.getMonth()
         
     return months <= 0 ? 0 : months;
-}
-
-module.exports = {
-    getXpAmount
-}
+};
