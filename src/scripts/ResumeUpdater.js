@@ -1,7 +1,7 @@
 const fs = require('fs');
-const resume_path = 'static/data/resume.json';
-const resume = require(resume_path);
 
+const resume_path = 'static/data/resume.json';
+const resume = require('../../'+resume_path);
 const getXpAmount = require('./xp.functions');
 
 let skills_to_output = [
@@ -38,7 +38,7 @@ resume.education.forEach(item => addSkills(item));
 resume.certificates.forEach(item => addSkills(item));
 resume.projects.forEach(item => addSkills(item));
 resume.skills = skills_to_output;
-resume.basics.experience = getXpTotal(experience.work);
+resume.basics.experience = getXpTotal(resume.work);
 
 fs.writeFileSync(
     resume_path,
