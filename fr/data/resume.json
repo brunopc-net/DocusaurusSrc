@@ -2,9 +2,9 @@
    "basics": {
       "name": "Bruno Pettersen-Coulombe, B.Eng.",
       "shortname": "Bruno PC",
-      "label": "Full stack Developer | DevOps & QA expert",
+      "label": "Full Stack Developer | DevOps & QA expert",
       "experience": "11+",
-      "summary": "Entrepreneurial background, World record holder. Passionate about efficiency, optimization, business value & continuous learning.",
+      "summary": "Entrepreneurial background, world record holder. Passionate about efficiency, optimization, business value & continuous learning.",
       "image": "https://avatars.githubusercontent.com/u/6451835?v=4",
       "location": {
          "city": "Montreal",
@@ -58,9 +58,9 @@
          "endDate": "2024-07",
          "summary": "Building of 4 microservices with Spring Boot for Selling-Tools project",
          "highlights": [
-            "Coding of 4 microservices: Customer-ms (handling of Rona customers), Quotes-ms (handling of custom quotes), RRS (a product data reference service), Message-Receiver (a Tibco Queue client to handle quotes updates)",
-            "Design & implement Cucumber scenarios/tests for all services",
-            "Secure services with API key authorization, Token appId authentication, XSS & Content Security Policy (CSP) protections"
+            "Built 4 microservices: Customer-ms (handling of Rona customers), Quotes-ms (handling of custom quotes), RRS (a product data reference service), Message-Receiver (a Tibco Queue client to handle quotes updates)",
+            "Designed & implemented 300+ Cucumber scenarios/tests for all services",
+            "Secured services with API key authorization, Token appId authentication, XSS & Content Security Policy (CSP) protections"
          ],
          "skills": [
             {
@@ -136,7 +136,7 @@
          "position": "DevOps Developer",
          "startDate": "2023-10",
          "endDate": "2024-01",
-         "summary": "Implementing the 5 GitLab pipelines (Maven, Gradle, Yarn, Npm & Go Module) for Rona development teams",
+         "summary": "Implementing the 5 GitLab pipelines (Maven, Gradle, Yarn, Npm & Go Module) for Rona development teams.",
          "highlights": [
             "Implemented 6 of the 23 steps for each pipeline, including DAST security & OWASP dependency scanning, Wiremock stubbing capabilities (Maven/Gradle) via Helm, Cypress for frontend testing (Npm/Yarn)",
             "Documented and assisted the team for the Vault HA upgrade"
@@ -217,10 +217,10 @@
          "position": "SDET Tech Lead",
          "startDate": "2020-10",
          "endDate": "2023-06",
-         "summary": "Automatized integration tests for PaymentHubs (Swift payment backend) and ICOP - a financial transaction security application.",
+         "summary": "Automated integration tests for PaymentHubs (Swift payment backend) and ICOP - a financial transaction security application.",
          "highlights": [
             "ICOP: Improved the test velocity by 800x (1 manual test/hour to 800 automated tests/hour) by developing ~200 tests using Selenium & REST Assured, automating execution with Jenkins",
-            "PaymentHub: Reduced code by 85% after building a new multi-JAR testing framework from scratch using Unirest, Lombok, Jackson, Prowide Software libraries, object inheritance, dependency injection, Gherkin, Fail-fast principle and detailled logs",
+            "PaymentHub: Reduced code by 85% after building a new multi-JAR testing framework from scratch using Unirest, Lombok, Jackson, Prowide Software libraries, object inheritance, dependency injection, Gherkin, Fail-fast principle and detailed logs",
             "Trained ~30 people within multiple QA teams on good Software architecture & test principles. Documented pipeline execution, code structure and maintenance guidance"
          ],
          "skills": [
@@ -304,11 +304,11 @@
          "position": "DevOps Developer",
          "startDate": "2016-08",
          "endDate": "2020-09",
-         "summary": "Consultant, then recruted as a permanent employee. My job was to improve production stability by automating as much as possible",
+         "summary": "Consultant, then recruted as a permanent employee. My job was to improve production stability by automating as much as possible.",
          "highlights": [
             "Deployed an ELK based monitoring solution for 2,000 Autosys processes, multiples pods & software logs",
             "Developed ~25 scripts (bash, PowerShell) to automatize monitoring checks, recurring production failures fixes, and improve investigation time (Do-nothing scripts)",
-            "Simplyfied by a factor of 10x the code for report production resulting in reduced maintenance overhead by developing a configurable report producer using Groovy and Autosys"
+            "Simplified by a factor of 10x the code for report production resulting in reduced maintenance overhead by developing a configurable report producer using Groovy and Autosys"
          ],
          "skills": [
             {
@@ -458,7 +458,7 @@
          "startDate": "2010-01",
          "endDate": "2016-07",
          "amount": 26,
-         "summary": "ServiceBPC was my own freelance compagny that I created to gain profesional experience during my studies.",
+         "summary": "ServiceBPC was my own freelance company that I created to gain profesional experience during my studies.",
          "highlights": [
             "Built multiple transactional websites - photography shop for Les 2 Photographes, modular Magento shopping cart for Solutions Technologies, virtual ticket backend system for Heritage Software",
             "Developed an image upload/cropping module for FJB casting, a file upload module for Heritage Software, a custom CMS & redesigned a news website based on Wordpress for CADS Informatique",
@@ -818,7 +818,7 @@
             "name": "DevOps Developer, Société Générale",
             "link": "/docs/experiences/devops_developer_at_societe_generale/"
          },
-         "reference": "Bruno was very good at planning and implementing improvements based on real data. His pragmatism led to realistic goals, which led to mesurable results. He his a great asset for any team leader that needs guidance and arguments that helps to manage the project budjet."
+         "reference": "Bruno was very good at planning and implementing improvements based on real data. His pragmatism led to realistic goals, which led to mesurable results. He is a great asset for any team leader that needs guidance and arguments that helps to manage the project budjet."
       },
       {
          "name": "Pierre Bélanger, B.Eng., MBA",
