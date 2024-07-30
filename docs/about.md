@@ -16,7 +16,7 @@ My <Link to="/docs/category/experiences/">{resume.basics.experience} years of wo
 ## Résumé
 
 <MarkdownLink button
-  to='https://registry.jsonresume.org/brunopc-net'
+  to='https://brunopc-net.github.io/resume/'
   text='Online 📃'
 />
 
@@ -31,7 +31,7 @@ My <Link to="/docs/category/experiences/">{resume.basics.experience} years of wo
 />
 
 <MarkdownLink button
-  to='https://registry.jsonresume.org/brunopc-net.yaml'
+  to='/data/resume.yml'
   text='Yaml 📃'
 />
 

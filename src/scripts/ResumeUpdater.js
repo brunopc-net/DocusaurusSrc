@@ -1,7 +1,8 @@
 const fs = require('fs');
+const yaml = require('yaml');
 
-const resume_path = 'static/data/resume.json';
-const resume = require('../../'+resume_path);
+const resume_path = 'static/data/resume';
+const resume = require('../../'+resume_path+".json");
 const getXpAmount = require('./xp.functions');
 
 let skills_to_output = [
@@ -40,7 +41,15 @@ resume.projects.forEach(item => addSkills(item));
 resume.skills = skills_to_output;
 resume.basics.experience = getXpTotal(resume.work);
 
+const resume_yaml = new yaml.Document();
+resume_yaml.contents = resume;
+
+
 fs.writeFileSync(
-    resume_path,
+    resume_path+".json",
     JSON.stringify(resume, null, 3)
+);
+fs.writeFileSync(
+    resume_path+".yml",
+    resume_yaml.toString()
 );
