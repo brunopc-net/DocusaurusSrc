@@ -304,7 +304,7 @@
          "position": "DevOps Developer",
          "startDate": "2016-08",
          "endDate": "2020-09",
-         "summary": "Consultant, then recruted as a permanent employee. My job was to improve production stability by automating as much as possible.",
+         "summary": "CGI consultant, then recruited as a permanent employee. My job was to improve production stability by automating as much as possible.",
          "highlights": [
             "Deployed an ELK based monitoring solution for 2,000 Autosys processes, multiples pods & software logs",
             "Developed ~25 scripts (bash, PowerShell) to automatize monitoring checks, recurring production failures fixes, and improve investigation time (Do-nothing scripts)",
@@ -435,7 +435,7 @@
          "website": "https://www.equisoft.com/",
          "startDate": "2013-01",
          "endDate": "2013-05",
-         "summary": "Implemented Entity framework on their subscription management software.",
+         "summary": "Database migration for the software Publisher Elements to Entity Framework ORM, automated email bug corrections, general maintenance. SCRUM development with JIRA project management software",
          "skills": [
             {
                "name": "Backend",
@@ -458,7 +458,7 @@
          "startDate": "2010-01",
          "endDate": "2016-07",
          "amount": 26,
-         "summary": "ServiceBPC was my own freelance company that I created to gain profesional experience during my studies.",
+         "summary": "ServiceBPC was my own freelance company that I created to gain profesional experience during my studies. Sucessfully delivered 15 web projects.",
          "highlights": [
             "Built multiple transactional websites - photography shop for Les 2 Photographes, modular Magento shopping cart for Solutions Technologies, virtual ticket backend system for Heritage Software",
             "Developed an image upload/cropping module for FJB casting, a file upload module for Heritage Software, a custom CMS & redesigned a news website based on Wordpress for CADS Informatique",
@@ -962,7 +962,7 @@
          "summary": "A Python bot that buy stocks on Questrade",
          "skills": [
             {
-               "name": "Frontend",
+               "name": "Backend",
                "keywords": [
                   "Python"
                ]
@@ -1039,8 +1039,7 @@
             "HTML",
             "React",
             "Docusaurus",
-            "MDX",
-            "Python"
+            "MDX"
          ]
       },
       {
