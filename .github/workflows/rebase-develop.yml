@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  create-pull-request:
+  rebase-develop:
     runs-on: ubuntu-latest
 
     steps:
