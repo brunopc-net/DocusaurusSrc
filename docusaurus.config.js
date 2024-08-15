@@ -1,7 +1,6 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const {themes} = require('prism-react-renderer');
-
+const { themes } = require('prism-react-renderer');
 const resume = require('./static/data/resume.json');
 
 function getSocialLink(socialNetwork){
@@ -79,10 +78,11 @@ const config = {
       if(result.frontMatter.experience != undefined){
         const position = result.frontMatter.experience.position;
         const place = result.frontMatter.experience.place;
-        const index = resume.work.findIndex(work_item => 
-          work_item.position === position &&
-          work_item.name === place
-        );
+        const index = resume.work.findIndex(work_item => {
+          const itemPosition = work_item.position.en || work_item.position
+          const itemPlace = work_item.client ? (work_item.client.en || work_item.client.name) : (work_item.employer.en || work_item.employer.name);
+          return position === itemPosition && place === itemPlace;
+        });
 
         // title
         result.frontMatter.title = position+" at "+place;
@@ -91,9 +91,9 @@ const config = {
         // tags
         result.frontMatter.tags = [place];
         let skills = resume.work[index].skills;
-        skills && skills.forEach(category => {
+        skills && skills.forEach(category => 
           result.frontMatter.tags.push(...category.keywords)
-        });
+        );
       }
 
       //Education doc page
@@ -101,8 +101,8 @@ const config = {
         const area = result.frontMatter.education.area;
         const studyType = result.frontMatter.education.studyType;
         const index = resume.education.findIndex(education_item => 
-          education_item.area === area &&
-          education_item.studyType === studyType
+          (education_item.area === area || education_item.area.en === area) &&
+          (education_item.studyType === studyType || education_item.studyType.en === studyType)
         );
         // title
         result.frontMatter.title = area+" "+studyType;
@@ -111,24 +111,25 @@ const config = {
         // tags
         result.frontMatter.tags = [];
         let skills = resume.education[index].skills;
-        skills && skills.forEach(category => {
+        skills && skills.forEach(category => 
           result.frontMatter.tags.push(...category.keywords)
-        });
+        );
       }
 
       //Certification doc page
-      if(result.frontMatter.certification != undefined){
-        const index = resume.certificates.findIndex(cert => cert.name === result.frontMatter.certification);
+      const certName = result.frontMatter.certification;
+      if(certName != undefined){
+        const index = resume.certificates.findIndex(cert => cert.name === certName || cert.name.en === certName);
         // title
-        result.frontMatter.title = result.frontMatter.certification;
+        result.frontMatter.title = certName;
         // position
         result.frontMatter.sidebar_position = index+1;
         // tags
         result.frontMatter.tags = [];
         let skills = resume.certificates[index].skills;
-        skills && skills.forEach(category => {
+        skills && skills.forEach(category => 
           result.frontMatter.tags.push(...category.keywords)
-        });
+        );
       }
 
       //Project doc page
@@ -141,9 +142,9 @@ const config = {
         // tags
         result.frontMatter.tags = [];
         let skills = resume.projects[index].skills;
-        skills && skills.forEach(category => {
+        skills && skills.forEach(category => 
           result.frontMatter.tags.push(...category.keywords)
-        });
+        );
       }
 
       return result;

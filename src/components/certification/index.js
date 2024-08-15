@@ -3,8 +3,10 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 import UdemyBadge from './UdemyBadge';
 import CredlyBadge from './CredlyBadge';
+import MicrosoftBadge from './MicrosoftBadge';
 
-const certifications = require('@site/static/data/resume.json').certificates;
+const resume = require('@site/static/data/resume.json');
+
 const issuers = [
     {
         name: "OpenClassroom",
@@ -31,7 +33,7 @@ function Status({cert}){
 
 function Id({cert}){
     return cert.id && (<>
-        <b>Id:</b> {cert.id}<br/>
+        <b>Id:</b> <a href={cert.url}>{cert.id}</a><br/>
     </>);
 }
 
@@ -49,24 +51,26 @@ function Issuer({cert}){
 function Badge({cert}){
     switch(cert.issuer) {
         case "Udemy":
-            return (<UdemyBadge id={cert.id} desc={cert.name} />);
+            return (<UdemyBadge id={cert.id} desc={cert.name.en} />);
         case "Amazon":
-            return (<CredlyBadge id={cert.id} desc={cert.name} />);
+            return (<CredlyBadge id={cert.id} desc={cert.name.en} />);
+        case "Microsoft":
+            return (<MicrosoftBadge id={cert.id} url={cert.url} desc={cert.name.en} />);
     }
 }
 
 function Certification({name}) {
-    const cert = certifications.find(cert => cert.name === name);
-    return cert && (<div>
+    const certData = resume.certificates.find(cert => (cert.name.en || cert.name)  === name);
+    return certData && (<div>
         <p>
-            <Status cert={cert} />
-            <Issuer cert={cert} />
-            <Id cert={cert} />
-            {cert.url &&
-                <Link to={cert.url}>More details about this certification</Link>
+            <Status cert={certData} />
+            <Issuer cert={certData} />
+            <Id cert={certData} />
+            {certData.url &&
+                <Link to={certData.url}>More details about this certification</Link>
             }
         </p>
-        {cert.id && <Badge cert={cert} />}
+        {certData.id && <Badge cert={certData} />}
     </div>);
 }
 

@@ -1,5 +1,9 @@
-.reference {
-    margin-top: 3em;
+#references {
+    list-style-type: none;
+}
+
+#references li {
+    margin-bottom: 3.5em;
 }
 
 .reference h2 {

@@ -15,6 +15,8 @@ Here's the description of a job I was offered recently:
 
 Problem with that? Contrary to the U.S., [the Engineer term is strictly regulated in Canada](https://engineerscanada.ca/become-an-engineer/use-of-professional-title-and-designations). If you call yourself an engineer, you risk fine and injunctions.
 
+<!-- truncate -->
+
 ## Engineer term in the US
 
 In the U.S., "engineer" is more loosely used, in the sense that it can be included in a job title name. On November 18, 2022, the [IEEE](https://ieeeusa.org/) - [Institute of Electrical and Electronics Engineers](https://fr.wikipedia.org/wiki/Institute_of_Electrical_and_Electronics_Engineers) - published a [position statement where they clarified the use of the Engineer title in job description](https://ieeeusa.org/assets/public-policy/positions/workforce/EngineerTitle1122.pdf):

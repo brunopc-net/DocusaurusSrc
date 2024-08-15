@@ -13,6 +13,8 @@ import Link from '@docusaurus/Link';
 
 I was recently proposed a position as a Senior Software Engineer. Whether I'll get the job or not, I want to talk to you about something that never smells good: after-hours work. This is not for a startup or a product that rarely gets deployed; I'm talking about a multibillion company that will need to deploy countless times in the future. This primitive, obsolete, and outdated approach is how many companies still operate: waiting until nobody can use our platform/service, then deploying it manually.
 
+<!-- truncate -->
+
 ## Why after-hour deployments are bad?
 
 For two main reasons:
