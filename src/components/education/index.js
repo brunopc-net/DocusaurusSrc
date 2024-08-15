@@ -4,7 +4,7 @@ import Logo from '@site/src/components/media/Logo';
 import Link from '@docusaurus/Link';
 import Diploma from './Diploma';
 
-const educationList = require('@site/static/data/resume.json').education;
+const resume = require('@site/static/data/resume.json');
 
 function getCourseCode(course){
     return course.split(" - ")[0];
@@ -37,17 +37,23 @@ function CourseTable({ courses }) {
 }
 
 function Education({ area, studyType}) {
-    const education_item = educationList.find(ei => ei.area === area && ei.studyType === studyType);
-    const desc = education_item.area+" "+education_item.studyType;
-    const id = desc.replaceAll(" ","-").toLowerCase();
+    const educationItem = resume.education.find(item => 
+        (item.area.en || item.area) === area &&
+        (item.studyType.en || item.studyType) === studyType
+    );
+
+    if(educationItem == null)
+        return <div>Loading…</div>
+
+    const diplomaId = (area+"-"+studyType).replaceAll(" ","-").toLowerCase();
     return (<>
         <p>
-            <b>Graduation year: </b>{new Date(education_item.endDate).getFullYear()}<br/>
-            <b>Institution: </b><Link to={education_item.url}>{education_item.institution}</Link>
+            <b>Graduation year: </b>{new Date(educationItem.endDate).getFullYear()}<br/>
+            <b>Institution: </b><Link to={educationItem.url}>{educationItem.institution}</Link>
         </p>
-        <Logo org={education_item.institution} link={education_item.url} />
-        <Diploma id={id} desc={desc} />
-        <CourseTable courses={education_item.course_list} />
+        <Logo org={educationItem.institution} link={educationItem.url} />
+        <Diploma id={diplomaId} desc={studyType+', '+area} />
+        <CourseTable courses={educationItem.course_list} />
     </>);
 }
 

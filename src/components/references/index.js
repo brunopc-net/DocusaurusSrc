@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
-import {useLocation} from '@docusaurus/router';
 import styles from './styles.css';
 
 function getId(name){
@@ -13,19 +12,17 @@ function getId(name){
 
 function Author({ reference }){
     const linkId = getId(reference.name);
-    const location = useLocation();
-    const authorDetails = ", "+reference.position+", "+reference.place
+    const authorDetails = ", "+reference.position.en+", "+reference.place
     return (
-        <h2
+        <h3
             id={linkId}
             className='anchor anchorWithStickyNavbar_node_modules-@docusaurus-theme-classic-lib-theme-Heading-styles-module'>
-            {location.pathname.includes('/docs/references') ? <></> : <span>Reference: </span>}
             {reference.link ? <>
                 <Link to={reference.link}>{reference.name}</Link>{authorDetails}</>:
                 reference.name+authorDetails
             }
             <Link to={'#'+linkId} className='hash-link' />
-        </h2>
+        </h3>
     );
 }
 
@@ -42,14 +39,24 @@ function Experience({ reference }){
     );
 }
 
-function Reference({reference, xp_link}){
+function Reference({reference, withXpLink}){
     return(<div className='reference'>
         <Author reference={reference} />
         <blockquote>
-            <p>{reference.reference}</p>
+            <p>{reference.value.en}</p>
         </blockquote>
-        {xp_link && <Experience reference={reference} />}
+        {withXpLink && <Experience reference={reference} />}
     </div>);
 }
 
-export default Reference;
+function References({references, withXpLink}){
+    return(
+        <ul id="references">
+            {references.map(item => <li>
+                <Reference key={item.name} reference={item} withXpLink={withXpLink} />
+            </li>)}
+        </ul>
+    );
+}
+
+export default References;

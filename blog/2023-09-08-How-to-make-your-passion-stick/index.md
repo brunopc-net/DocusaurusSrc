@@ -20,6 +20,8 @@ I was listening [to a podcast featuring my friend Olivier Jean](https://livingri
     title="Olympic Champion Olivier Jean get asked how to find your passion"
 />
 
+<!-- truncate -->
+
 Having dedicated my life to speed skating for 15 years - I can relate to that feeling of being lost after a big journey that was ended. Especially between the years 2014 to 2020, it was a very challenging time for me. Looking back now, I definitely had a depression or some sort of existential crisis at one point.
 
 In that time I tried a lot to find answers. Since I read a lot about that topic, I'd like to write what I understand on the topic, and what worked for myself.

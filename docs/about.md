@@ -16,23 +16,23 @@ My <Link to="/docs/category/experiences/">{resume.basics.experience} years of wo
 ## Résumé
 
 <MarkdownLink button
-  to='https://brunopc-net.github.io/resume/'
+  to='https://brunopc-net.github.io/Reactsume/'
   text='Online 📃'
 />
 
 <MarkdownLink button
-  to='/files/resume.pdf'
-  text='PDF 📃'
+  to='https://brunopc-net.github.io/Reactsume/resume-en.pdf'
+  text='PDF (en) 📃'
+/>
+
+<MarkdownLink button
+  to='https://brunopc-net.github.io/Reactsume/resume-fr.pdf'
+  text='PDF (fr) 📃'
 />
 
 <MarkdownLink button
   to='/data/resume.json'
   text='JSON 📃'
-/>
-
-<MarkdownLink button
-  to='/data/resume.yml'
-  text='Yaml 📃'
 />
 
 ## Skills

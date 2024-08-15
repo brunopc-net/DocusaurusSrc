@@ -11,6 +11,8 @@ I'm currently reading a fantastic book from [Peter Attia](https://twitter.com/Pe
 
 <img loading="eager" alt="Titanic crew realizing the shit" src={require('./thumbnail-default.webp').default} srcSet={require('./thumbnail-small.webp').default+" 480w,"+require('./thumbnail-medium.webp').default+" 566w,"+require('./thumbnail-large.webp').default+" 633w,"+require('./thumbnail-default.webp').default+" 778w,"+require('./thumbnail-xlarge.webp').default+" 964w"} sizes="(max-width: 512px) 480px,(max-width: 598px) 566px,(max-width: 665px) 633px,(max-width: 810px) 778px,(max-width: 996px) 964px,(max-width: 1024px) 566px,(max-width: 1368px) 633px,778px" width="964" height="485" />
 
+<!-- truncate -->
+
 Unfortunately, attempting to eliminate a rampant, evolving disease in its advanced stages significantly reduces the chances of recovery. Moreover, even in cases of complete healing, patients often find themselves in a state of suffering for the remainder of their lives. This is because the body, having deteriorated over decades, lacks the resilience to fully recover.
 
 Peter Attia questions the relevance of healing someone in the late stages of life if it only prolongs a state of pain for several years. What's the purpose of being alive if you can't pursue what you love? Is the achievement of extending life by another five years considered a medical success if it means enduring prolonged suffering confined to a bed during that time?

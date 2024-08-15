@@ -7,9 +7,9 @@ experience:
 import Experience from '@site/src/components/experience';
 import Image from '@site/src/components/media/Image';
 
-<Experience position={frontMatter.experience.position}  place={frontMatter.experience.place} />
-
 Working with clients gave me invaluable experience with regards to client management. I also had to deliver multiple projects while studying full time and training 20 hours per week. It made me crazy time efficient in my work and everyday life.
+
+<Experience position={frontMatter.experience.position}  place={frontMatter.experience.place} /><br/>
 
 <figure>
   <Image

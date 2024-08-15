@@ -1,24 +1,13 @@
 import React from 'react';
+
 import Link from '@docusaurus/Link';
 import Logo from '@site/src/components/media/Logo';
-import Reference from '@site/src/components/references';
+import References from '@site/src/components/references';
 import getXpAmount from  '@site/src/scripts/xp.functions';
 
-const resume = require('@site/static/data/resume.json');
+import styles from './styles.css';
 
-function getWorkType(type){
-    switch(type){
-        case "permanent": 
-            return "Permanent position";
-        case "mandate":
-            return "Consulting mandate";
-        case "internship":
-            return "Internship";
-        case "freelance":
-            return "Freelance contract"; 
-    }
-    return "";
-}
+const resume = require('@site/static/data/resume.json');
 
 function formatDate(date){
     return new Date(date)
@@ -28,26 +17,17 @@ function formatDate(date){
 }
 
 function Employer({experience}){
-    if ('freelance' === experience.type) 
-        return null;
-
-    if (experience.employer){
-        return experience.employerUrl ?
-            (<td><Link to={experience.employerUrl}>{experience.employer}</Link></td>):
-            (<td>{experience.employer}</td>);
-    }
-
-    return <Client experience={experience} />
+    const employerName = experience.employer.en || experience.employer.name;
+    return experience.employer.url ?
+        (<td><Link to={experience.employer.url}>{employerName}</Link></td>):
+        (<td>{employerName}</td>);
 }
 
 function Client({experience}){
-    return experience.website ?
-        (<td><Link href={experience.website}>{experience.name}</Link></td>):
-        (<td>{experience.name}</td>);
-}
-
-function hasClient(experience){
-    return 'contract|mandate|freelance'.includes(experience.type);
+    const clientName = experience.client.en || experience.client.name;
+    return experience.client.url ?
+        (<td><Link href={experience.client.url}>{clientName}</Link></td>):
+        (<td>{clientName}</td>);
 }
 
 function ExperienceTable({ experience }) {
@@ -57,8 +37,9 @@ function ExperienceTable({ experience }) {
         <table style={{marginTop: 20}}>
             <thead>
                 <tr>
-                    {'freelance' !== experience.type && (<th>Employer</th>)}
-                    {hasClient(experience) && (<th>Client</th>)}
+                    <th>Type</th>
+                    {'freelance' !== experience.type.en && (<th>Employer</th>)}
+                    {experience.client && (<th>Client</th>)}
                     <th>Position</th>
                     <th>Period</th>
                     <th>Effective experience</th>
@@ -66,9 +47,10 @@ function ExperienceTable({ experience }) {
             </thead>
             <tbody>
                 <tr>
-                    <Employer experience={experience} />
-                    {hasClient(experience) && (<Client experience={experience} />)}
-                    <td>{experience.position}</td>
+                    <td>{experience.type.en}</td>
+                    {experience.employer && <Employer experience={experience} />}
+                    {experience.client && (<Client experience={experience} />)}
+                    <td>{experience.position.en}</td>
                     <td>{period}</td>
                     <td>{xpAmount} {xpAmount > 1 ? 'months' : 'month'}</td>
                 </tr>
@@ -80,38 +62,41 @@ function ExperienceTable({ experience }) {
 function ExperienceDescription({ experience }) {
     return (<>
         <h2>Summary</h2>
-        <p>{experience.summary}</p>
+        <p>{experience.summary.en}</p>
         {experience.highlights && <>
             <h2>Highlights</h2>
             <ul>
-                {experience.highlights.map((task) =>
-                    <li key={task}>{task}</li>
+                {experience.highlights.map((hl) =>
+                    <li key={hl}>{hl.en}</li>
                 )}
             </ul>
         </>}
-        {experience.cover && 
-            <img src={experience.cover} alt={`${experience.name} cover`} />
-        }
     </>);
 }
 
 function Experience({position, place}) {
-    const workItem = resume.work.find((work_item) => 
-        work_item.position === position && work_item.name === place
-    );
+    const workItem = resume.work.find(work_item => {
+        const itemPosition = work_item.position.en || work_item.position;
+        const itemPlace = work_item.client ? (work_item.client.en || work_item.client.name) : (work_item.employer.en || work_item.employer.name);
+        return position === itemPosition && itemPlace === place;
+    });
     const references = resume.references.filter((ref_item) => {
         const exp_name = ref_item.experience.name;
         return exp_name.includes(position) && exp_name.includes(place)
-    });
+    })
+
+    if(workItem == null)
+        return <div>Loading…</div>;
+
     return (
-        <div>
-            <h2>{getWorkType(workItem.type)}</h2>
+        <div id="experience">
             <ExperienceTable experience={workItem}/>
-            <Logo org={workItem.name} link={workItem.website} />
+            <Logo org={place} link={workItem.website} />
             <ExperienceDescription experience={workItem}/>
-            {references.length > 0 && <>
-                {references.map(item => <Reference reference={item}/>)}
-            </>}
+            {references.length > 0 && <div>
+                <h2>References</h2>
+                <References references={references} />
+            </div>}
         </div>
     );
 }
