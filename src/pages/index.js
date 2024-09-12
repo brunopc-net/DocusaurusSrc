@@ -34,13 +34,28 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">Bruno Pettersen-Coulombe</h1>
-        <h2 className="hero__subtitle">Full-Stack Developer 👨‍💻 B.Eng ⚙️ {resume.basics.experience} years of experience</h2>
+        <h1 className="hero__title">
+          Bruno Pettersen-Coulombe
+        </h1>
+        <h2 className="hero__subtitle">
+          <Link to="/docs/about/#skills" >Full-Stack Developer</Link> 👨‍💻 <span/>
+          <Link to="/docs/education/software-engineering-bachelor/">B.Eng</Link> ⚙️ <span/>
+          <Link to="/docs/category/experiences/">{resume.basics.experience} years of experience</Link>
+        </h2>
+        <h2 className="hero__subtitle">
+          <Link to="/docs/experiences/devops-developer-at-rona/">DevOps</Link> & <span/> 
+          <Link to="/docs/experiences/sdet-tech-lead-at-national-bank-of-canada/">QA</Link> expert 🧑‍🏫
+        </h2>
+        <h2 className="hero__subtitle">
+          <Link to="/docs/certifications/aws_cloud_practitionner/">AWS</Link>, <span/>
+          <Link to="/docs/certifications/azure_fundamentals/">Azure</Link> & <span/>
+          <Link to="/docs/certifications/terraform_associate/">Terraform</Link> certified ✅
+        </h2>
         <h2 className="hero__subtitle">Racing geek 🚴🏎️</h2>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/about/">
+            to="https://brunopc-net.github.io/Reactsume">
             See my résumé 📃
           </Link>
         </div>

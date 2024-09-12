@@ -18,12 +18,21 @@
   --ifm-link-color: #035482;
 }
 
+[data-theme='light'] .hero--primary {
+  --ifm-hero-background-color: #cde0e6;
+  --ifm-hero-text-color: black;
+}
+
 [data-theme='light'] .menu__link {
   color:black;
 }
 
 [data-theme='light'] .menu__link--active {
   color: var(--ifm-color-primary-darkest);
+}
+
+[data-theme='light'] .svg-theme-invert {
+  fill: #f2f2f2;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -37,6 +46,27 @@
   --ifm-color-primary-lightest: #cde0e6;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-link-color: #4dbcfb;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #222933;
+}
+
+[data-theme='dark'] .hero--primary {
+  --ifm-hero-background-color: #222933;
+  --ifm-hero-text-color: white;
+}
+
+[data-theme='dark'] .button--secondary {
+  background-color:#1b1b1d;
+  border: solid 1px #686a6b;
+  color: white;
+}
+[data-theme='dark'] .button:hover {
+  background-color:#2b2d2e;
+}
+[data-theme='dark'] .svg-theme-invert {
+  fill: #2b2d2e;
 }
 
 a.anchor {
