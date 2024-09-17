@@ -56,15 +56,15 @@ function Badge({cert}){
 function Certification({name}) {
     const certData = resume.certificates.find(cert => (cert.name.en || cert.name)  === name);
     return certData && (<div>
+        {certData.url && <p>
+                <Link to={certData.url}>More details about this certification</Link>
+        </p>}
         <p>
             <Status cert={certData} />
             <b>Issuer: </b>{getWebsiteName(certData.url)}<br/>
             {certData.proof && <>
                 <b>Id:</b> <a href={certData.proof}>{getId(certData.proof)}</a><br/>
             </>}
-            {certData.url &&
-                <Link to={certData.url}>More details about this certification</Link>
-            }
         </p>
         {certData.proof && <Badge cert={certData} />}
     </div>);
