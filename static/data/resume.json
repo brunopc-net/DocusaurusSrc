@@ -1368,11 +1368,12 @@
             "Vault",
             "Jenkins",
             "AutoSys Workload Automation",
+            "Swarm",
+            "GitHub Actions",
             "Terraform",
             "AWS",
             "Azure",
-            "Ansible",
-            "GitHub Actions"
+            "Ansible"
          ]
       },
       {
