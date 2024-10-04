@@ -40,7 +40,6 @@ function ExperienceTable({ experience }) {
                     <th>Type</th>
                     {'freelance' !== experience.type.en && (<th>Employer</th>)}
                     {experience.client && (<th>Client</th>)}
-                    <th>Position</th>
                     <th>Period</th>
                     <th>Effective experience</th>
                 </tr>
@@ -50,7 +49,6 @@ function ExperienceTable({ experience }) {
                     <td>{experience.type.en}</td>
                     {experience.employer && <Employer experience={experience} />}
                     {experience.client && (<Client experience={experience} />)}
-                    <td>{experience.position.en}</td>
                     <td>{period}</td>
                     <td>{xpAmount} {xpAmount > 1 ? 'months' : 'month'}</td>
                 </tr>
