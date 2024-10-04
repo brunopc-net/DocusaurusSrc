@@ -37,7 +37,7 @@ My <Link to="/docs/category/experiences/">{resume.basics.experience} years of wo
 
 ## Skills
 
-<SkillTable skills={resume.skills} />
+<SkillTable resume={resume} />
 
 ## Particularities
 

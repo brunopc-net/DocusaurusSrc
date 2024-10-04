@@ -1,6 +1,6 @@
 ---
 experience:
-  position: "DevOps Developer"
+  position: "DevSecOps Developer"
   place: "Rona"
 ---
 

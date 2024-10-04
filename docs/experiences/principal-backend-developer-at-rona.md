@@ -1,6 +1,6 @@
 ---
 experience:
-  position: "Backend Tech Lead"
+  position: "Principal Backend Developer"
   place: "Rona"
 ---
 
