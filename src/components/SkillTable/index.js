@@ -40,6 +40,7 @@ function getAllSkills(resume){
 function getTagLink(tag){
     return "/docs/tags/"+tag
         .replace('C++', 'C')
+        .replace(/frog/gi, '-frog')
         .replace(/unit/gi, '-unit')
         .replace(/([a-z])([A-Z])/g, '$1-$2')
         .replace(/([a-zA-Z])([0-9])/g, '$1-$2')
