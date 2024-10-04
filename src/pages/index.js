@@ -43,7 +43,7 @@ function HomepageHeader() {
           <Link to="/docs/category/experiences/">{resume.basics.experience} years of experience</Link>
         </h2>
         <h2 className="hero__subtitle">
-          <Link to="/docs/experiences/devops-developer-at-rona/">DevOps</Link> & <span/> 
+          <Link to="/docs/experiences/devsecops-developer-at-rona/">DevOps</Link> & <span/> 
           <Link to="/docs/experiences/sdet-tech-lead-at-national-bank-of-canada/">QA</Link> expert 🧑‍🏫
         </h2>
         <h2 className="hero__subtitle">
