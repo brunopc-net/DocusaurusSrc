@@ -1,6 +1,6 @@
 import React from 'react';
 import { useColorMode } from '@docusaurus/theme-common';
-import { useBlogPost } from '@docusaurus/theme-common/internal'
+import { useBlogPost } from "@docusaurus/plugin-content-blog/client";
 import BlogPostItem from '@theme-original/BlogPostItem';
 import Giscus from "@giscus/react";
 import useIsBrowser from '@docusaurus/useIsBrowser';
